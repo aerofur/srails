@@ -1,0 +1,1655 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:modeldoc29:version{3cec427c-1b0e-4d48-a90a-0436f33a6041} -->
+{
+	rootNode = 
+	{
+		_class = "RootNode"
+		children = 
+		[
+			{
+				_class = "BodyGroupList"
+				children = 
+				[
+					{
+						_class = "BodyGroup"
+						name = "Bearing_LF"
+						children = 
+						[
+							{
+								_class = "BodyGroupChoice"
+								name = "hyattrecLF"
+								meshes = 
+								[
+									"hyattrecLF",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								name = "hyattrecsnubLF"
+								meshes = 
+								[
+									"hyattrecsnubLF",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								name = "hyattopenLF"
+								meshes = 
+								[
+									"hyattopenLF",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								name = "hyattopensnubLF"
+								meshes = 
+								[
+									"hyattopensnubLF",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								name = "timkenLF"
+								meshes = 
+								[
+									"timkenLF",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								name = "timkenrecLF"
+								meshes = 
+								[
+									"timkenrecLF",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								name = "timkensnubLF"
+								meshes = 
+								[
+									"timkensnubLF",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								name = "timkensnubrecLF"
+								meshes = 
+								[
+									"timkensnubrecLF",
+								]
+							},
+						]
+						hidden_in_tools = false
+					},
+					{
+						_class = "BodyGroup"
+						name = "Bearing_LM"
+						children = 
+						[
+							{
+								_class = "BodyGroupChoice"
+								name = "hyattrecLM"
+								meshes = 
+								[
+									"hyattrecLM",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								name = "hyattrecsnubLM"
+								meshes = 
+								[
+									"hyattrecsnubLM",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								name = "hyattopenLM"
+								meshes = 
+								[
+									"hyattopenLM",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								name = "hyattopensnubLM"
+								meshes = 
+								[
+									"hyattopensnubLM",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								name = "timkenLM"
+								meshes = 
+								[
+									"timkenLM",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								name = "timkenrecLM"
+								meshes = 
+								[
+									"timkenrecLM",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								name = "timkensnubLM"
+								meshes = 
+								[
+									"timkensnubLM",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								name = "timkensnubrecLM"
+								meshes = 
+								[
+									"timkensnubrecLM",
+								]
+							},
+						]
+						hidden_in_tools = false
+					},
+					{
+						_class = "BodyGroup"
+						name = "Bearing_LR"
+						children = 
+						[
+							{
+								_class = "BodyGroupChoice"
+								name = "hyattrecLR"
+								meshes = 
+								[
+									"hyattrecLR",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								name = "hyattrecsnubLR"
+								meshes = 
+								[
+									"hyattrecsnubLR",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								name = "hyattopenLR"
+								meshes = 
+								[
+									"hyattopenLR",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								name = "hyattopensnubLR"
+								meshes = 
+								[
+									"hyattopensnubLR",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								name = "timkenLR"
+								meshes = 
+								[
+									"timkenLR",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								name = "timkenrecLR"
+								meshes = 
+								[
+									"timkenrecLR",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								name = "timkensnubLR"
+								meshes = 
+								[
+									"timkensnubLR",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								name = "timkensnubrecLR"
+								meshes = 
+								[
+									"timkensnubrecLR",
+								]
+							},
+						]
+						hidden_in_tools = false
+					},
+					{
+						_class = "BodyGroup"
+						name = "Bearing_RF"
+						children = 
+						[
+							{
+								_class = "BodyGroupChoice"
+								name = "hyattrecRF"
+								meshes = 
+								[
+									"hyattrecRF",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								name = "hyattrecsnubRF"
+								meshes = 
+								[
+									"hyattrecsnubRF",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								name = "hyattopenRF"
+								meshes = 
+								[
+									"hyattopenRF",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								name = "hyattopensnubRF"
+								meshes = 
+								[
+									"hyattopensnubRF",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								name = "timkenRF"
+								meshes = 
+								[
+									"timkenRF",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								name = "timkenrecRF"
+								meshes = 
+								[
+									"timkenrecRF",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								name = "timkensnubRF"
+								meshes = 
+								[
+									"timkensnubRF",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								name = "timkensnubrecRF"
+								meshes = 
+								[
+									"timkensnubrecRF",
+								]
+							},
+						]
+						hidden_in_tools = false
+					},
+					{
+						_class = "BodyGroup"
+						name = "Bearing_RM"
+						children = 
+						[
+							{
+								_class = "BodyGroupChoice"
+								name = "hyattrecRM"
+								meshes = 
+								[
+									"hyattrecRM",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								name = "hyattrecsnubRM"
+								meshes = 
+								[
+									"hyattrecsnubRM",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								name = "hyattopenRM"
+								meshes = 
+								[
+									"hyattopenRM",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								name = "hyattopensnubRM"
+								meshes = 
+								[
+									"hyattopensnubRM",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								name = "timkenrecRM"
+								meshes = 
+								[
+									"timkenrecRM",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								name = "timkenRM"
+								meshes = 
+								[
+									"timkenRM",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								name = "timkensnubRM"
+								meshes = 
+								[
+									"timkensnubRM",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								name = "timkensnubrecRM"
+								meshes = 
+								[
+									"timkensnubrecRM",
+								]
+							},
+						]
+						hidden_in_tools = false
+					},
+					{
+						_class = "BodyGroup"
+						name = "Bearing_RR"
+						children = 
+						[
+							{
+								_class = "BodyGroupChoice"
+								name = "hyattrecRR"
+								meshes = 
+								[
+									"hyattrecRR",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								name = "hyattrecsnubRR"
+								meshes = 
+								[
+									"hyattrecsnubRR",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								name = "hyattopenRR"
+								meshes = 
+								[
+									"hyattopenRR",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								name = "hyattopensnubRR"
+								meshes = 
+								[
+									"hyattopensnubRR",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								name = "timkenRR"
+								meshes = 
+								[
+									"timkenRR",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								name = "timkenrecRR"
+								meshes = 
+								[
+									"timkenrecRR",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								name = "timkensnubRR"
+								meshes = 
+								[
+									"timkensnubRR",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								name = "timkensnubrecRR"
+								meshes = 
+								[
+									"timkensnubrecRR",
+								]
+							},
+						]
+						hidden_in_tools = false
+					},
+					{
+						_class = "BodyGroup"
+						name = "Handbrake_pivot_for_front_truck"
+						children = 
+						[
+							{
+								_class = "BodyGroupChoice"
+								name = "no"
+								meshes = 
+								[
+									"no",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								name = "handbrake_bar"
+								meshes = 
+								[
+									"handbrake_bar",
+								]
+							},
+						]
+						hidden_in_tools = false
+					},
+				]
+			},
+			{
+				_class = "MaterialGroupList"
+				children = 
+				[
+					{
+						_class = "DefaultMaterialGroup"
+						remaps = 
+						[
+							{
+								from = "caster_ad.vmat"
+								to = "materials/proppertextures/caster_ad.vmat"
+							},
+							{
+								from = "enamel_black.vmat"
+								to = "materials/proppertextures/enamel_black.vmat"
+							},
+							{
+								from = "enamel_darkgray.vmat"
+								to = "materials/proppertextures/enamel_darkgray.vmat"
+							},
+							{
+								from = "metal_shiny.vmat"
+								to = "materials/proppertextures/metal_shiny.vmat"
+							},
+							{
+								from = "plastic_black.vmat"
+								to = "materials/proppertextures/plastic_black.vmat"
+							},
+							{
+								from = "rubber.vmat"
+								to = "materials/proppertextures/rubber.vmat"
+							},
+							{
+								from = "toolsblack.vmat"
+								to = "materials/proppertextures/toolsblack.vmat"
+							},
+							{
+								from = "wheel.vmat"
+								to = "materials/proppertextures/wheel.vmat"
+							},
+							{
+								from = "grid_b.vmat"
+								to = "materials/proppertextures/grid_b.vmat"
+							},
+							{
+								from = "wheel_inner.vmat"
+								to = "materials/proppertextures/wheel_inner.vmat"
+							},
+							{
+								from = "tread_slats_black.vmat"
+								to = "materials/proppertextures/tread_slats_black.vmat"
+							},
+						]
+						use_global_default = false
+						global_default_material = ""
+					},
+				]
+			},
+			{
+				_class = "PhysicsShapeList"
+				children = 
+				[
+					{
+						_class = "PhysicsHullFile"
+						name = "bolster_phys"
+						parent_bone = "static_prop"
+						surface_prop = "rail"
+						collision_prop = "default"
+						recenter_on_parent_bone = false
+						offset_origin = [ 0.0, 0.0, -25.0 ]
+						offset_angles = [ 0.0, 0.0, 0.0 ]
+						filename = "models/locomotives/laz/trucks/bolster_phys.smd"
+						import_scale = 0.125
+						faceMergeAngle = 10.0
+						maxHullVertices = 0
+						import_mode = "HullPerElement"
+						optimization_algorithm = "QEM"
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+				]
+			},
+			{
+				_class = "RenderMeshList"
+				children = 
+				[
+					{
+						_class = "RenderMeshFile"
+						name = "bearing_blocks"
+						filename = "models/locomotives/laz/trucks/bearing blocks.smd"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "bolster"
+						filename = "models/locomotives/laz/trucks/bolster.smd"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "brakes"
+						filename = "models/locomotives/laz/trucks/brakes.smd"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "framemiddle"
+						filename = "models/locomotives/laz/trucks/framemiddle.smd"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "handbrake_bar"
+						filename = "models/locomotives/laz/trucks/handbrake bar.smd"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "hyattopenLF"
+						filename = "models/locomotives/laz/trucks/hyattopenLF.smd"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "hyattopenLM"
+						filename = "models/locomotives/laz/trucks/hyattopenLM.smd"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "hyattopenLR"
+						filename = "models/locomotives/laz/trucks/hyattopenLR.smd"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "hyattopenRF"
+						filename = "models/locomotives/laz/trucks/hyattopenRF.smd"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "hyattopenRM"
+						filename = "models/locomotives/laz/trucks/hyattopenRM.smd"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "hyattopenRR"
+						filename = "models/locomotives/laz/trucks/hyattopenRR.smd"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "hyattopensnubLF"
+						filename = "models/locomotives/laz/trucks/hyattopensnubLF.smd"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "hyattopensnubLM"
+						filename = "models/locomotives/laz/trucks/hyattopensnubLM.smd"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "hyattopensnubLR"
+						filename = "models/locomotives/laz/trucks/hyattopensnubLR.smd"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "hyattopensnubRF"
+						filename = "models/locomotives/laz/trucks/hyattopensnubRF.smd"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "hyattopensnubRM"
+						filename = "models/locomotives/laz/trucks/hyattopensnubRM.smd"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "hyattopensnubRR"
+						filename = "models/locomotives/laz/trucks/hyattopensnubRR.smd"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "hyattrecLF"
+						filename = "models/locomotives/laz/trucks/hyattrecLF.smd"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "hyattrecLM"
+						filename = "models/locomotives/laz/trucks/hyattrecLM.smd"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "hyattrecLR"
+						filename = "models/locomotives/laz/trucks/hyattrecLR.smd"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "hyattrecRF"
+						filename = "models/locomotives/laz/trucks/hyattrecRF.smd"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "hyattrecRM"
+						filename = "models/locomotives/laz/trucks/hyattrecRM.smd"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "hyattrecRR"
+						filename = "models/locomotives/laz/trucks/hyattrecRR.smd"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "hyattrecsnubLF"
+						filename = "models/locomotives/laz/trucks/hyattrecsnubLF.smd"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "hyattrecsnubLM"
+						filename = "models/locomotives/laz/trucks/hyattrecsnubLM.smd"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "hyattrecsnubLR"
+						filename = "models/locomotives/laz/trucks/hyattrecsnubLR.smd"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "hyattrecsnubRF"
+						filename = "models/locomotives/laz/trucks/hyattrecsnubRF.smd"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "hyattrecsnubRM"
+						filename = "models/locomotives/laz/trucks/hyattrecsnubRM.smd"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "hyattrecsnubRR"
+						filename = "models/locomotives/laz/trucks/hyattrecsnubRR.smd"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "motors"
+						filename = "models/locomotives/laz/trucks/motors.smd"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "no"
+						filename = "models/locomotives/laz/trucks/no.smd"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "sideframeleft"
+						filename = "models/locomotives/laz/trucks/sideframeleft.smd"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "sideframeright"
+						filename = "models/locomotives/laz/trucks/sideframeright.smd"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "specialsmooth"
+						filename = "models/locomotives/laz/trucks/specialsmooth.smd"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "springs"
+						filename = "models/locomotives/laz/trucks/springs.smd"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "timkenLF"
+						filename = "models/locomotives/laz/trucks/timkenLF.smd"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "timkenLM"
+						filename = "models/locomotives/laz/trucks/timkenLM.smd"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "timkenLR"
+						filename = "models/locomotives/laz/trucks/timkenLR.smd"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "timkenrecLF"
+						filename = "models/locomotives/laz/trucks/timkenrecLF.smd"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "timkenrecLM"
+						filename = "models/locomotives/laz/trucks/timkenrecLM.smd"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "timkenrecLR"
+						filename = "models/locomotives/laz/trucks/timkenrecLR.smd"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "timkenrecRF"
+						filename = "models/locomotives/laz/trucks/timkenrecRF.smd"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "timkenrecRM"
+						filename = "models/locomotives/laz/trucks/timkenrecRM.smd"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "timkenrecRR"
+						filename = "models/locomotives/laz/trucks/timkenrecRR.smd"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "timkenRF"
+						filename = "models/locomotives/laz/trucks/timkenRF.smd"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "timkenRM"
+						filename = "models/locomotives/laz/trucks/timkenRM.smd"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "timkenRR"
+						filename = "models/locomotives/laz/trucks/timkenRR.smd"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "timkensnubLF"
+						filename = "models/locomotives/laz/trucks/timkensnubLF.smd"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "timkensnubLM"
+						filename = "models/locomotives/laz/trucks/timkensnubLM.smd"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "timkensnubLR"
+						filename = "models/locomotives/laz/trucks/timkensnubLR.smd"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "timkensnubrecLF"
+						filename = "models/locomotives/laz/trucks/timkensnubrecLF.smd"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "timkensnubrecLM"
+						filename = "models/locomotives/laz/trucks/timkensnubrecLM.smd"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "timkensnubrecLR"
+						filename = "models/locomotives/laz/trucks/timkensnubrecLR.smd"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "timkensnubrecRF"
+						filename = "models/locomotives/laz/trucks/timkensnubrecRF.smd"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "timkensnubrecRM"
+						filename = "models/locomotives/laz/trucks/timkensnubrecRM.smd"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "timkensnubrecRR"
+						filename = "models/locomotives/laz/trucks/timkensnubrecRR.smd"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "timkensnubRF"
+						filename = "models/locomotives/laz/trucks/timkensnubRF.smd"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "timkensnubRM"
+						filename = "models/locomotives/laz/trucks/timkensnubRM.smd"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "timkensnubRR"
+						filename = "models/locomotives/laz/trucks/timkensnubRR.smd"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "wheels_40"
+						filename = "models/locomotives/laz/trucks/wheels_40.smd"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "timkenRM_copy"
+						filename = "models/locomotives/laz/trucks/timkenRM.smd"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+				]
+			},
+			{
+				_class = "AttachmentList"
+				children = 
+				[
+					{
+						_class = "Attachment"
+						name = "bogie"
+						parent_bone = "static_prop"
+						relative_origin = [ 0.0, 0.0, 21.5 ]
+						relative_angles = [ 0.0, 0.0, 0.0 ]
+						weight = 1.0
+						ignore_rotation = false
+					},
+				]
+			},
+			{
+				_class = "ModelModifierList"
+				children = 
+				[
+					{
+						_class = "ModelModifier_Translate"
+						translation = [ 0.0, 0.0, -25.0 ]
+					},
+				]
+			},
+			{
+				_class = "PhysicsBodyMarkupList"
+				children = 
+				[
+					{
+						_class = "PhysicsBodyMarkup"
+						target_body = "static_prop"
+						mass_override = 20000.0
+						inertia_scale = 1.0
+						linear_damping = 0.0
+						angular_damping = 0.0
+						use_mass_center_override = false
+						mass_center_override = [ 0.0, 0.0, 0.0 ]
+					},
+				]
+			},
+			{
+				_class = "ModelDataList"
+				children = 
+				[
+					{
+						_class = "Bounds Hull"
+						mins = [ -55.375, -106.0, -26.25 ]
+						maxs = [ 58.125, 106.0, 33.0 ]
+					},
+				]
+			},
+		]
+		model_archetype = "default"
+		primary_associated_entity = ""
+		anim_graph_name = ""
+	}
+}

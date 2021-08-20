@@ -1,0 +1,9 @@
+"outdoors.forest_calm_02"
+{
+    "playlooping"
+    {
+        "volume"    "0.5"
+        "pitch"     "100"
+        "wave"      "sounds/ambience/forest_calm_02.vsnd"
+    }
+}

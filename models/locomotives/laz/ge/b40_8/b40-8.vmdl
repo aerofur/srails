@@ -1,0 +1,2238 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:modeldoc29:version{3cec427c-1b0e-4d48-a90a-0436f33a6041} -->
+{
+	rootNode = 
+	{
+		_class = "RootNode"
+		children = 
+		[
+			{
+				_class = "BodyGroupList"
+				children = 
+				[
+					{
+						_class = "BodyGroup"
+						name = "Engine_air_intake_door"
+						note = "stupid note"
+						children = 
+						[
+							{
+								_class = "BodyGroupChoice"
+								name = "eng_intake_phase_1a"
+								meshes = 
+								[
+									"eng_intake_phase_1a",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								name = "eng_intake_late"
+								meshes = 
+								[
+									"eng_intake_late",
+								]
+							},
+						]
+						hidden_in_tools = false
+					},
+					{
+						_class = "BodyGroup"
+						name = "Schnoz"
+						children = 
+						[
+							{
+								_class = "BodyGroupChoice"
+								name = "nose_peaked"
+								meshes = 
+								[
+									"nose_peaked",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								name = "nose_squared"
+								meshes = 
+								[
+									"nose_squared",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								name = "no"
+								meshes = 
+								[
+									"no",
+								]
+							},
+						]
+						hidden_in_tools = false
+					},
+					{
+						_class = "BodyGroup"
+						name = "Dynamic_brake_inlet"
+						children = 
+						[
+							{
+								_class = "BodyGroupChoice"
+								name = "dynamics_cabinent_p1_p2a"
+								meshes = 
+								[
+									"dynamics_cabinent_p1_p2a",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								name = "dynamics_cabinent_p2b"
+								meshes = 
+								[
+									"dynamics_cabinent_p2b",
+								]
+							},
+						]
+						hidden_in_tools = false
+					},
+					{
+						_class = "BodyGroup"
+						name = "Front_Anticlimber"
+						children = 
+						[
+							{
+								_class = "BodyGroupChoice"
+								name = "front_anticlimber_a"
+								meshes = 
+								[
+									"front_anticlimber_a",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								name = "front_anticlimber_a_mod"
+								meshes = 
+								[
+									"front_anticlimber_a_mod",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								name = "front_anticlimber_b"
+								meshes = 
+								[
+									"front_anticlimber_b",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								name = "front_anticlimber_c"
+								meshes = 
+								[
+									"front_anticlimber_c",
+								]
+							},
+						]
+						hidden_in_tools = false
+					},
+					{
+						_class = "BodyGroup"
+						name = "Rear_Anticlimber"
+						children = 
+						[
+							{
+								_class = "BodyGroupChoice"
+								name = "rear_no_anticlimber_a"
+								meshes = 
+								[
+									"rear_no_anticlimber_a",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								name = "rear_no_anticlimber_b"
+								meshes = 
+								[
+									"rear_no_anticlimber_b",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								name = "rear_anticlimber_a"
+								meshes = 
+								[
+									"rear_anticlimber_a",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								name = "rear_anticlimber_b"
+								meshes = 
+								[
+									"rear_anticlimber_b",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								name = "rear_anticlimber_c"
+								meshes = 
+								[
+									"rear_anticlimber_c",
+								]
+							},
+						]
+						hidden_in_tools = false
+					},
+					{
+						_class = "BodyGroup"
+						name = "front_markers"
+						children = 
+						[
+							{
+								_class = "BodyGroupChoice"
+								name = "front_flush_blanks"
+								meshes = 
+								[
+									"front_flush_blanks",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								name = "front_raised"
+								meshes = 
+								[
+									"front_raised",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								name = "front_flush_blanks_white"
+								meshes = 
+								[
+									"front_flush_blanks_white",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								name = "front_raised_white"
+								meshes = 
+								[
+									"front_raised_white",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								name = "no_2"
+								meshes = 
+								[
+									"no_2",
+								]
+							},
+						]
+						hidden_in_tools = false
+					},
+					{
+						_class = "BodyGroup"
+						name = "rear_markers"
+						children = 
+						[
+							{
+								_class = "BodyGroupChoice"
+								name = "rear_flush_panel"
+								meshes = 
+								[
+									"rear_flush_panel",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								name = "rear_flush_blanked"
+								meshes = 
+								[
+									"rear_flush_blanked",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								name = "rear_inset_applied"
+								meshes = 
+								[
+									"rear_inset_applied",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								name = "rear_inset_blanked"
+								meshes = 
+								[
+									"rear_inset_blanked",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								name = "rear_never_had_em"
+								meshes = 
+								[
+									"rear_never_had_em",
+								]
+							},
+						]
+						hidden_in_tools = false
+					},
+					{
+						_class = "BodyGroup"
+						name = "schnoz_grabs"
+						children = 
+						[
+							{
+								_class = "BodyGroupChoice"
+								name = "single_horizontal_grab"
+								meshes = 
+								[
+									"single_horizontal_grab",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								name = "triple_grabs"
+								meshes = 
+								[
+									"triple_grabs",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								name = "L_grabs"
+								meshes = 
+								[
+									"L_grabs",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								name = "single_horizontal_grab_painted"
+								meshes = 
+								[
+									"single_horizontal_grab_painted",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								name = "triple_grabs_painted"
+								meshes = 
+								[
+									"triple_grabs_painted",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								name = "L_grabs_painted"
+								meshes = 
+								[
+									"L_grabs_painted",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								name = "no_3"
+								meshes = 
+								[
+									"no_3",
+								]
+							},
+						]
+						hidden_in_tools = false
+					},
+					{
+						_class = "BodyGroup"
+						name = "cutbar_paint"
+						children = 
+						[
+							{
+								_class = "BodyGroupChoice"
+								name = "cutbars_full_paint"
+								meshes = 
+								[
+									"cutbars_full_paint",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								name = "cutbars_partial_paint"
+								meshes = 
+								[
+									"cutbars_partial_paint",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								name = "cutbars_no_paint"
+								meshes = 
+								[
+									"cutbars_no_paint",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								name = "no_4"
+								meshes = 
+								[
+									"no_4",
+								]
+							},
+						]
+						hidden_in_tools = false
+					},
+					{
+						_class = "BodyGroup"
+						name = "standard_grabirons"
+						children = 
+						[
+							{
+								_class = "BodyGroupChoice"
+								name = "grabirons_unpainted"
+								meshes = 
+								[
+									"grabirons_unpainted",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								name = "grabirons_painted"
+								meshes = 
+								[
+									"grabirons_painted",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								name = "grabirons_unreasonable"
+								meshes = 
+								[
+									"grabirons_unreasonable",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								name = "no_5"
+								meshes = 
+								[
+									"no_5",
+								]
+							},
+						]
+						hidden_in_tools = false
+					},
+					{
+						_class = "BodyGroup"
+						name = "forward_subpilot_for_snowplows"
+						children = 
+						[
+							{
+								_class = "BodyGroupChoice"
+								name = "forward_subpilot"
+								meshes = 
+								[
+									"forward_subpilot",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								name = "no_6"
+								meshes = 
+								[
+									"no_6",
+								]
+							},
+						]
+						hidden_in_tools = false
+					},
+					{
+						_class = "BodyGroup"
+						name = "rear_subpilot"
+						children = 
+						[
+							{
+								_class = "BodyGroupChoice"
+								name = "rear_subpilot_yes"
+								meshes = 
+								[
+									"rear_subpilot",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								name = "no_7"
+								meshes = 
+								[
+									"no_7",
+								]
+							},
+						]
+						hidden_in_tools = false
+					},
+					{
+						_class = "BodyGroup"
+						name = "handrail_paint"
+						children = 
+						[
+							{
+								_class = "BodyGroupChoice"
+								name = "handrails_standard_paint"
+								meshes = 
+								[
+									"handrails_standard_paint",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								name = "handrails_alt_paint_1"
+								meshes = 
+								[
+									"handrails_alt_paint_1",
+								]
+							},
+						]
+						hidden_in_tools = false
+					},
+					{
+						_class = "BodyGroup"
+						name = "ditchlight_arrangement"
+						children = 
+						[
+							{
+								_class = "BodyGroupChoice"
+								name = "no_8"
+								meshes = 
+								[
+									"no_8",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								name = "ditch_narrow_front"
+								meshes = 
+								[
+									"ditch_narrow_front",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								name = "ditch_narrow_both"
+								meshes = 
+								[
+									"ditch_narrow_both",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								name = "ditch_narrow_rear"
+								meshes = 
+								[
+									"ditch_narrow_rear",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								name = "ditch_wide_front"
+								meshes = 
+								[
+									"ditch_wide_front",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								name = "ditch_wide_both"
+								meshes = 
+								[
+									"ditch_wide_both",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								name = "ditch_wide_rear"
+								meshes = 
+								[
+									"ditch_wide_rear",
+								]
+							},
+						]
+						hidden_in_tools = false
+					},
+					{
+						_class = "BodyGroup"
+						name = "numberboard_face_paint"
+						children = 
+						[
+							{
+								_class = "BodyGroupChoice"
+								name = "numberboard_acrylic"
+								meshes = 
+								[
+									"numberboard_acrylic",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								name = "numberboard_white"
+								meshes = 
+								[
+									"numberboard_white",
+								]
+							},
+						]
+						hidden_in_tools = false
+					},
+					{
+						_class = "BodyGroup"
+						name = "expand_stacc"
+						children = 
+						[
+							{
+								_class = "BodyGroupChoice"
+								name = "no_9"
+								meshes = 
+								[
+									"no_9",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								name = "exhaust_extension"
+								meshes = 
+								[
+									"exhaust_extension",
+								]
+							},
+						]
+						hidden_in_tools = false
+					},
+					{
+						_class = "BodyGroup"
+						name = "nose_headlight"
+						children = 
+						[
+							{
+								_class = "BodyGroupChoice"
+								name = "no_10"
+								meshes = 
+								[
+									"no_10",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								name = "nose_headlight_yes"
+								meshes = 
+								[
+									"nose_headlight",
+								]
+							},
+						]
+						hidden_in_tools = false
+					},
+					{
+						_class = "BodyGroup"
+						name = "tick_4_use_anims"
+						children = 
+						[
+							{
+								_class = "BodyGroupChoice"
+								name = "animables"
+								meshes = 
+								[
+									"animables",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								name = "no_11"
+								meshes = 
+								[
+									"no_11",
+								]
+							},
+						]
+						hidden_in_tools = false
+					},
+				]
+			},
+			{
+				_class = "PhysicsShapeList"
+				children = 
+				[
+					{
+						_class = "PhysicsHullFile"
+						parent_bone = "root"
+						surface_prop = "metal"
+						collision_prop = "default"
+						recenter_on_parent_bone = false
+						offset_origin = [ 0.0, 0.0, 0.0 ]
+						offset_angles = [ -90.0, 0.0, 90.0 ]
+						filename = "models/locomotives/laz/ge/b40_8/ge_b40-8_physics.smd"
+						import_scale = 1.0
+						faceMergeAngle = 10.0
+						maxHullVertices = 0
+						import_mode = "HullPerElement"
+						optimization_algorithm = "QEM"
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+				]
+			},
+			{
+				_class = "RenderMeshList"
+				children = 
+				[
+					{
+						_class = "RenderMeshFile"
+						name = "animables"
+						filename = "models/locomotives/laz/ge/b40_8/animables.smd"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "cab"
+						filename = "models/locomotives/laz/ge/b40_8/cab.smd"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "couplers"
+						filename = "models/locomotives/laz/ge/b40_8/couplers.smd"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "cutbars_full_paint"
+						filename = "models/locomotives/laz/ge/b40_8/cutbars_full_paint.smd"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "cutbars_no_paint"
+						filename = "models/locomotives/laz/ge/b40_8/cutbars_no_paint.smd"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "cutbars_partial_paint"
+						filename = "models/locomotives/laz/ge/b40_8/cutbars_partial_paint.smd"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "ditch_narrow_both"
+						filename = "models/locomotives/laz/ge/b40_8/ditch_narrow_both.smd"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "ditch_narrow_front"
+						filename = "models/locomotives/laz/ge/b40_8/ditch_narrow_front.smd"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "ditch_narrow_rear"
+						filename = "models/locomotives/laz/ge/b40_8/ditch_narrow_rear.smd"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "ditch_wide_both"
+						filename = "models/locomotives/laz/ge/b40_8/ditch_wide_both.smd"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "ditch_wide_front"
+						filename = "models/locomotives/laz/ge/b40_8/ditch_wide_front.smd"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "ditch_wide_rear"
+						filename = "models/locomotives/laz/ge/b40_8/ditch_wide_rear.smd"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "dynamics_cabinent_p1_p2a"
+						filename = "models/locomotives/laz/ge/b40_8/dynamics_cabinent_p1-p2a.smd"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "dynamics_cabinent_p2b"
+						filename = "models/locomotives/laz/ge/b40_8/dynamics_cabinent_p2b.smd"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "eng_intake_late"
+						filename = "models/locomotives/laz/ge/b40_8/eng_intake_late.smd"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "eng_intake_phase_1a"
+						filename = "models/locomotives/laz/ge/b40_8/eng_intake_phase_1a.smd"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "engine_room_a"
+						filename = "models/locomotives/laz/ge/b40_8/engine_room_a.smd"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "engine_room_b"
+						filename = "models/locomotives/laz/ge/b40_8/engine_room_b.smd"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "engine_room_hinges_lmao"
+						filename = "models/locomotives/laz/ge/b40_8/engine_room_hinges_lmao.smd"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "equipment_blower"
+						filename = "models/locomotives/laz/ge/b40_8/equipment_blower.smd"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "exhaust_extension"
+						filename = "models/locomotives/laz/ge/b40_8/exhaust_extension.smd"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "forward_subpilot"
+						filename = "models/locomotives/laz/ge/b40_8/forward_subpilot.smd"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "frame_frontright"
+						filename = "models/locomotives/laz/ge/b40_8/frame_frontright.smd"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "frame_rearright"
+						filename = "models/locomotives/laz/ge/b40_8/frame_rearright.smd"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "frame_rearward"
+						filename = "models/locomotives/laz/ge/b40_8/frame_rearward.smd"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "front_anticlimber_a"
+						filename = "models/locomotives/laz/ge/b40_8/front_anticlimber_a.smd"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "front_anticlimber_a_mod"
+						filename = "models/locomotives/laz/ge/b40_8/front_anticlimber_a_mod.smd"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "front_anticlimber_b"
+						filename = "models/locomotives/laz/ge/b40_8/front_anticlimber_b.smd"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "front_anticlimber_c"
+						filename = "models/locomotives/laz/ge/b40_8/front_anticlimber_c.smd"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "front_flush_blanks"
+						filename = "models/locomotives/laz/ge/b40_8/front_flush_blanks.smd"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "front_flush_blanks_white"
+						filename = "models/locomotives/laz/ge/b40_8/front_flush_blanks_white.smd"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "front_raised"
+						filename = "models/locomotives/laz/ge/b40_8/front_raised.smd"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "front_raised_white"
+						filename = "models/locomotives/laz/ge/b40_8/front_raised_white.smd"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "fuel_tank"
+						filename = "models/locomotives/laz/ge/b40_8/fuel_tank.smd"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "grabirons_painted"
+						filename = "models/locomotives/laz/ge/b40_8/grabirons_painted.smd"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "grabirons_unpainted"
+						filename = "models/locomotives/laz/ge/b40_8/grabirons_unpainted.smd"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "grabirons_unreasonable"
+						filename = "models/locomotives/laz/ge/b40_8/grabirons_unreasonable.smd"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "handrails_alt_paint_1"
+						filename = "models/locomotives/laz/ge/b40_8/handrails_alt_paint_1.smd"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "handrails_standard_paint"
+						filename = "models/locomotives/laz/ge/b40_8/handrails_standard_paint.smd"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "L_grabs"
+						filename = "models/locomotives/laz/ge/b40_8/L_grabs.smd"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "L_grabs_painted"
+						filename = "models/locomotives/laz/ge/b40_8/L_grabs_painted.smd"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "no"
+						filename = "models/locomotives/laz/ge/b40_8/no.smd"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "no_2"
+						filename = "models/locomotives/laz/ge/b40_8/no_2.smd"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "no_3"
+						filename = "models/locomotives/laz/ge/b40_8/no_3.smd"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "no_4"
+						filename = "models/locomotives/laz/ge/b40_8/no_4.smd"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "no_5"
+						filename = "models/locomotives/laz/ge/b40_8/no_5.smd"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "no_6"
+						filename = "models/locomotives/laz/ge/b40_8/no_6.smd"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "no_7"
+						filename = "models/locomotives/laz/ge/b40_8/no_7.smd"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "no_8"
+						filename = "models/locomotives/laz/ge/b40_8/no_8.smd"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "no_9"
+						filename = "models/locomotives/laz/ge/b40_8/no_9.smd"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "no_10"
+						filename = "models/locomotives/laz/ge/b40_8/no_10.smd"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "no_11"
+						filename = "models/locomotives/laz/ge/b40_8/no_11.smd"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "nose_headlight"
+						filename = "models/locomotives/laz/ge/b40_8/nose_headlight.smd"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "nose_peaked"
+						filename = "models/locomotives/laz/ge/b40_8/nose_peaked.smd"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "nose_squared"
+						filename = "models/locomotives/laz/ge/b40_8/nose_squared.smd"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "numberboard_acrylic"
+						filename = "models/locomotives/laz/ge/b40_8/numberboard_acrylic.smd"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "numberboard_white"
+						filename = "models/locomotives/laz/ge/b40_8/numberboard_white.smd"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "pilots"
+						filename = "models/locomotives/laz/ge/b40_8/pilots.smd"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "radiator_inside"
+						filename = "models/locomotives/laz/ge/b40_8/radiator_inside.smd"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "radiator_outside_left"
+						filename = "models/locomotives/laz/ge/b40_8/radiator_outside_left.smd"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "radiator_outside_right"
+						filename = "models/locomotives/laz/ge/b40_8/radiator_outside_right.smd"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "rear_anticlimber_a"
+						filename = "models/locomotives/laz/ge/b40_8/rear_anticlimber_a.smd"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "rear_anticlimber_b"
+						filename = "models/locomotives/laz/ge/b40_8/rear_anticlimber_b.smd"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "rear_anticlimber_c"
+						filename = "models/locomotives/laz/ge/b40_8/rear_anticlimber_c.smd"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "rear_flush_blanked"
+						filename = "models/locomotives/laz/ge/b40_8/rear_flush_blanked.smd"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "rear_flush_panel"
+						filename = "models/locomotives/laz/ge/b40_8/rear_flush_panel.smd"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "rear_inset_applied"
+						filename = "models/locomotives/laz/ge/b40_8/rear_inset_applied.smd"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "rear_inset_blanked"
+						filename = "models/locomotives/laz/ge/b40_8/rear_inset_blanked.smd"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "rear_never_had_em"
+						filename = "models/locomotives/laz/ge/b40_8/rear_never_had_em.smd"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "rear_no_anticlimber_a"
+						filename = "models/locomotives/laz/ge/b40_8/rear_no_anticlimber_a.smd"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "rear_no_anticlimber_b"
+						filename = "models/locomotives/laz/ge/b40_8/rear_no_anticlimber_b.smd"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "rear_subpilot"
+						filename = "models/locomotives/laz/ge/b40_8/rear_subpilot.smd"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "single_horizontal_grab"
+						filename = "models/locomotives/laz/ge/b40_8/single_horizontal_grab.smd"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "single_horizontal_grab_painted"
+						filename = "models/locomotives/laz/ge/b40_8/single_horizontal_grab_painted.smd"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "stepswells"
+						filename = "models/locomotives/laz/ge/b40_8/stepswells.smd"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "traction_cables"
+						filename = "models/locomotives/laz/ge/b40_8/traction_cables.smd"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "triple_grabs"
+						filename = "models/locomotives/laz/ge/b40_8/triple_grabs.smd"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "triple_grabs_painted"
+						filename = "models/locomotives/laz/ge/b40_8/triple_grabs_painted.smd"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "turbo_room"
+						filename = "models/locomotives/laz/ge/b40_8/turbo_room.smd"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+				]
+			},
+			{
+				_class = "MaterialGroupList"
+				children = 
+				[
+					{
+						_class = "DefaultMaterialGroup"
+						name = "proppertextures"
+						remaps = 
+						[
+							{
+								from = "acrylic.vmat"
+								to = "materials/proppertextures/acrylic.vmat"
+							},
+							{
+								from = "acrylic_darkgrey.vmat"
+								to = "materials/proppertextures/acrylic_darkgrey.vmat"
+							},
+							{
+								from = "acrylic_extra.vmat"
+								to = "materials/proppertextures/acrylic_extra.vmat"
+							},
+							{
+								from = "acrylic_gold.vmat"
+								to = "materials/proppertextures/acrylic_gold.vmat"
+							},
+							{
+								from = "acrylic_handrail.vmat"
+								to = "materials/proppertextures/acrylic_handrail.vmat"
+							},
+							{
+								from = "acrylic_louvres.vmat"
+								to = "materials/proppertextures/acrylic_louvres.vmat"
+							},
+							{
+								from = "acrylic_red.vmat"
+								to = "materials/proppertextures/acrylic_red.vmat"
+							},
+							{
+								from = "acrylic_sidesill.vmat"
+								to = "materials/proppertextures/acrylic_sidesill.vmat"
+							},
+							{
+								from = "acrylic_stanchion.vmat"
+								to = "materials/proppertextures/acrylic_stanchion.vmat"
+							},
+							{
+								from = "acrylic_white.vmat"
+								to = "materials/proppertextures/acrylic_white.vmat"
+							},
+							{
+								from = "acrylic_white_grab.vmat"
+								to = "materials/proppertextures/acrylic_white_grab.vmat"
+							},
+							{
+								from = "b40_8_steps.vmat"
+								to = "materials/proppertextures/b40_8_steps.vmat"
+							},
+							{
+								from = "b40_8_steps_white.vmat"
+								to = "materials/proppertextures/b40_8_steps_white.vmat"
+							},
+							{
+								from = "black_flat.vmat"
+								to = "materials/proppertextures/black_flat.vmat"
+							},
+							{
+								from = "box_resistor_tile.vmat"
+								to = "materials/proppertextures/box_resistor_tile.vmat"
+							},
+							{
+								from = "cabmetal_gray.vmat"
+								to = "materials/proppertextures/cabmetal_gray.vmat"
+							},
+							{
+								from = "chain_black.vmat"
+								to = "materials/proppertextures/chain_black.vmat"
+							},
+							{
+								from = "diamond_tread_black_step.vmat"
+								to = "materials/proppertextures/diamond_tread_black_step.vmat"
+							},
+							{
+								from = "enamel_black.vmat"
+								to = "materials/proppertextures/enamel_black.vmat"
+							},
+							{
+								from = "glass_clear.vmat"
+								to = "materials/proppertextures/glass_clear.vmat"
+							},
+							{
+								from = "gritpaint_black.vmat"
+								to = "materials/proppertextures/gritpaint_black.vmat"
+							},
+							{
+								from = "intake_mesh_clear.vmat"
+								to = "materials/proppertextures/intake_mesh_clear.vmat"
+							},
+							{
+								from = "mesh_square.vmat"
+								to = "materials/proppertextures/mesh_square.vmat"
+							},
+							{
+								from = "metal_shiny.vmat"
+								to = "materials/proppertextures/metal_shiny.vmat"
+							},
+							{
+								from = "pegboard_gray.vmat"
+								to = "materials/proppertextures/pegboard_gray.vmat"
+							},
+							{
+								from = "radiator_generic_single.vmat"
+								to = "materials/proppertextures/radiator_generic_single.vmat"
+							},
+							{
+								from = "rubber.vmat"
+								to = "materials/proppertextures/rubber.vmat"
+							},
+							{
+								from = "rubberfloor_gray.vmat"
+								to = "materials/proppertextures/rubberfloor_gray.vmat"
+							},
+							{
+								from = "toolsblack.vmat"
+								to = "materials/proppertextures/toolsblack.vmat"
+							},
+							{
+								from = "tread_dot_offset_black.vmat"
+								to = "materials/proppertextures/tread_dot_offset_black.vmat"
+							},
+							{
+								from = "wheel.vmat"
+								to = "materials/proppertextures/wheel.vmat"
+							},
+							{
+								from = "wht_off.vmat"
+								to = "materials/trakpak3_common/signals/generic/wht_off.vmat"
+							},
+						]
+						use_global_default = false
+						global_default_material = ""
+					},
+				]
+			},
+			{
+				_class = "AttachmentList"
+				children = 
+				[
+					{
+						_class = "Attachment"
+						name = "front_bogie"
+						parent_bone = "root"
+						relative_origin = [ 0.0, 0.0, -240.5 ]
+						relative_angles = [ 0.0, 0.0, 0.0 ]
+						weight = 1.0
+						ignore_rotation = false
+					},
+					{
+						_class = "Attachment"
+						name = "rear_bogie"
+						parent_bone = "root"
+						relative_origin = [ 0.0, 0.0, 242.0 ]
+						relative_angles = [ 0.0, 0.0, 0.0 ]
+						weight = 1.0
+						ignore_rotation = false
+					},
+					{
+						_class = "Attachment"
+						name = "seat"
+						parent_bone = "root"
+						relative_origin = [ 42.000004, 50.000011, -260.0 ]
+						relative_angles = [ 0.0, 0.0, -90.0 ]
+						weight = 1.0
+						ignore_rotation = false
+					},
+				]
+			},
+			{
+				_class = "PhysicsBodyMarkupList"
+				children = 
+				[
+					{
+						_class = "PhysicsBodyMarkup"
+						target_body = "root"
+						mass_override = 20000.0
+						inertia_scale = 1.0
+						linear_damping = 0.0
+						angular_damping = 0.0
+						use_mass_center_override = false
+						mass_center_override = [ 0.0, 0.0, 0.0 ]
+					},
+				]
+			},
+			{
+				_class = "ModelDataList"
+				children = 
+				[
+					{
+						_class = "Bounds Hull"
+						mins = [ -401.623993, -62.299, -37.0 ]
+						maxs = [ 401.623993, 62.299, 142.625 ]
+					},
+				]
+			},
+		]
+		model_archetype = "default"
+		primary_associated_entity = ""
+		anim_graph_name = ""
+	}
+}
