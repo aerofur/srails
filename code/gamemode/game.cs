@@ -53,6 +53,8 @@ public partial class Gamemode : Sandbox.Game
 		ent.Rotation = Rotation.From(new Angles(0,owner.EyeRot.Angles().yaw,0)) * Rotation.FromAxis(Vector3.Up,180);
 		ent.SetModel(modelname);
 		ent.Position = tr.EndPos - Vector3.Up * ent.CollisionBounds.Mins.z;
+
+		Log.Info($"Spawned prop: {modelname}");
 	}
 
 	[ServerCmd("spawn_entity")]
@@ -76,18 +78,15 @@ public partial class Gamemode : Sandbox.Game
 		if(!tr.Entity.IsValid()) return;
 
 		var ent = Library.Create<Entity>(entName);
-		if (ent is BaseCarriable && owner.Inventory != null)
+		if(ent is BaseCarriable && owner.Inventory != null)
 		{
-			if (owner.Inventory.Add(ent,true))
-			{
-				return;
-			}
+			if(owner.Inventory.Add(ent,true)) return;
 		}
 
 		ent.Position = tr.EndPos;
 		ent.Rotation = Rotation.From(new Angles(0,owner.EyeRot.Angles().yaw,0));
 
-		Log.Info( $"ent: {ent}" );
+		Log.Info($"Spawned entity: {ent}");
 	}
 
 	[ServerCmd("spawn_locomotive")]
