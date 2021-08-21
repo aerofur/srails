@@ -1,0 +1,221 @@
+.hud {
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	top: 0;
+	padding-left: 100px;
+	padding-right: 100px;
+    opacity: 1;
+}
+
+rootpanel
+{
+    transition: all 0.3s ease-out;
+	backdrop-filter: blur(30px);
+
+	&.hidden
+	{
+        transition: all 0.1s ease;
+		opacity: 0;
+		transform: scale( 1.1 );
+		pointer-events: none;
+		backdrop-filter: blur( 0px );
+	}
+}
+
+.nav {
+    background-color: rgba(#0F131A,0.95);
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	top: 0;
+	padding-left: 100px;
+	padding-right: 100px;
+}
+
+.header {
+    left: 0px;
+	right: 0px;
+	padding: 40px;
+	padding-bottom: 25px;
+	position: absolute;
+	flex-direction: row;
+	//background-image: linear-gradient(#2b3d7eff,#2b3d7e00);
+	//background-repeat: no-repeat;
+    z-index: 1000;
+	height: 120px;
+	padding-top: 40px;
+	padding-bottom: 32px;
+	align-items: center;
+	pointer-events: none;
+
+	> .left {
+		flex-grow: 1;
+		align-items: center;
+
+		.button {
+			margin-right: 16px;
+			pointer-events: all;
+		}
+    }
+
+	> .right {
+		align-items: center;
+
+		.button {
+			margin-left: 16px;
+			pointer-events: all;
+		}
+	}
+}
+
+.header-logo {
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 36px;
+    color: #f5f8fe;
+    padding-left: 20px;
+}
+
+.sidepanel {
+    padding: 120px 50px 0 50px;
+    flex-direction: column;
+	position: absolute;
+	top: 0;
+    z-index: 1;
+    height: 100%;
+    background-image: linear-gradient(to bottom,rgba(#191e28,1),rgba(#191e28,0.5), rgba(#191e28,1));
+    box-shadow: 0px 0 100px 10px rgba(black,0.3);
+    backdrop-filter: blur(20px);
+
+    .button {
+        margin-bottom: 16px;
+        pointer-events: all;
+    }
+}
+
+.button {
+    font-family: Poppins;
+
+    &.button-round {
+        font-weight: 600;
+        font-size: 21px;
+        cursor: pointer;
+        background-color: #0b0d12;
+        padding: 8px 16px;
+        border-radius: 100px;
+        color: #7f8186;
+        align-items: center;
+        height: 50px;
+
+        &:hover {
+            background-color: #3472e6;
+            color: #f5f8fe;
+        }
+    
+        &.active {
+            background-color: #3472e6;
+            color: #f5f8fe;
+        }
+    
+        &:active {
+            background-color: #f5f8fe;
+            color: #3472e6;
+        }
+    
+        &.tight {
+            padding: 8px 8px;
+            height: 50px;
+            min-width: 50px;
+            justify-content: center;
+        }
+    }
+
+    &.button-square {
+        border: 3px solid #313c55;
+        border-radius: 8px;
+        margin-bottom: 5px;
+        background-color: transparent;
+        font-weight: 500;
+        font-size: 15px;
+        color: #c6d4ee;
+        height: 50px;
+        padding: 10px 10px;
+        width: 100%;
+        max-width: 320px;
+
+        &:hover {
+            border: 3px solid #3472e6;
+            color: #f5f8fe;
+            background-color: transparent;
+        }
+    
+        &.active, &.active:hover {
+            border: 3px solid #3472e6;
+            background-color: transparent;
+            color: #f5f8fe;
+        }
+    
+        &:active {
+            border: 3px solid #f5f8fe;
+            background-color: transparent;
+            color: #f5f8fe;
+        }
+    
+        &.button-square-solid {
+            border: 3px solid #dc3545;
+            background-color: #dc3545;
+            color: #f5f8fe;
+    
+            &:hover {
+                background-color: #f5f8fe;
+                border: 3px solid #f5f8fe;
+                color: #dc3545;
+            }
+    
+            &:active {
+                background-color: #f5f8fe;
+                border: 3px solid white;
+                color: #dc3545;
+            }
+        }
+    }
+
+	> iconpanel {
+        font-family: MaterialIcons;
+		font-size: 26px;
+	}
+
+	&.has-label > iconpanel
+	{
+		margin-right: 10px;
+	}
+
+	&:hover {
+		&:not(.active) {
+			sound-in: ui.button.over;
+		}
+	}
+
+	&:active {
+		sound-in: ui.button.press;
+	}
+}
+
+.button_group {
+	.button {
+		margin-right: 0;
+		margin-left: 0;
+		border-radius: 0;
+
+		&:first-child {
+			border-radius: 100px 0 0 100px;
+		}
+
+		&:last-child {
+			border-radius: 0 100px 100px 0;
+		}
+	}
+}
