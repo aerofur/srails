@@ -33,7 +33,7 @@ public partial class LocomotiveEntity : Prop, IUse
 	{
 		this.MoveType = MoveType.Physics;
 		this.UsePhysicsCollision = true;
-		this.EnableAllCollisions = false;
+		this.EnableAllCollisions = true;
 		//this.CollisionGroup = CollisionGroup.Debris;
 		//this.EnableHitboxes = true;
 		//this.SurroundingBoundsMode = SurroundingBoundsType.Physics;
@@ -60,7 +60,6 @@ public partial class LocomotiveEntity : Prop, IUse
 
 		frontbogie.SetModel("models/locomotives/laz/trucks/fb3.vmdl");
 		rearbogie.SetModel("models/locomotives/laz/trucks/fb3.vmdl");
-		/*
 
 		frontbogie.Joint = PhysicsJoint.Revolute
 			.From(frontbogie.PhysicsBody, new Vector3(0,0,0))
@@ -76,6 +75,7 @@ public partial class LocomotiveEntity : Prop, IUse
 			.WithBasis(Rotation.From(new Angles(0,90,0)))
 			.Create();
 
+		/*
 		frontbogie.Joint = PhysicsJoint.Generic
 			.From(frontbogie.PhysicsBody, new Vector3(0,0,0))
 			.To(this.PhysicsBody, new Vector3(0,0,-240))

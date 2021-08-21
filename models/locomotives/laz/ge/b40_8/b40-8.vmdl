@@ -658,14 +658,78 @@
 				[
 					{
 						_class = "PhysicsHullFile"
-						parent_bone = "root"
+						name = "physmesh_1"
+						parent_bone = ""
 						surface_prop = "metal"
 						collision_prop = "default"
 						recenter_on_parent_bone = false
 						offset_origin = [ 0.0, 0.0, 0.0 ]
-						offset_angles = [ -90.0, 0.0, 90.0 ]
-						filename = "models/locomotives/laz/ge/b40_8/ge_b40-8_physics.smd"
-						import_scale = 1.0
+						offset_angles = [ 0.0, 0.0, 0.0 ]
+						filename = "models/locomotives/laz/ge/b40_8/physmesh_1.smd"
+						import_scale = 0.125
+						faceMergeAngle = 10.0
+						maxHullVertices = 0
+						import_mode = "HullPerElement"
+						optimization_algorithm = "QEM"
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "PhysicsHullFile"
+						name = "physmesh_2"
+						parent_bone = ""
+						surface_prop = "metal"
+						collision_prop = "default"
+						recenter_on_parent_bone = false
+						offset_origin = [ 0.0, 0.0, 0.0 ]
+						offset_angles = [ 0.0, 0.0, 0.0 ]
+						filename = "models/locomotives/laz/ge/b40_8/physmesh_2.smd"
+						import_scale = 0.125
+						faceMergeAngle = 10.0
+						maxHullVertices = 0
+						import_mode = "HullPerElement"
+						optimization_algorithm = "QEM"
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "PhysicsHullFile"
+						name = "physmesh_3"
+						parent_bone = ""
+						surface_prop = "metal"
+						collision_prop = "default"
+						recenter_on_parent_bone = false
+						offset_origin = [ 0.0, 0.0, 0.0 ]
+						offset_angles = [ 0.0, 0.0, 0.0 ]
+						filename = "models/locomotives/laz/ge/b40_8/physmesh_3.smd"
+						import_scale = 0.125
+						faceMergeAngle = 10.0
+						maxHullVertices = 0
+						import_mode = "HullPerElement"
+						optimization_algorithm = "QEM"
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "PhysicsHullFile"
+						name = "physmesh_4"
+						parent_bone = ""
+						surface_prop = "metal"
+						collision_prop = "default"
+						recenter_on_parent_bone = false
+						offset_origin = [ 0.0, 0.0, 0.0 ]
+						offset_angles = [ 0.0, 0.0, 0.0 ]
+						filename = "models/locomotives/laz/ge/b40_8/physmesh_4.smd"
+						import_scale = 0.125
 						faceMergeAngle = 10.0
 						maxHullVertices = 0
 						import_mode = "HullPerElement"

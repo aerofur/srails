@@ -532,8 +532,8 @@
 					{
 						_class = "PhysicsHullFile"
 						name = "bolster_phys"
-						parent_bone = "static_prop"
-						surface_prop = "rail"
+						parent_bone = ""
+						surface_prop = "metal"
 						collision_prop = "default"
 						recenter_on_parent_bone = false
 						offset_origin = [ 0.0, 0.0, -25.0 ]
