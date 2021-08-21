@@ -73,9 +73,9 @@ partial class LocalPlayer : Player
 
 		if(Input.Pressed(InputButton.View))
 		{
-			if(Camera is not ThirdPersonCamera)
+			if(Camera is not PlayerCameraThirdperson)
 			{
-				MainCamera = new ThirdPersonCamera();
+				MainCamera = new PlayerCameraThirdperson();
 			}
 			else
 			{
