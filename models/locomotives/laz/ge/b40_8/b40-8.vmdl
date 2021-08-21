@@ -665,6 +665,9 @@
 						recenter_on_parent_bone = false
 						offset_origin = [ 0.0, 0.0, 0.0 ]
 						offset_angles = [ 0.0, 0.0, 0.0 ]
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
 						filename = "models/locomotives/laz/ge/b40_8/physmesh_1.smd"
 						import_scale = 0.125
 						faceMergeAngle = 10.0
@@ -686,6 +689,9 @@
 						recenter_on_parent_bone = false
 						offset_origin = [ 0.0, 0.0, 0.0 ]
 						offset_angles = [ 0.0, 0.0, 0.0 ]
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
 						filename = "models/locomotives/laz/ge/b40_8/physmesh_2.smd"
 						import_scale = 0.125
 						faceMergeAngle = 10.0
@@ -707,6 +713,9 @@
 						recenter_on_parent_bone = false
 						offset_origin = [ 0.0, 0.0, 0.0 ]
 						offset_angles = [ 0.0, 0.0, 0.0 ]
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
 						filename = "models/locomotives/laz/ge/b40_8/physmesh_3.smd"
 						import_scale = 0.125
 						faceMergeAngle = 10.0
@@ -728,6 +737,9 @@
 						recenter_on_parent_bone = false
 						offset_origin = [ 0.0, 0.0, 0.0 ]
 						offset_angles = [ 0.0, 0.0, 0.0 ]
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
 						filename = "models/locomotives/laz/ge/b40_8/physmesh_4.smd"
 						import_scale = 0.125
 						faceMergeAngle = 10.0
@@ -2274,7 +2286,7 @@
 					{
 						_class = "PhysicsBodyMarkup"
 						target_body = "root"
-						mass_override = 20000.0
+						mass_override = 500.0
 						inertia_scale = 1.0
 						linear_damping = 0.0
 						angular_damping = 0.0
@@ -2317,8 +2329,8 @@
 				]
 			},
 		]
-		model_archetype = ""
-		primary_associated_entity = ""
+		model_archetype = "physics_prop_model"
+		primary_associated_entity = "prop_physics"
 		anim_graph_name = ""
 	}
 }
