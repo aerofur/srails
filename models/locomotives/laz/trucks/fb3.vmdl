@@ -532,8 +532,8 @@
 					{
 						_class = "PhysicsHullFile"
 						name = "bolster_phys"
-						parent_bone = ""
-						surface_prop = "metal"
+						parent_bone = "static_prop"
+						surface_prop = "rail"
 						collision_prop = "default"
 						recenter_on_parent_bone = false
 						offset_origin = [ 0.0, 0.0, -25.0 ]
@@ -1642,13 +1642,35 @@
 				[
 					{
 						_class = "Bounds Hull"
-						mins = [ -55.375, -106.0, -26.25 ]
-						maxs = [ 58.125, 106.0, 33.0 ]
+						mins = [ -55.375, -106.0, -51.25 ]
+						maxs = [ 58.125, 106.0, 8.0 ]
+					},
+				]
+			},
+			{
+				_class = "GameDataList"
+				children = 
+				[
+					{
+						_class = "GenericGameData"
+						game_class = "prop_data"
+						game_keys = 
+						{
+							base = ""
+							allowstatic = true
+							bakelighting = true
+							spawn_motion_disabled = false
+							health = -1.0
+							min_impact_damage_speed = -1.0
+							impact_damage = -1.0
+							parent_bodygroup_name = ""
+							parent_bodygroup_value = 0
+						}
 					},
 				]
 			},
 		]
-		model_archetype = "default"
+		model_archetype = ""
 		primary_associated_entity = ""
 		anim_graph_name = ""
 	}
