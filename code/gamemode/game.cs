@@ -83,7 +83,7 @@ public partial class Gamemode : Sandbox.Game
 			if(owner.Inventory.Add(ent,true)) return;
 		}
 
-		ent.Position = tr.EndPos;
+		ent.Position = tr.EndPos + tr.Normal * 10 + new Vector3(0,0,50);
 		ent.Rotation = Rotation.From(new Angles(0,owner.EyeRot.Angles().yaw,0));
 
 		Log.Info($"Spawned entity: {ent}");
@@ -119,6 +119,35 @@ public partial class Gamemode : Sandbox.Game
 		Log.Info("[DEBUG] Created new entity: \"LocomotiveEntity\"");
 		ent.Setup();
 		Log.Trace($"[DEBUG] Finished creating: {ent}");
+	}
+
+	[ServerCmd("spawn_testcube")]
+	public static void SpawnTestEnt(string entName)
+	{
+		var owner = ConsoleSystem.Caller.Pawn;
+		var attribute = Library.GetAttribute(entName);
+
+		if(owner == null) return;
+		if(attribute == null || !attribute.Spawnable) return;
+
+		var startPos = owner.EyePos;
+		var dir = owner.EyeRot.Forward;
+
+		var tr = Trace.Ray(startPos,startPos + dir * 10000.0f)
+			.UseHitboxes()
+			.Ignore(owner)
+			.Run();
+
+		if(!tr.Hit) return;
+		if(!tr.Entity.IsValid()) return;
+
+		var ent = new TestcubeEntity
+		{
+			Position = tr.EndPos + tr.Normal * 10 + new Vector3(0,0,50),
+			Rotation = Rotation.From(new Angles(0,owner.EyeRot.Angles().yaw,90)),
+		};
+
+		Log.Info($"Spawned test entity: {entName}");
 	}
 
 	public override void DoPlayerNoclip(Client player)
