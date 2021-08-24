@@ -6,17 +6,6 @@
 		children = 
 		[
 			{
-				_class = "ModelDataList"
-				children = 
-				[
-					{
-						_class = "Bounds Hull"
-						mins = [ -0.422, -2.928, -2.928 ]
-						maxs = [ 0.682, 2.928, 2.928 ]
-					},
-				]
-			},
-			{
 				_class = "MaterialGroupList"
 				children = 
 				[
@@ -25,27 +14,16 @@
 						remaps = 
 						[
 							{
-								from = "gauge_amp_emd.vmat"
-								to = "materials/gsgtrainprops/cab/amp_emd_9085182.vmat"
+								from = "cabmetal_seafoam.vmat"
+								to = "materials/proppertextures/cabmetal_seafoam.vmat"
 							},
 							{
-								from = "gauges.vmat"
-								to = "materials/proppertextures/black_flat.vmat"
+								from = "plastic_black.vmat"
+								to = "materials/proppertextures/plastic_black.vmat"
 							},
 						]
 						use_global_default = false
 						global_default_material = ""
-					},
-					{
-						_class = "MaterialGroup"
-						name = "skin1"
-						remaps = 
-						[
-							{
-								from = "materials/gsgtrainprops/cab/amp_emd_9085182.vmat"
-								to = "materials/gsgtrainprops/cab/gauge_air_salem_160_black.vmat"
-							},
-						]
 					},
 				]
 			},
@@ -56,7 +34,7 @@
 					{
 						_class = "PhysicsBodyMarkup"
 						target_body = "undefined"
-						mass_override = 5.0
+						mass_override = 50.0
 						inertia_scale = 1.0
 						linear_damping = 0.0
 						angular_damping = 0.0
@@ -71,17 +49,17 @@
 				[
 					{
 						_class = "PhysicsMeshFile"
-						name = "gauge_01_physics"
+						name = "ge_seat_uboat_late_physmesh"
 						parent_bone = ""
 						surface_prop = "metal"
 						collision_prop = "default"
 						recenter_on_parent_bone = false
-						offset_origin = [ 0.0, 0.0, 0.0 ]
-						offset_angles = [ 0.0, 90.0, 0.0 ]
+						offset_origin = [ 0.0, 0.0, -10.0 ]
+						offset_angles = [ 0.0, 0.0, 0.0 ]
 						align_origin_x_type = "None"
 						align_origin_y_type = "None"
 						align_origin_z_type = "None"
-						filename = "models/locomotives/gsgtrainprops/parts/cab/gauge_01_physics.smd"
+						filename = "models/locomotives/laz/seats/ge_seat_uboat_late_physmesh.smd"
 						import_scale = 1.0
 						maxMeshVertices = 0
 						qemError = 0.0
@@ -99,7 +77,23 @@
 				[
 					{
 						_class = "RenderMeshFile"
-						filename = "models/locomotives/gsgtrainprops/parts/cab/gauge_01.smd"
+						filename = "models/locomotives/laz/seats/ge_seat_uboat_late.smd"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						filename = "models/locomotives/laz/seats/base_wallmount.smd"
 						import_translation = [ 0.0, 0.0, 0.0 ]
 						import_rotation = [ 0.0, 0.0, 0.0 ]
 						import_scale = 1.0

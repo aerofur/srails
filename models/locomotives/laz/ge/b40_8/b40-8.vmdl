@@ -2252,24 +2252,6 @@
 				[
 					{
 						_class = "Attachment"
-						name = "front_bogie"
-						parent_bone = "root"
-						relative_origin = [ 0.0, 0.0, -240.5 ]
-						relative_angles = [ 0.0, 0.0, 0.0 ]
-						weight = 1.0
-						ignore_rotation = false
-					},
-					{
-						_class = "Attachment"
-						name = "rear_bogie"
-						parent_bone = "root"
-						relative_origin = [ 0.0, 0.0, 242.0 ]
-						relative_angles = [ 0.0, 0.0, 0.0 ]
-						weight = 1.0
-						ignore_rotation = false
-					},
-					{
-						_class = "Attachment"
 						name = "seat"
 						parent_bone = "root"
 						relative_origin = [ 42.000004, 50.000011, -260.0 ]
@@ -2286,7 +2268,7 @@
 					{
 						_class = "PhysicsBodyMarkup"
 						target_body = "root"
-						mass_override = 500.0
+						mass_override = 63500.0
 						inertia_scale = 1.0
 						linear_damping = 0.0
 						angular_damping = 0.0
@@ -2306,31 +2288,9 @@
 					},
 				]
 			},
-			{
-				_class = "GameDataList"
-				children = 
-				[
-					{
-						_class = "GenericGameData"
-						game_class = "prop_data"
-						game_keys = 
-						{
-							base = ""
-							allowstatic = true
-							bakelighting = true
-							spawn_motion_disabled = false
-							health = -1.0
-							min_impact_damage_speed = -1.0
-							impact_damage = -1.0
-							parent_bodygroup_name = ""
-							parent_bodygroup_value = 0
-						}
-					},
-				]
-			},
 		]
-		model_archetype = "physics_prop_model"
-		primary_associated_entity = "prop_physics"
+		model_archetype = "default"
+		primary_associated_entity = ""
 		anim_graph_name = ""
 	}
 }

@@ -6,468 +6,6 @@
 		children = 
 		[
 			{
-				_class = "BodyGroupList"
-				children = 
-				[
-					{
-						_class = "BodyGroup"
-						name = "Bearing_LF"
-						children = 
-						[
-							{
-								_class = "BodyGroupChoice"
-								name = "hyattrecLF"
-								meshes = 
-								[
-									"hyattrecLF",
-								]
-							},
-							{
-								_class = "BodyGroupChoice"
-								name = "hyattrecsnubLF"
-								meshes = 
-								[
-									"hyattrecsnubLF",
-								]
-							},
-							{
-								_class = "BodyGroupChoice"
-								name = "hyattopenLF"
-								meshes = 
-								[
-									"hyattopenLF",
-								]
-							},
-							{
-								_class = "BodyGroupChoice"
-								name = "hyattopensnubLF"
-								meshes = 
-								[
-									"hyattopensnubLF",
-								]
-							},
-							{
-								_class = "BodyGroupChoice"
-								name = "timkenLF"
-								meshes = 
-								[
-									"timkenLF",
-								]
-							},
-							{
-								_class = "BodyGroupChoice"
-								name = "timkenrecLF"
-								meshes = 
-								[
-									"timkenrecLF",
-								]
-							},
-							{
-								_class = "BodyGroupChoice"
-								name = "timkensnubLF"
-								meshes = 
-								[
-									"timkensnubLF",
-								]
-							},
-							{
-								_class = "BodyGroupChoice"
-								name = "timkensnubrecLF"
-								meshes = 
-								[
-									"timkensnubrecLF",
-								]
-							},
-						]
-						hidden_in_tools = false
-					},
-					{
-						_class = "BodyGroup"
-						name = "Bearing_LM"
-						children = 
-						[
-							{
-								_class = "BodyGroupChoice"
-								name = "hyattrecLM"
-								meshes = 
-								[
-									"hyattrecLM",
-								]
-							},
-							{
-								_class = "BodyGroupChoice"
-								name = "hyattrecsnubLM"
-								meshes = 
-								[
-									"hyattrecsnubLM",
-								]
-							},
-							{
-								_class = "BodyGroupChoice"
-								name = "hyattopenLM"
-								meshes = 
-								[
-									"hyattopenLM",
-								]
-							},
-							{
-								_class = "BodyGroupChoice"
-								name = "hyattopensnubLM"
-								meshes = 
-								[
-									"hyattopensnubLM",
-								]
-							},
-							{
-								_class = "BodyGroupChoice"
-								name = "timkenLM"
-								meshes = 
-								[
-									"timkenLM",
-								]
-							},
-							{
-								_class = "BodyGroupChoice"
-								name = "timkenrecLM"
-								meshes = 
-								[
-									"timkenrecLM",
-								]
-							},
-							{
-								_class = "BodyGroupChoice"
-								name = "timkensnubLM"
-								meshes = 
-								[
-									"timkensnubLM",
-								]
-							},
-							{
-								_class = "BodyGroupChoice"
-								name = "timkensnubrecLM"
-								meshes = 
-								[
-									"timkensnubrecLM",
-								]
-							},
-						]
-						hidden_in_tools = false
-					},
-					{
-						_class = "BodyGroup"
-						name = "Bearing_LR"
-						children = 
-						[
-							{
-								_class = "BodyGroupChoice"
-								name = "hyattrecLR"
-								meshes = 
-								[
-									"hyattrecLR",
-								]
-							},
-							{
-								_class = "BodyGroupChoice"
-								name = "hyattrecsnubLR"
-								meshes = 
-								[
-									"hyattrecsnubLR",
-								]
-							},
-							{
-								_class = "BodyGroupChoice"
-								name = "hyattopenLR"
-								meshes = 
-								[
-									"hyattopenLR",
-								]
-							},
-							{
-								_class = "BodyGroupChoice"
-								name = "hyattopensnubLR"
-								meshes = 
-								[
-									"hyattopensnubLR",
-								]
-							},
-							{
-								_class = "BodyGroupChoice"
-								name = "timkenLR"
-								meshes = 
-								[
-									"timkenLR",
-								]
-							},
-							{
-								_class = "BodyGroupChoice"
-								name = "timkenrecLR"
-								meshes = 
-								[
-									"timkenrecLR",
-								]
-							},
-							{
-								_class = "BodyGroupChoice"
-								name = "timkensnubLR"
-								meshes = 
-								[
-									"timkensnubLR",
-								]
-							},
-							{
-								_class = "BodyGroupChoice"
-								name = "timkensnubrecLR"
-								meshes = 
-								[
-									"timkensnubrecLR",
-								]
-							},
-						]
-						hidden_in_tools = false
-					},
-					{
-						_class = "BodyGroup"
-						name = "Bearing_RF"
-						children = 
-						[
-							{
-								_class = "BodyGroupChoice"
-								name = "hyattrecRF"
-								meshes = 
-								[
-									"hyattrecRF",
-								]
-							},
-							{
-								_class = "BodyGroupChoice"
-								name = "hyattrecsnubRF"
-								meshes = 
-								[
-									"hyattrecsnubRF",
-								]
-							},
-							{
-								_class = "BodyGroupChoice"
-								name = "hyattopenRF"
-								meshes = 
-								[
-									"hyattopenRF",
-								]
-							},
-							{
-								_class = "BodyGroupChoice"
-								name = "hyattopensnubRF"
-								meshes = 
-								[
-									"hyattopensnubRF",
-								]
-							},
-							{
-								_class = "BodyGroupChoice"
-								name = "timkenRF"
-								meshes = 
-								[
-									"timkenRF",
-								]
-							},
-							{
-								_class = "BodyGroupChoice"
-								name = "timkenrecRF"
-								meshes = 
-								[
-									"timkenrecRF",
-								]
-							},
-							{
-								_class = "BodyGroupChoice"
-								name = "timkensnubRF"
-								meshes = 
-								[
-									"timkensnubRF",
-								]
-							},
-							{
-								_class = "BodyGroupChoice"
-								name = "timkensnubrecRF"
-								meshes = 
-								[
-									"timkensnubrecRF",
-								]
-							},
-						]
-						hidden_in_tools = false
-					},
-					{
-						_class = "BodyGroup"
-						name = "Bearing_RM"
-						children = 
-						[
-							{
-								_class = "BodyGroupChoice"
-								name = "hyattrecRM"
-								meshes = 
-								[
-									"hyattrecRM",
-								]
-							},
-							{
-								_class = "BodyGroupChoice"
-								name = "hyattrecsnubRM"
-								meshes = 
-								[
-									"hyattrecsnubRM",
-								]
-							},
-							{
-								_class = "BodyGroupChoice"
-								name = "hyattopenRM"
-								meshes = 
-								[
-									"hyattopenRM",
-								]
-							},
-							{
-								_class = "BodyGroupChoice"
-								name = "hyattopensnubRM"
-								meshes = 
-								[
-									"hyattopensnubRM",
-								]
-							},
-							{
-								_class = "BodyGroupChoice"
-								name = "timkenrecRM"
-								meshes = 
-								[
-									"timkenrecRM",
-								]
-							},
-							{
-								_class = "BodyGroupChoice"
-								name = "timkenRM"
-								meshes = 
-								[
-									"timkenRM",
-								]
-							},
-							{
-								_class = "BodyGroupChoice"
-								name = "timkensnubRM"
-								meshes = 
-								[
-									"timkensnubRM",
-								]
-							},
-							{
-								_class = "BodyGroupChoice"
-								name = "timkensnubrecRM"
-								meshes = 
-								[
-									"timkensnubrecRM",
-								]
-							},
-						]
-						hidden_in_tools = false
-					},
-					{
-						_class = "BodyGroup"
-						name = "Bearing_RR"
-						children = 
-						[
-							{
-								_class = "BodyGroupChoice"
-								name = "hyattrecRR"
-								meshes = 
-								[
-									"hyattrecRR",
-								]
-							},
-							{
-								_class = "BodyGroupChoice"
-								name = "hyattrecsnubRR"
-								meshes = 
-								[
-									"hyattrecsnubRR",
-								]
-							},
-							{
-								_class = "BodyGroupChoice"
-								name = "hyattopenRR"
-								meshes = 
-								[
-									"hyattopenRR",
-								]
-							},
-							{
-								_class = "BodyGroupChoice"
-								name = "hyattopensnubRR"
-								meshes = 
-								[
-									"hyattopensnubRR",
-								]
-							},
-							{
-								_class = "BodyGroupChoice"
-								name = "timkenRR"
-								meshes = 
-								[
-									"timkenRR",
-								]
-							},
-							{
-								_class = "BodyGroupChoice"
-								name = "timkenrecRR"
-								meshes = 
-								[
-									"timkenrecRR",
-								]
-							},
-							{
-								_class = "BodyGroupChoice"
-								name = "timkensnubRR"
-								meshes = 
-								[
-									"timkensnubRR",
-								]
-							},
-							{
-								_class = "BodyGroupChoice"
-								name = "timkensnubrecRR"
-								meshes = 
-								[
-									"timkensnubrecRR",
-								]
-							},
-						]
-						hidden_in_tools = false
-					},
-					{
-						_class = "BodyGroup"
-						name = "Handbrake_pivot_for_front_truck"
-						children = 
-						[
-							{
-								_class = "BodyGroupChoice"
-								name = "no"
-								meshes = 
-								[
-									"no",
-								]
-							},
-							{
-								_class = "BodyGroupChoice"
-								name = "handbrake_bar"
-								meshes = 
-								[
-									"handbrake_bar",
-								]
-							},
-						]
-						hidden_in_tools = false
-					},
-				]
-			},
-			{
 				_class = "MaterialGroupList"
 				children = 
 				[
@@ -476,8 +14,12 @@
 						remaps = 
 						[
 							{
-								from = "caster_ad.vmat"
-								to = "materials/proppertextures/caster_ad.vmat"
+								from = "aluminum.vmat"
+								to = "materials/proppertextures/aluminum.vmat"
+							},
+							{
+								from = "brakehandle.vmat"
+								to = "materials/proppertextures/brakehandle.vmat"
 							},
 							{
 								from = "enamel_black.vmat"
@@ -488,12 +30,24 @@
 								to = "materials/proppertextures/enamel_darkgray.vmat"
 							},
 							{
-								from = "metal_shiny.vmat"
-								to = "materials/proppertextures/metal_shiny.vmat"
+								from = "grid_b.vmat"
+								to = "materials/proppertextures/grid_b.vmat"
+							},
+							{
+								from = "indications_white_ge.vmat"
+								to = "materials/proppertextures/indications_white_ge.vmat"
+							},
+							{
+								from = "indications_white_ge_dyn.vmat"
+								to = "materials/proppertextures/indications_white_ge_dyn.vmat"
 							},
 							{
 								from = "plastic_black.vmat"
 								to = "materials/proppertextures/plastic_black.vmat"
+							},
+							{
+								from = "plastic_blue.vmat"
+								to = "materials/proppertextures/plastic_blue.vmat"
 							},
 							{
 								from = "rubber.vmat"
@@ -503,25 +57,25 @@
 								from = "toolsblack.vmat"
 								to = "materials/proppertextures/toolsblack.vmat"
 							},
-							{
-								from = "wheel.vmat"
-								to = "materials/proppertextures/wheel.vmat"
-							},
-							{
-								from = "grid_b.vmat"
-								to = "materials/proppertextures/grid_b.vmat"
-							},
-							{
-								from = "wheel_inner.vmat"
-								to = "materials/proppertextures/wheel_inner.vmat"
-							},
-							{
-								from = "tread_slats_black.vmat"
-								to = "materials/proppertextures/tread_slats_black.vmat"
-							},
 						]
 						use_global_default = false
 						global_default_material = ""
+					},
+				]
+			},
+			{
+				_class = "PhysicsBodyMarkupList"
+				children = 
+				[
+					{
+						_class = "PhysicsBodyMarkup"
+						target_body = "static_prop"
+						mass_override = 1000.0
+						inertia_scale = 1.0
+						linear_damping = 0.0
+						angular_damping = 0.0
+						use_mass_center_override = false
+						mass_center_override = [ 0.0, 0.0, 0.0 ]
 					},
 				]
 			},
@@ -530,23 +84,21 @@
 				children = 
 				[
 					{
-						_class = "PhysicsHullFile"
-						name = "bolster_phys"
+						_class = "PhysicsMeshFile"
+						name = "kc108_physics"
 						parent_bone = "static_prop"
-						surface_prop = "rail"
+						surface_prop = "metal"
 						collision_prop = "default"
 						recenter_on_parent_bone = false
-						offset_origin = [ 0.0, 0.0, -25.0 ]
+						offset_origin = [ 0.0, 0.0, 0.0 ]
 						offset_angles = [ 0.0, 0.0, 0.0 ]
 						align_origin_x_type = "None"
 						align_origin_y_type = "None"
 						align_origin_z_type = "None"
-						filename = "models/locomotives/laz/trucks/bolster_phys.smd"
+						filename = "models/locomotives/laz/controlstands/kc108/kc108_physics.smd"
 						import_scale = 1.0
-						faceMergeAngle = 10.0
-						maxHullVertices = 0
-						import_mode = "HullPerElement"
-						optimization_algorithm = "QEM"
+						maxMeshVertices = 0
+						qemError = 0.0
 						import_filter = 
 						{
 							exclude_by_default = false
@@ -561,8 +113,8 @@
 				[
 					{
 						_class = "RenderMeshFile"
-						name = "bearing_blocks"
-						filename = "models/locomotives/laz/trucks/bearing blocks.smd"
+						name = "aircolumn"
+						filename = "models/locomotives/laz/controlstands/kc108/aircolumn.smd"
 						import_translation = [ 0.0, 0.0, 0.0 ]
 						import_rotation = [ 0.0, 0.0, 0.0 ]
 						import_scale = 1.0
@@ -578,8 +130,8 @@
 					},
 					{
 						_class = "RenderMeshFile"
-						name = "bolster"
-						filename = "models/locomotives/laz/trucks/bolster.smd"
+						name = "body"
+						filename = "models/locomotives/laz/controlstands/kc108/body.smd"
 						import_translation = [ 0.0, 0.0, 0.0 ]
 						import_rotation = [ 0.0, 0.0, 0.0 ]
 						import_scale = 1.0
@@ -595,8 +147,8 @@
 					},
 					{
 						_class = "RenderMeshFile"
-						name = "brakes"
-						filename = "models/locomotives/laz/trucks/brakes.smd"
+						name = "controller"
+						filename = "models/locomotives/laz/controlstands/kc108/controller.smd"
 						import_translation = [ 0.0, 0.0, 0.0 ]
 						import_rotation = [ 0.0, 0.0, 0.0 ]
 						import_scale = 1.0
@@ -612,8 +164,8 @@
 					},
 					{
 						_class = "RenderMeshFile"
-						name = "framemiddle"
-						filename = "models/locomotives/laz/trucks/framemiddle.smd"
+						name = "controller_dyn_none"
+						filename = "models/locomotives/laz/controlstands/kc108/controller_dyn_none.smd"
 						import_translation = [ 0.0, 0.0, 0.0 ]
 						import_rotation = [ 0.0, 0.0, 0.0 ]
 						import_scale = 1.0
@@ -629,8 +181,8 @@
 					},
 					{
 						_class = "RenderMeshFile"
-						name = "handbrake_bar"
-						filename = "models/locomotives/laz/trucks/handbrake bar.smd"
+						name = "dyn_1"
+						filename = "models/locomotives/laz/controlstands/kc108/dyn_1.smd"
 						import_translation = [ 0.0, 0.0, 0.0 ]
 						import_rotation = [ 0.0, 0.0, 0.0 ]
 						import_scale = 1.0
@@ -646,8 +198,8 @@
 					},
 					{
 						_class = "RenderMeshFile"
-						name = "hyattopenLF"
-						filename = "models/locomotives/laz/trucks/hyattopenLF.smd"
+						name = "dyn_2"
+						filename = "models/locomotives/laz/controlstands/kc108/dyn_2.smd"
 						import_translation = [ 0.0, 0.0, 0.0 ]
 						import_rotation = [ 0.0, 0.0, 0.0 ]
 						import_scale = 1.0
@@ -663,8 +215,8 @@
 					},
 					{
 						_class = "RenderMeshFile"
-						name = "hyattopenLM"
-						filename = "models/locomotives/laz/trucks/hyattopenLM.smd"
+						name = "dyn_3"
+						filename = "models/locomotives/laz/controlstands/kc108/dyn_3.smd"
 						import_translation = [ 0.0, 0.0, 0.0 ]
 						import_rotation = [ 0.0, 0.0, 0.0 ]
 						import_scale = 1.0
@@ -680,8 +232,8 @@
 					},
 					{
 						_class = "RenderMeshFile"
-						name = "hyattopenLR"
-						filename = "models/locomotives/laz/trucks/hyattopenLR.smd"
+						name = "dyn_4"
+						filename = "models/locomotives/laz/controlstands/kc108/dyn_4.smd"
 						import_translation = [ 0.0, 0.0, 0.0 ]
 						import_rotation = [ 0.0, 0.0, 0.0 ]
 						import_scale = 1.0
@@ -697,8 +249,8 @@
 					},
 					{
 						_class = "RenderMeshFile"
-						name = "hyattopenRF"
-						filename = "models/locomotives/laz/trucks/hyattopenRF.smd"
+						name = "dyn_5"
+						filename = "models/locomotives/laz/controlstands/kc108/dyn_5.smd"
 						import_translation = [ 0.0, 0.0, 0.0 ]
 						import_rotation = [ 0.0, 0.0, 0.0 ]
 						import_scale = 1.0
@@ -714,8 +266,8 @@
 					},
 					{
 						_class = "RenderMeshFile"
-						name = "hyattopenRM"
-						filename = "models/locomotives/laz/trucks/hyattopenRM.smd"
+						name = "dyn_6"
+						filename = "models/locomotives/laz/controlstands/kc108/dyn_6.smd"
 						import_translation = [ 0.0, 0.0, 0.0 ]
 						import_rotation = [ 0.0, 0.0, 0.0 ]
 						import_scale = 1.0
@@ -731,8 +283,8 @@
 					},
 					{
 						_class = "RenderMeshFile"
-						name = "hyattopenRR"
-						filename = "models/locomotives/laz/trucks/hyattopenRR.smd"
+						name = "dyn_7"
+						filename = "models/locomotives/laz/controlstands/kc108/dyn_7.smd"
 						import_translation = [ 0.0, 0.0, 0.0 ]
 						import_rotation = [ 0.0, 0.0, 0.0 ]
 						import_scale = 1.0
@@ -748,8 +300,8 @@
 					},
 					{
 						_class = "RenderMeshFile"
-						name = "hyattopensnubLF"
-						filename = "models/locomotives/laz/trucks/hyattopensnubLF.smd"
+						name = "dyn_8"
+						filename = "models/locomotives/laz/controlstands/kc108/dyn_8.smd"
 						import_translation = [ 0.0, 0.0, 0.0 ]
 						import_rotation = [ 0.0, 0.0, 0.0 ]
 						import_scale = 1.0
@@ -765,8 +317,8 @@
 					},
 					{
 						_class = "RenderMeshFile"
-						name = "hyattopensnubLM"
-						filename = "models/locomotives/laz/trucks/hyattopensnubLM.smd"
+						name = "dyn_off"
+						filename = "models/locomotives/laz/controlstands/kc108/dyn_off.smd"
 						import_translation = [ 0.0, 0.0, 0.0 ]
 						import_rotation = [ 0.0, 0.0, 0.0 ]
 						import_scale = 1.0
@@ -782,8 +334,8 @@
 					},
 					{
 						_class = "RenderMeshFile"
-						name = "hyattopensnubLR"
-						filename = "models/locomotives/laz/trucks/hyattopensnubLR.smd"
+						name = "dyn_setup"
+						filename = "models/locomotives/laz/controlstands/kc108/dyn_setup.smd"
 						import_translation = [ 0.0, 0.0, 0.0 ]
 						import_rotation = [ 0.0, 0.0, 0.0 ]
 						import_scale = 1.0
@@ -799,8 +351,8 @@
 					},
 					{
 						_class = "RenderMeshFile"
-						name = "hyattopensnubRF"
-						filename = "models/locomotives/laz/trucks/hyattopensnubRF.smd"
+						name = "gauges_x0"
+						filename = "models/locomotives/laz/controlstands/kc108/gauges_x0.smd"
 						import_translation = [ 0.0, 0.0, 0.0 ]
 						import_rotation = [ 0.0, 0.0, 0.0 ]
 						import_scale = 1.0
@@ -816,8 +368,8 @@
 					},
 					{
 						_class = "RenderMeshFile"
-						name = "hyattopensnubRM"
-						filename = "models/locomotives/laz/trucks/hyattopensnubRM.smd"
+						name = "gauges_x3a"
+						filename = "models/locomotives/laz/controlstands/kc108/gauges_x3a.smd"
 						import_translation = [ 0.0, 0.0, 0.0 ]
 						import_rotation = [ 0.0, 0.0, 0.0 ]
 						import_scale = 1.0
@@ -833,8 +385,8 @@
 					},
 					{
 						_class = "RenderMeshFile"
-						name = "hyattopensnubRR"
-						filename = "models/locomotives/laz/trucks/hyattopensnubRR.smd"
+						name = "gauges_x3b"
+						filename = "models/locomotives/laz/controlstands/kc108/gauges_x3b.smd"
 						import_translation = [ 0.0, 0.0, 0.0 ]
 						import_rotation = [ 0.0, 0.0, 0.0 ]
 						import_scale = 1.0
@@ -850,8 +402,8 @@
 					},
 					{
 						_class = "RenderMeshFile"
-						name = "hyattrecLF"
-						filename = "models/locomotives/laz/trucks/hyattrecLF.smd"
+						name = "gauges_x4"
+						filename = "models/locomotives/laz/controlstands/kc108/gauges_x4.smd"
 						import_translation = [ 0.0, 0.0, 0.0 ]
 						import_rotation = [ 0.0, 0.0, 0.0 ]
 						import_scale = 1.0
@@ -867,8 +419,8 @@
 					},
 					{
 						_class = "RenderMeshFile"
-						name = "hyattrecLM"
-						filename = "models/locomotives/laz/trucks/hyattrecLM.smd"
+						name = "horn_cord"
+						filename = "models/locomotives/laz/controlstands/kc108/horn_cord.smd"
 						import_translation = [ 0.0, 0.0, 0.0 ]
 						import_rotation = [ 0.0, 0.0, 0.0 ]
 						import_scale = 1.0
@@ -884,8 +436,8 @@
 					},
 					{
 						_class = "RenderMeshFile"
-						name = "hyattrecLR"
-						filename = "models/locomotives/laz/trucks/hyattrecLR.smd"
+						name = "horn_full"
+						filename = "models/locomotives/laz/controlstands/kc108/horn_full.smd"
 						import_translation = [ 0.0, 0.0, 0.0 ]
 						import_rotation = [ 0.0, 0.0, 0.0 ]
 						import_scale = 1.0
@@ -901,8 +453,8 @@
 					},
 					{
 						_class = "RenderMeshFile"
-						name = "hyattrecRF"
-						filename = "models/locomotives/laz/trucks/hyattrecRF.smd"
+						name = "horn_off"
+						filename = "models/locomotives/laz/controlstands/kc108/horn_off.smd"
 						import_translation = [ 0.0, 0.0, 0.0 ]
 						import_rotation = [ 0.0, 0.0, 0.0 ]
 						import_scale = 1.0
@@ -918,8 +470,8 @@
 					},
 					{
 						_class = "RenderMeshFile"
-						name = "hyattrecRM"
-						filename = "models/locomotives/laz/trucks/hyattrecRM.smd"
+						name = "horn_quill"
+						filename = "models/locomotives/laz/controlstands/kc108/horn_quill.smd"
 						import_translation = [ 0.0, 0.0, 0.0 ]
 						import_rotation = [ 0.0, 0.0, 0.0 ]
 						import_scale = 1.0
@@ -935,8 +487,8 @@
 					},
 					{
 						_class = "RenderMeshFile"
-						name = "hyattrecRR"
-						filename = "models/locomotives/laz/trucks/hyattrecRR.smd"
+						name = "indbrake_0"
+						filename = "models/locomotives/laz/controlstands/kc108/indbrake_0.smd"
 						import_translation = [ 0.0, 0.0, 0.0 ]
 						import_rotation = [ 0.0, 0.0, 0.0 ]
 						import_scale = 1.0
@@ -952,8 +504,8 @@
 					},
 					{
 						_class = "RenderMeshFile"
-						name = "hyattrecsnubLF"
-						filename = "models/locomotives/laz/trucks/hyattrecsnubLF.smd"
+						name = "indbrake_15"
+						filename = "models/locomotives/laz/controlstands/kc108/indbrake_15.smd"
 						import_translation = [ 0.0, 0.0, 0.0 ]
 						import_rotation = [ 0.0, 0.0, 0.0 ]
 						import_scale = 1.0
@@ -969,8 +521,8 @@
 					},
 					{
 						_class = "RenderMeshFile"
-						name = "hyattrecsnubLM"
-						filename = "models/locomotives/laz/trucks/hyattrecsnubLM.smd"
+						name = "indbrake__15"
+						filename = "models/locomotives/laz/controlstands/kc108/indbrake_-15.smd"
 						import_translation = [ 0.0, 0.0, 0.0 ]
 						import_rotation = [ 0.0, 0.0, 0.0 ]
 						import_scale = 1.0
@@ -986,8 +538,8 @@
 					},
 					{
 						_class = "RenderMeshFile"
-						name = "hyattrecsnubLR"
-						filename = "models/locomotives/laz/trucks/hyattrecsnubLR.smd"
+						name = "indbrake_30"
+						filename = "models/locomotives/laz/controlstands/kc108/indbrake_30.smd"
 						import_translation = [ 0.0, 0.0, 0.0 ]
 						import_rotation = [ 0.0, 0.0, 0.0 ]
 						import_scale = 1.0
@@ -1003,8 +555,8 @@
 					},
 					{
 						_class = "RenderMeshFile"
-						name = "hyattrecsnubRF"
-						filename = "models/locomotives/laz/trucks/hyattrecsnubRF.smd"
+						name = "indbrake_45"
+						filename = "models/locomotives/laz/controlstands/kc108/indbrake_45.smd"
 						import_translation = [ 0.0, 0.0, 0.0 ]
 						import_rotation = [ 0.0, 0.0, 0.0 ]
 						import_scale = 1.0
@@ -1020,8 +572,8 @@
 					},
 					{
 						_class = "RenderMeshFile"
-						name = "hyattrecsnubRM"
-						filename = "models/locomotives/laz/trucks/hyattrecsnubRM.smd"
+						name = "indbrake_60"
+						filename = "models/locomotives/laz/controlstands/kc108/indbrake_60.smd"
 						import_translation = [ 0.0, 0.0, 0.0 ]
 						import_rotation = [ 0.0, 0.0, 0.0 ]
 						import_scale = 1.0
@@ -1037,8 +589,8 @@
 					},
 					{
 						_class = "RenderMeshFile"
-						name = "hyattrecsnubRR"
-						filename = "models/locomotives/laz/trucks/hyattrecsnubRR.smd"
+						name = "indbrake_75"
+						filename = "models/locomotives/laz/controlstands/kc108/indbrake_75.smd"
 						import_translation = [ 0.0, 0.0, 0.0 ]
 						import_rotation = [ 0.0, 0.0, 0.0 ]
 						import_scale = 1.0
@@ -1054,8 +606,8 @@
 					},
 					{
 						_class = "RenderMeshFile"
-						name = "motors"
-						filename = "models/locomotives/laz/trucks/motors.smd"
+						name = "indbrake_bail"
+						filename = "models/locomotives/laz/controlstands/kc108/indbrake_bail.smd"
 						import_translation = [ 0.0, 0.0, 0.0 ]
 						import_rotation = [ 0.0, 0.0, 0.0 ]
 						import_scale = 1.0
@@ -1072,7 +624,7 @@
 					{
 						_class = "RenderMeshFile"
 						name = "no"
-						filename = "models/locomotives/laz/trucks/no.smd"
+						filename = "models/locomotives/laz/controlstands/kc108/no.smd"
 						import_translation = [ 0.0, 0.0, 0.0 ]
 						import_rotation = [ 0.0, 0.0, 0.0 ]
 						import_scale = 1.0
@@ -1088,8 +640,8 @@
 					},
 					{
 						_class = "RenderMeshFile"
-						name = "sideframeleft"
-						filename = "models/locomotives/laz/trucks/sideframeleft.smd"
+						name = "reverser_f"
+						filename = "models/locomotives/laz/controlstands/kc108/reverser_f.smd"
 						import_translation = [ 0.0, 0.0, 0.0 ]
 						import_rotation = [ 0.0, 0.0, 0.0 ]
 						import_scale = 1.0
@@ -1105,8 +657,8 @@
 					},
 					{
 						_class = "RenderMeshFile"
-						name = "sideframeright"
-						filename = "models/locomotives/laz/trucks/sideframeright.smd"
+						name = "reverser_n"
+						filename = "models/locomotives/laz/controlstands/kc108/reverser_n.smd"
 						import_translation = [ 0.0, 0.0, 0.0 ]
 						import_rotation = [ 0.0, 0.0, 0.0 ]
 						import_scale = 1.0
@@ -1122,8 +674,8 @@
 					},
 					{
 						_class = "RenderMeshFile"
-						name = "specialsmooth"
-						filename = "models/locomotives/laz/trucks/specialsmooth.smd"
+						name = "reverser_r"
+						filename = "models/locomotives/laz/controlstands/kc108/reverser_r.smd"
 						import_translation = [ 0.0, 0.0, 0.0 ]
 						import_rotation = [ 0.0, 0.0, 0.0 ]
 						import_scale = 1.0
@@ -1139,8 +691,8 @@
 					},
 					{
 						_class = "RenderMeshFile"
-						name = "springs"
-						filename = "models/locomotives/laz/trucks/springs.smd"
+						name = "reverser_removed"
+						filename = "models/locomotives/laz/controlstands/kc108/reverser_removed.smd"
 						import_translation = [ 0.0, 0.0, 0.0 ]
 						import_rotation = [ 0.0, 0.0, 0.0 ]
 						import_scale = 1.0
@@ -1156,8 +708,8 @@
 					},
 					{
 						_class = "RenderMeshFile"
-						name = "timkenLF"
-						filename = "models/locomotives/laz/trucks/timkenLF.smd"
+						name = "shutupshutupshutup"
+						filename = "models/locomotives/laz/controlstands/kc108/shutupshutupshutup.smd"
 						import_translation = [ 0.0, 0.0, 0.0 ]
 						import_rotation = [ 0.0, 0.0, 0.0 ]
 						import_scale = 1.0
@@ -1173,8 +725,8 @@
 					},
 					{
 						_class = "RenderMeshFile"
-						name = "timkenLM"
-						filename = "models/locomotives/laz/trucks/timkenLM.smd"
+						name = "throttle_1"
+						filename = "models/locomotives/laz/controlstands/kc108/throttle_1.smd"
 						import_translation = [ 0.0, 0.0, 0.0 ]
 						import_rotation = [ 0.0, 0.0, 0.0 ]
 						import_scale = 1.0
@@ -1190,8 +742,8 @@
 					},
 					{
 						_class = "RenderMeshFile"
-						name = "timkenLR"
-						filename = "models/locomotives/laz/trucks/timkenLR.smd"
+						name = "throttle_2"
+						filename = "models/locomotives/laz/controlstands/kc108/throttle_2.smd"
 						import_translation = [ 0.0, 0.0, 0.0 ]
 						import_rotation = [ 0.0, 0.0, 0.0 ]
 						import_scale = 1.0
@@ -1207,8 +759,8 @@
 					},
 					{
 						_class = "RenderMeshFile"
-						name = "timkenrecLF"
-						filename = "models/locomotives/laz/trucks/timkenrecLF.smd"
+						name = "throttle_3"
+						filename = "models/locomotives/laz/controlstands/kc108/throttle_3.smd"
 						import_translation = [ 0.0, 0.0, 0.0 ]
 						import_rotation = [ 0.0, 0.0, 0.0 ]
 						import_scale = 1.0
@@ -1224,8 +776,8 @@
 					},
 					{
 						_class = "RenderMeshFile"
-						name = "timkenrecLM"
-						filename = "models/locomotives/laz/trucks/timkenrecLM.smd"
+						name = "throttle_4"
+						filename = "models/locomotives/laz/controlstands/kc108/throttle_4.smd"
 						import_translation = [ 0.0, 0.0, 0.0 ]
 						import_rotation = [ 0.0, 0.0, 0.0 ]
 						import_scale = 1.0
@@ -1241,8 +793,8 @@
 					},
 					{
 						_class = "RenderMeshFile"
-						name = "timkenrecLR"
-						filename = "models/locomotives/laz/trucks/timkenrecLR.smd"
+						name = "throttle_5"
+						filename = "models/locomotives/laz/controlstands/kc108/throttle_5.smd"
 						import_translation = [ 0.0, 0.0, 0.0 ]
 						import_rotation = [ 0.0, 0.0, 0.0 ]
 						import_scale = 1.0
@@ -1258,8 +810,8 @@
 					},
 					{
 						_class = "RenderMeshFile"
-						name = "timkenrecRF"
-						filename = "models/locomotives/laz/trucks/timkenrecRF.smd"
+						name = "throttle_6"
+						filename = "models/locomotives/laz/controlstands/kc108/throttle_6.smd"
 						import_translation = [ 0.0, 0.0, 0.0 ]
 						import_rotation = [ 0.0, 0.0, 0.0 ]
 						import_scale = 1.0
@@ -1275,8 +827,8 @@
 					},
 					{
 						_class = "RenderMeshFile"
-						name = "timkenrecRM"
-						filename = "models/locomotives/laz/trucks/timkenrecRM.smd"
+						name = "throttle_7"
+						filename = "models/locomotives/laz/controlstands/kc108/throttle_7.smd"
 						import_translation = [ 0.0, 0.0, 0.0 ]
 						import_rotation = [ 0.0, 0.0, 0.0 ]
 						import_scale = 1.0
@@ -1292,8 +844,8 @@
 					},
 					{
 						_class = "RenderMeshFile"
-						name = "timkenrecRR"
-						filename = "models/locomotives/laz/trucks/timkenrecRR.smd"
+						name = "throttle_8"
+						filename = "models/locomotives/laz/controlstands/kc108/throttle_8.smd"
 						import_translation = [ 0.0, 0.0, 0.0 ]
 						import_rotation = [ 0.0, 0.0, 0.0 ]
 						import_scale = 1.0
@@ -1309,8 +861,8 @@
 					},
 					{
 						_class = "RenderMeshFile"
-						name = "timkenRF"
-						filename = "models/locomotives/laz/trucks/timkenRF.smd"
+						name = "throttle_idle"
+						filename = "models/locomotives/laz/controlstands/kc108/throttle_idle.smd"
 						import_translation = [ 0.0, 0.0, 0.0 ]
 						import_rotation = [ 0.0, 0.0, 0.0 ]
 						import_scale = 1.0
@@ -1326,8 +878,8 @@
 					},
 					{
 						_class = "RenderMeshFile"
-						name = "timkenRM"
-						filename = "models/locomotives/laz/trucks/timkenRM.smd"
+						name = "trainbrake_0"
+						filename = "models/locomotives/laz/controlstands/kc108/trainbrake_0.smd"
 						import_translation = [ 0.0, 0.0, 0.0 ]
 						import_rotation = [ 0.0, 0.0, 0.0 ]
 						import_scale = 1.0
@@ -1343,8 +895,8 @@
 					},
 					{
 						_class = "RenderMeshFile"
-						name = "timkenRR"
-						filename = "models/locomotives/laz/trucks/timkenRR.smd"
+						name = "trainbrake__7_5"
+						filename = "models/locomotives/laz/controlstands/kc108/trainbrake_-7.5.smd"
 						import_translation = [ 0.0, 0.0, 0.0 ]
 						import_rotation = [ 0.0, 0.0, 0.0 ]
 						import_scale = 1.0
@@ -1360,8 +912,8 @@
 					},
 					{
 						_class = "RenderMeshFile"
-						name = "timkensnubLF"
-						filename = "models/locomotives/laz/trucks/timkensnubLF.smd"
+						name = "trainbrake__15"
+						filename = "models/locomotives/laz/controlstands/kc108/trainbrake_-15.smd"
 						import_translation = [ 0.0, 0.0, 0.0 ]
 						import_rotation = [ 0.0, 0.0, 0.0 ]
 						import_scale = 1.0
@@ -1377,8 +929,8 @@
 					},
 					{
 						_class = "RenderMeshFile"
-						name = "timkensnubLM"
-						filename = "models/locomotives/laz/trucks/timkensnubLM.smd"
+						name = "trainbrake__22_5"
+						filename = "models/locomotives/laz/controlstands/kc108/trainbrake_-22.5.smd"
 						import_translation = [ 0.0, 0.0, 0.0 ]
 						import_rotation = [ 0.0, 0.0, 0.0 ]
 						import_scale = 1.0
@@ -1394,8 +946,8 @@
 					},
 					{
 						_class = "RenderMeshFile"
-						name = "timkensnubLR"
-						filename = "models/locomotives/laz/trucks/timkensnubLR.smd"
+						name = "trainbrake__30"
+						filename = "models/locomotives/laz/controlstands/kc108/trainbrake_-30.smd"
 						import_translation = [ 0.0, 0.0, 0.0 ]
 						import_rotation = [ 0.0, 0.0, 0.0 ]
 						import_scale = 1.0
@@ -1411,8 +963,8 @@
 					},
 					{
 						_class = "RenderMeshFile"
-						name = "timkensnubrecLF"
-						filename = "models/locomotives/laz/trucks/timkensnubrecLF.smd"
+						name = "trainbrake__37_5"
+						filename = "models/locomotives/laz/controlstands/kc108/trainbrake_-37.5.smd"
 						import_translation = [ 0.0, 0.0, 0.0 ]
 						import_rotation = [ 0.0, 0.0, 0.0 ]
 						import_scale = 1.0
@@ -1428,8 +980,8 @@
 					},
 					{
 						_class = "RenderMeshFile"
-						name = "timkensnubrecLM"
-						filename = "models/locomotives/laz/trucks/timkensnubrecLM.smd"
+						name = "trainbrake__45"
+						filename = "models/locomotives/laz/controlstands/kc108/trainbrake_-45.smd"
 						import_translation = [ 0.0, 0.0, 0.0 ]
 						import_rotation = [ 0.0, 0.0, 0.0 ]
 						import_scale = 1.0
@@ -1445,8 +997,8 @@
 					},
 					{
 						_class = "RenderMeshFile"
-						name = "timkensnubrecLR"
-						filename = "models/locomotives/laz/trucks/timkensnubrecLR.smd"
+						name = "trainbrake_50"
+						filename = "models/locomotives/laz/controlstands/kc108/trainbrake_50.smd"
 						import_translation = [ 0.0, 0.0, 0.0 ]
 						import_rotation = [ 0.0, 0.0, 0.0 ]
 						import_scale = 1.0
@@ -1462,8 +1014,8 @@
 					},
 					{
 						_class = "RenderMeshFile"
-						name = "timkensnubrecRF"
-						filename = "models/locomotives/laz/trucks/timkensnubrecRF.smd"
+						name = "trainbrake__52_5"
+						filename = "models/locomotives/laz/controlstands/kc108/trainbrake_-52.5.smd"
 						import_translation = [ 0.0, 0.0, 0.0 ]
 						import_rotation = [ 0.0, 0.0, 0.0 ]
 						import_scale = 1.0
@@ -1479,8 +1031,8 @@
 					},
 					{
 						_class = "RenderMeshFile"
-						name = "timkensnubrecRM"
-						filename = "models/locomotives/laz/trucks/timkensnubrecRM.smd"
+						name = "trainbrake__60"
+						filename = "models/locomotives/laz/controlstands/kc108/trainbrake_-60.smd"
 						import_translation = [ 0.0, 0.0, 0.0 ]
 						import_rotation = [ 0.0, 0.0, 0.0 ]
 						import_scale = 1.0
@@ -1496,8 +1048,8 @@
 					},
 					{
 						_class = "RenderMeshFile"
-						name = "timkensnubrecRR"
-						filename = "models/locomotives/laz/trucks/timkensnubrecRR.smd"
+						name = "trainbrake__67_5"
+						filename = "models/locomotives/laz/controlstands/kc108/trainbrake_-67.5.smd"
 						import_translation = [ 0.0, 0.0, 0.0 ]
 						import_rotation = [ 0.0, 0.0, 0.0 ]
 						import_scale = 1.0
@@ -1513,76 +1065,8 @@
 					},
 					{
 						_class = "RenderMeshFile"
-						name = "timkensnubRF"
-						filename = "models/locomotives/laz/trucks/timkensnubRF.smd"
-						import_translation = [ 0.0, 0.0, 0.0 ]
-						import_rotation = [ 0.0, 0.0, 0.0 ]
-						import_scale = 1.0
-						align_origin_x_type = "None"
-						align_origin_y_type = "None"
-						align_origin_z_type = "None"
-						parent_bone = ""
-						import_filter = 
-						{
-							exclude_by_default = false
-							exception_list = [  ]
-						}
-					},
-					{
-						_class = "RenderMeshFile"
-						name = "timkensnubRM"
-						filename = "models/locomotives/laz/trucks/timkensnubRM.smd"
-						import_translation = [ 0.0, 0.0, 0.0 ]
-						import_rotation = [ 0.0, 0.0, 0.0 ]
-						import_scale = 1.0
-						align_origin_x_type = "None"
-						align_origin_y_type = "None"
-						align_origin_z_type = "None"
-						parent_bone = ""
-						import_filter = 
-						{
-							exclude_by_default = false
-							exception_list = [  ]
-						}
-					},
-					{
-						_class = "RenderMeshFile"
-						name = "timkensnubRR"
-						filename = "models/locomotives/laz/trucks/timkensnubRR.smd"
-						import_translation = [ 0.0, 0.0, 0.0 ]
-						import_rotation = [ 0.0, 0.0, 0.0 ]
-						import_scale = 1.0
-						align_origin_x_type = "None"
-						align_origin_y_type = "None"
-						align_origin_z_type = "None"
-						parent_bone = ""
-						import_filter = 
-						{
-							exclude_by_default = false
-							exception_list = [  ]
-						}
-					},
-					{
-						_class = "RenderMeshFile"
-						name = "wheels_40"
-						filename = "models/locomotives/laz/trucks/wheels_40.smd"
-						import_translation = [ 0.0, 0.0, 0.0 ]
-						import_rotation = [ 0.0, 0.0, 0.0 ]
-						import_scale = 1.0
-						align_origin_x_type = "None"
-						align_origin_y_type = "None"
-						align_origin_z_type = "None"
-						parent_bone = ""
-						import_filter = 
-						{
-							exclude_by_default = false
-							exception_list = [  ]
-						}
-					},
-					{
-						_class = "RenderMeshFile"
-						name = "timkenRM_copy"
-						filename = "models/locomotives/laz/trucks/timkenRM.smd"
+						name = "trainbrake_75"
+						filename = "models/locomotives/laz/controlstands/kc108/trainbrake_-75.smd"
 						import_translation = [ 0.0, 0.0, 0.0 ]
 						import_rotation = [ 0.0, 0.0, 0.0 ]
 						import_scale = 1.0
@@ -1599,28 +1083,488 @@
 				]
 			},
 			{
-				_class = "ModelModifierList"
+				_class = "BodyGroupList"
 				children = 
 				[
 					{
-						_class = "ModelModifier_Translate"
-						translation = [ 0.0, 0.0, -25.0 ]
+						_class = "BodyGroup"
+						name = "Reverser"
+						children = 
+						[
+							{
+								_class = "BodyGroupChoice"
+								name = "reverser_removed"
+								meshes = 
+								[
+									"reverser_removed",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								name = "reverser_r"
+								meshes = 
+								[
+									"reverser_r",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								name = "reverser_n"
+								meshes = 
+								[
+									"reverser_n",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								name = "reverser_f"
+								meshes = 
+								[
+									"reverser_f",
+								]
+							},
+						]
+						hidden_in_tools = false
 					},
-				]
-			},
-			{
-				_class = "PhysicsBodyMarkupList"
-				children = 
-				[
 					{
-						_class = "PhysicsBodyMarkup"
-						target_body = "static_prop"
-						mass_override = 31750.0
-						inertia_scale = 1.0
-						linear_damping = 0.0
-						angular_damping = 0.0
-						use_mass_center_override = false
-						mass_center_override = [ 0.0, 0.0, 0.0 ]
+						_class = "BodyGroup"
+						name = "Throttle"
+						children = 
+						[
+							{
+								_class = "BodyGroupChoice"
+								name = "throttle_idle"
+								meshes = 
+								[
+									"throttle_idle",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								name = "throttle_1"
+								meshes = 
+								[
+									"throttle_1",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								name = "throttle_2"
+								meshes = 
+								[
+									"throttle_2",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								name = "throttle_3"
+								meshes = 
+								[
+									"throttle_3",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								name = "throttle_4"
+								meshes = 
+								[
+									"throttle_4",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								name = "throttle_5"
+								meshes = 
+								[
+									"throttle_5",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								name = "throttle_6"
+								meshes = 
+								[
+									"throttle_6",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								name = "throttle_7"
+								meshes = 
+								[
+									"throttle_7",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								name = "throttle_8"
+								meshes = 
+								[
+									"throttle_8",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								name = "shutupshutupshutup"
+								meshes = 
+								[
+									"shutupshutupshutup",
+								]
+							},
+						]
+						hidden_in_tools = false
+					},
+					{
+						_class = "BodyGroup"
+						name = "Dynamic_Brakes"
+						children = 
+						[
+							{
+								_class = "BodyGroupChoice"
+								name = "dyn_off"
+								meshes = 
+								[
+									"dyn_off",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								name = "dyn_setup"
+								meshes = 
+								[
+									"dyn_setup",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								name = "dyn_1"
+								meshes = 
+								[
+									"dyn_1",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								name = "dyn_2"
+								meshes = 
+								[
+									"dyn_2",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								name = "dyn_3"
+								meshes = 
+								[
+									"dyn_3",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								name = "dyn_4"
+								meshes = 
+								[
+									"dyn_4",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								name = "dyn_5"
+								meshes = 
+								[
+									"dyn_5",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								name = "dyn_6"
+								meshes = 
+								[
+									"dyn_6",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								name = "dyn_7"
+								meshes = 
+								[
+									"dyn_7",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								name = "dyn_8"
+								meshes = 
+								[
+									"dyn_8",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								name = "controller_dyn_none"
+								meshes = 
+								[
+									"controller_dyn_none",
+								]
+							},
+						]
+						hidden_in_tools = false
+					},
+					{
+						_class = "BodyGroup"
+						name = "Train_Brake"
+						children = 
+						[
+							{
+								_class = "BodyGroupChoice"
+								name = "trainbrake_75"
+								meshes = 
+								[
+									"trainbrake_75",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								name = "trainbrake__67_5"
+								meshes = 
+								[
+									"trainbrake__67_5",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								name = "trainbrake__60"
+								meshes = 
+								[
+									"trainbrake__60",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								name = "trainbrake__52_5"
+								meshes = 
+								[
+									"trainbrake__52_5",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								name = "trainbrake__45"
+								meshes = 
+								[
+									"trainbrake__45",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								name = "trainbrake__37_5"
+								meshes = 
+								[
+									"trainbrake__37_5",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								name = "trainbrake__30"
+								meshes = 
+								[
+									"trainbrake__30",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								name = "trainbrake__22_5"
+								meshes = 
+								[
+									"trainbrake__22_5",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								name = "trainbrake__15"
+								meshes = 
+								[
+									"trainbrake__15",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								name = "trainbrake__7_5"
+								meshes = 
+								[
+									"trainbrake__7_5",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								name = "trainbrake_0"
+								meshes = 
+								[
+									"trainbrake_0",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								name = "trainbrake_50"
+								meshes = 
+								[
+									"trainbrake_50",
+								]
+							},
+						]
+						hidden_in_tools = false
+					},
+					{
+						_class = "BodyGroup"
+						name = "Independent_Brake"
+						children = 
+						[
+							{
+								_class = "BodyGroupChoice"
+								name = "indbrake_bail"
+								meshes = 
+								[
+									"indbrake_bail",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								name = "indbrake__15"
+								meshes = 
+								[
+									"indbrake__15",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								name = "indbrake_0"
+								meshes = 
+								[
+									"indbrake_0",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								name = "indbrake_15"
+								meshes = 
+								[
+									"indbrake_15",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								name = "indbrake_30"
+								meshes = 
+								[
+									"indbrake_30",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								name = "indbrake_45"
+								meshes = 
+								[
+									"indbrake_45",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								name = "indbrake_60"
+								meshes = 
+								[
+									"indbrake_60",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								name = "indbrake_75"
+								meshes = 
+								[
+									"indbrake_75",
+								]
+							},
+						]
+						hidden_in_tools = false
+					},
+					{
+						_class = "BodyGroup"
+						name = "Horn"
+						children = 
+						[
+							{
+								_class = "BodyGroupChoice"
+								name = "horn_off"
+								meshes = 
+								[
+									"horn_off",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								name = "horn_quill"
+								meshes = 
+								[
+									"horn_quill",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								name = "horn_full"
+								meshes = 
+								[
+									"horn_full",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								name = "horn_cord"
+								meshes = 
+								[
+									"horn_cord",
+								]
+							},
+						]
+						hidden_in_tools = false
+					},
+					{
+						_class = "BodyGroup"
+						name = "Gaugen"
+						children = 
+						[
+							{
+								_class = "BodyGroupChoice"
+								name = "gauges_x0"
+								meshes = 
+								[
+									"gauges_x0",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								name = "gauges_x3a"
+								meshes = 
+								[
+									"gauges_x3a",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								name = "gauges_x3b"
+								meshes = 
+								[
+									"gauges_x3b",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								name = "gauges_x4"
+								meshes = 
+								[
+									"gauges_x4",
+								]
+							},
+						]
+						hidden_in_tools = false
 					},
 				]
 			},
@@ -1630,8 +1574,8 @@
 				[
 					{
 						_class = "Bounds Hull"
-						mins = [ -55.375, -106.0, -51.25 ]
-						maxs = [ 58.125, 106.0, 8.0 ]
+						mins = [ -19.25, -6.25, -0.25 ]
+						maxs = [ 19.25, 17.5, 44.562 ]
 					},
 				]
 			},
