@@ -19,7 +19,7 @@ public partial class BogieEntity : Prop
 		
 		base.Spawn();
         
-		SetupPhysicsFromModel(PhysicsMotionType.Dynamic, true);
+		SetupPhysicsFromModel(PhysicsMotionType.Dynamic,false);
 		this.EnableAllCollisions = true;
 		//this.CollisionGroup = CollisionGroup.Trigger;
 		//this.SetInteractsWith(CollisionLayer.WORLD_GEOMETRY | CollisionLayer.Player);
