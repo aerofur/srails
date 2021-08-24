@@ -26,6 +26,10 @@ public partial class EntityList : Panel
 			{
 				btn.AddEventListener( "onclick", () => ConsoleSystem.Run( "spawn_locomotive", entry.Name ) );
 			}
+			else if(entry.Name == "ent_testcube")
+			{
+				btn.AddEventListener( "onclick", () => ConsoleSystem.Run( "spawn_testcube", entry.Name ) );
+			}
 			else
 			{
 				btn.AddEventListener( "onclick", () => ConsoleSystem.Run( "spawn_entity", entry.Name ) );
