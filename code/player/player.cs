@@ -48,7 +48,7 @@ partial class LocalPlayer : Player
 
 	public ICamera GetActiveCamera()
 	{
-		if(MainCamera is ThirdPersonCamera) return MainCamera;
+		if(MainCamera is PlayerCameraThirdperson) return MainCamera;
 		if(VehicleCamera != null) return VehicleCamera;
 
 		return MainCamera;
