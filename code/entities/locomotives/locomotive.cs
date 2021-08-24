@@ -7,6 +7,7 @@ public partial class LocomotiveEntity : Prop, IUse
 	[Net] public Player driver {get; private set;}
 	private TimeSince timeSinceDriverLeft;
 	private LocomotiveSeatEntity driverseat;
+	private LocomotiveControlstand controlstand;
 
 	public override void Spawn()
 	{
@@ -16,7 +17,7 @@ public partial class LocomotiveEntity : Prop, IUse
 		base.Spawn();
 
 		SetModel("models/locomotives/laz/ge/b40_8/b40-8.vmdl");
-		SetupPhysicsFromModel(PhysicsMotionType.Dynamic, false);
+		SetupPhysicsFromModel(PhysicsMotionType.Dynamic,false);
 		SetupPhysics();
 
 		driverseat = new LocomotiveSeatEntity
@@ -27,6 +28,15 @@ public partial class LocomotiveEntity : Prop, IUse
 
 		driverseat.SetModel("models/locomotives/magtrainslocos/cabseats/cabseat_retrofit.vmdl");
 		driverseat.SetParent(this,"seat",new Transform(Vector3.Zero,Rotation.From(0,0,0)));
+
+		controlstand = new LocomotiveControlstand
+		{
+			Position = this.Position,
+			Rotation = Rotation.From(new Angles(0,this.Rotation.Yaw(),0)),
+		};
+
+		controlstand.SetModel("models/locomotives/laz/controlstands/kc108/kc108.vmdl");
+		controlstand.SetParent(this,"seat",new Transform(Vector3.Zero,Rotation.From(0,0,0)));
 	}
 
 	public void SetupPhysics()
@@ -101,8 +111,8 @@ public partial class LocomotiveEntity : Prop, IUse
 			RemoveDriver(player);
 		}
 	}
-
-	public override void Simulate( Client owner )
+	
+	public override void Simulate(Client owner)
 	{
 		if(owner == null) return;
 		if(!IsServer) return;
