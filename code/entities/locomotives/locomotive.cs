@@ -72,14 +72,14 @@ public partial class LocomotiveEntity : Prop, IUse
 		rearbogie.SetModel("models/locomotives/laz/trucks/fb3.vmdl");
 
 		frontbogie.Joint = PhysicsJoint.Revolute
-			.From(frontbogie.PhysicsBody, new Vector3(0,0,0))
+			.From(frontbogie.PhysicsBody, Vector3.Zero)
 			.To(this.PhysicsBody, new Vector3(0,0,-240))
 			.WithPivot(frontbogie.Position)
 			.WithBasis(Rotation.From(new Angles(0,90,0)))
 			.Create();
 
 		rearbogie.Joint = PhysicsJoint.Revolute
-			.From(rearbogie.PhysicsBody, new Vector3(0,0,0))
+			.From(rearbogie.PhysicsBody, Vector3.Zero)
 			.To(this.PhysicsBody, new Vector3(0,0,242))
 			.WithPivot(rearbogie.Position)
 			.WithBasis(Rotation.From(new Angles(0,90,0)))
@@ -87,14 +87,14 @@ public partial class LocomotiveEntity : Prop, IUse
 
 		/*
 		frontbogie.Joint = PhysicsJoint.Generic
-			.From(frontbogie.PhysicsBody, new Vector3(0,0,0))
+			.From(frontbogie.PhysicsBody, Vector3.Zero)
 			.To(this.PhysicsBody, new Vector3(0,0,-240))
 			//.WithMinRestLength(0)
 			//.WithMaxRestLength(10)
 			.Create();
 
 		rearbogie.Joint = PhysicsJoint.Generic
-			.From(rearbogie.PhysicsBody, new Vector3(0,0,0))
+			.From(rearbogie.PhysicsBody, Vector3.Zero)
 			.To(this.PhysicsBody, new Vector3(0,0,242))
 			//.WithMinRestLength(0)
 			//.WithMaxRestLength(10)
