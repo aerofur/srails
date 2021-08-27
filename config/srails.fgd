@@ -143,6 +143,53 @@
 ]
 
 // 
+// tp3_switch : Sandbox.AnimEntity 
+// 
+@PointClass model() = tp3_switch : "Trakpak3 Switch Entity"
+[
+	model(studio) [report]: "World Model" : "" : "The model this entity should use."
+	skin(materialgroup) [ group="Render Properties" ] : "Skin" : "default" : "Some models have multiple versions of their textures, called skins." 
+	bodygroups(bodygroupchoices) [ group="Render Properties" ] : "Body Groups" : "" : "Some models have multiple variations of certain items, such as characters having different hair styles, etc."
+	rendercolor(color255) : "FX Color (R G B)" : "255 255 255" : "The FX color is used by the selected Render Mode."
+	renderamt(integer) [ group="Render Properties" ] : "FX Amount (0 - 255)" : 255 : "The FX amount is used by the selected Render Mode."
+	targetname(target_source) : "Name" : : "The name that other entities refer to this entity by."
+	parentname(target_destination) [ group="Hierarchy" ] : "Parent" : : "The name of this entity's parent in the movement hierarchy. Entities with parents move with their parent."
+	seq_idle(string) : "Idle Seq" : "idle" : "The sequence to use when the switch is in its normal position (idle)."
+	seq_throw(string) : "Throw Seq" : "throw" : "The sequence to use when the switch is being thrown Diverging/Reverse."
+	track_mn(studio) : "Model MN" : "" : "The model to use when the switch is in Main/Normal position."
+	track_dv(studio) : "Model DV" : "" : "The model to use when the switch is in Diverging/Reverse position."
+	enable_shadows(boolean) [ group="Render Properties" ] : "Shadow Casting" : 1 : "Whether this entity should cast shadows or not"
+
+	input SetColor(string) : "Sets the color of this entity. Format is '255 255 255 255'."
+]
+
+// 
+// tp3_switch_lever_anim : Sandbox.AnimEntity 
+// 
+@PointClass model() = tp3_switch_lever_anim : "Trakpak3 Switchstand Entity"
+[
+	model(studio) [report]: "World Model" : "" : "The model this entity should use."
+	skin(materialgroup) [ group="Render Properties" ] : "Skin" : "default" : "Some models have multiple versions of their textures, called skins." 
+	bodygroups(bodygroupchoices) [ group="Render Properties" ] : "Body Groups" : "" : "Some models have multiple variations of certain items, such as characters having different hair styles, etc."
+	rendercolor(color255) : "FX Color (R G B)" : "255 255 255" : "The FX color is used by the selected Render Mode."
+	renderamt(integer) [ group="Render Properties" ] : "FX Amount (0 - 255)" : 255 : "The FX amount is used by the selected Render Mode."
+	targetname(target_source) : "Name" : : "The name that other entities refer to this entity by."
+	parentname(target_destination) [ group="Hierarchy" ] : "Parent" : : "The name of this entity's parent in the movement hierarchy. Entities with parents move with their parent."
+	seq_idle_close(string) : "Idle Main/Normal Seq" : "idle_close" : "The default sequence to use when the switch is locked in its Main/Normal position."
+	seq_idle_open(string) : "Idle Diverging/Reverse Seq" : "idle_open" : "The sequence to use when the switch is locked in its Diverging/Reverse position."
+	seq_throw_open(string) : "Throw Diverging/Reverse Seq" : "throw_open" : "The sequence to use when the switch is being thrown Diverging/Reverse."
+	seq_throw_close(string) : "Throw Main/Normal Seq" : "throw_close" : "The sequence to use when the switch is being thrown Main/Normal."
+	targetstate(choices) : "Initial Position" : 0 : "The lever will throw itself to this position immediately when the map starts." = [
+		0 : "Main"
+		1 : "Diverging"
+	]
+	targetswitch(target_destination) : "Target Switch" :  : "The switch you are wanting to change/target (switch requires a name)."
+	enable_shadows(boolean) [ group="Render Properties" ] : "Shadow Casting" : 1 : "Whether this entity should cast shadows or not"
+
+	input SetColor(string) : "Sets the color of this entity. Format is '255 255 255 255'."
+]
+
+// 
 // LocomotiveControlstand : Sandbox.Prop 
 // 
 @PointClass model() = ent_locomotive_controlstand : ""
