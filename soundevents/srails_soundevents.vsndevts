@@ -1,0 +1,135 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
+{
+	"trakpak3.derail.clang" = 
+	{
+		type = "src1_3d"
+		volume = 1.0
+        pitch = 1.0
+        delay = 0.0
+        use_hrtf = 0.0
+		vsnd_files = "sounds/trakpak3/switchstands/manual/derail_clang.vsnd"
+	}
+
+	"trakpak3.switchstand.latch_lift" = 
+	{
+		type = "src1_3d"
+		volume = 1.0
+        pitch = 1.0
+        delay = 0.0
+        use_hrtf = 0.0
+		vsnd_files = "sounds/trakpak3/switchstands/manual/latch_lift.vsnd"
+	}
+
+	"trakpak3.switchstand.latch_drop" = 
+	{
+		type = "src1_3d"
+		volume = 1.0
+        pitch = 1.0
+        delay = 0.0
+        use_hrtf = 0.0
+		vsnd_files = "sounds/trakpak3/switchstands/manual/latch_drop.vsnd"
+	}
+
+	"trakpak3.switchstand.latch_contact" = 
+	{
+		type = "src1_3d"
+		volume = 1.0
+        pitch = 1.0
+        delay = 0.0
+        use_hrtf = 0.0
+		vsnd_files = "sounds/trakpak3/switchstands/manual/latch_contact.vsnd"
+	}
+
+	"trakpak3.switchstand.latch_close" = 
+	{
+		type = "src1_3d"
+		volume = 1.0
+        pitch = 1.0
+        delay = 0.0
+        use_hrtf = 0.0
+		vsnd_files = "sounds/trakpak3/switchstands/manual/latch_close.vsnd"
+	}
+    
+	"trakpak3.switchstand.lever_hittop" = 
+	{
+		type = "src1_3d"
+		volume = 1.0
+        pitch = 1.0
+        delay = 0.0
+        use_hrtf = 0.0
+		vsnd_files = "sounds/trakpak3/switchstands/manual/lever_hittop.vsnd"
+	}
+
+	"trakpak3.switchstand.lever_hitbottom" = 
+	{
+		type = "src1_3d"
+		volume = 1.0
+        pitch = 1.0
+        delay = 0.0
+        use_hrtf = 0.0
+		vsnd_files = "sounds/trakpak3/switchstands/manual/latch_lift.vsnd"
+	}
+
+	"trakpak3.switchstand.blades_close_a" = 
+	{
+		type = "src1_3d"
+		volume = 1.0
+        pitch = 1.0
+        delay = 0.0
+        use_hrtf = 0.0
+		vsnd_files = [
+            "sounds/trakpak3/switchstands/manual/manualjunctiona01.vsnd",
+            "sounds/trakpak3/switchstands/manual/manualjunctiona02.vsnd",
+            "sounds/trakpak3/switchstands/manual/manualjunctiona03.vsnd",
+            "sounds/trakpak3/switchstands/manual/manualjunctiona04.vsnd",
+            "sounds/trakpak3/switchstands/manual/manualjunctiona05.vsnd",
+            "sounds/trakpak3/switchstands/manual/manualjunctiona06.vsnd",
+            "sounds/trakpak3/switchstands/manual/manualjunctiona07.vsnd",
+            "sounds/trakpak3/switchstands/manual/manualjunctiona08.vsnd",
+            "sounds/trakpak3/switchstands/manual/manualjunctiona09.vsnd",
+        ]
+	}
+
+	"trakpak3.switchstand.blades_close_b" = 
+	{
+		type = "src1_3d"
+		volume = 1.0
+        pitch = 1.0
+        delay = 0.0
+        use_hrtf = 0.0
+		vsnd_files = [
+            "sounds/trakpak3/switchstands/manual/manualjunctionb01.vsnd",
+            "sounds/trakpak3/switchstands/manual/manualjunctionb02.vsnd",
+            "sounds/trakpak3/switchstands/manual/manualjunctionb03.vsnd",
+            "sounds/trakpak3/switchstands/manual/manualjunctionb04.vsnd",
+            "sounds/trakpak3/switchstands/manual/manualjunctionb05.vsnd",
+            "sounds/trakpak3/switchstands/manual/manualjunctionb06.vsnd",
+            "sounds/trakpak3/switchstands/manual/manualjunctionb07.vsnd",
+            "sounds/trakpak3/switchstands/manual/manualjunctionb08.vsnd",
+        ]
+	}
+
+	"trakpak3.switchstand.machine_lv" = 
+	{
+		type = "src1_3d"
+		volume = 1.0
+        pitch = 1.0
+        delay = 0.0
+        use_hrtf = 0.0
+		vsnd_files = "sounds/trakpak3/switchstands/switchmachine/throw_lv.vsnd"
+	}
+
+	"trakpak3.switchstand.machine_hv" = 
+	{
+		type = "src1_3d"
+		volume = 1.0
+        pitch = 1.0
+        delay = 0.0
+        use_hrtf = 0.0
+		vsnd_files = "sounds/trakpak3/switchstands/switchmachine/throw_hv.vsnd"
+	}
+	hlvr.global_stack = 
+	{
+		type = "hlvr_global_stack"
+	}
+}
