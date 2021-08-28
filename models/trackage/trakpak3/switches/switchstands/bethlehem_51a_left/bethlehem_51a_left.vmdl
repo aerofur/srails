@@ -857,18 +857,6 @@
 							{
 								_class = "AnimEvent"
 								event_class = "AE_CL_PLAYSOUND"
-								event_frame = 72
-								event_keys = 
-								{
-									name = "trakpak3.switchstand.blades_close_a"
-									stop_on_seq_change = false
-									use_layer_sequence = false
-									tags = ""
-								}
-							},
-							{
-								_class = "AnimEvent"
-								event_class = "AE_CL_PLAYSOUND"
 								event_frame = 95
 								event_keys = 
 								{
@@ -931,7 +919,7 @@
 								event_frame = 72
 								event_keys = 
 								{
-									name = "trakpak3.switchstand.blades_close_a"
+									name = "trakpak3.switchstand.latch_contact"
 									stop_on_seq_change = false
 									use_layer_sequence = false
 									tags = ""

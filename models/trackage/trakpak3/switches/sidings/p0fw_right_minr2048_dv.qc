@@ -1,10 +1,10 @@
 // Created by Crowbar 0.68
 
-$modelname "trakpak3_rsg/switches/sidings/p0fw_right_minr2048_+0768x00000_+1536x+0192_dv.mdl"
+$modelname "trakpak3_rsg/switches/sidings/p0fw_right_minr2048_+1536x00000_+1536x+0192_dv.mdl"
 
 $bodygroup "Body"
 {
-	studio "p0fw_right_minr2048_+0768x00000_+1536x+0192_dv_ref.smd"
+	studio "p0fw_right_minr2048_+1536x00000_+1536x+0192_dv_ref.smd"
 }
 
 
@@ -40,7 +40,7 @@ $texturegroup "skinfamilies"
 	{ "singletie_conc_clean_plates" "singletie_conc_clean_noplates" "ballast_limestone"       "ballast_limestone" }
 }
 
-$attachment "autopoint1" "static_prop" 0 832 0 rotate 0 0 0
+$attachment "autopoint1" "static_prop" 0 1600 0 rotate 0 0 0
 $attachment "frog1" "static_prop" 28 586 -7 rotate 0 0 0
 $attachment "bladecenter1" "static_prop" 0 0 -7 rotate 0 0 0
 
@@ -53,20 +53,20 @@ $definebone "blades" "" 0 0 0 0 0 0 0 0 0 0 0 0
 
 
 $sequence "idle" {
-	"p0fw_right_minr2048_+0768x00000_+1536x+0192_dv_anims\idle.smd"
+	"p0fw_right_minr2048_+1536x00000_+1536x+0192_dv_anims\idle.smd"
 	fadein 0.2
 	fadeout 0.2
 	fps 30
 }
 
 $sequence "throw" {
-	"p0fw_right_minr2048_+0768x00000_+1536x+0192_dv_anims\throw.smd"
+	"p0fw_right_minr2048_+1536x00000_+1536x+0192_dv_anims\throw.smd"
 	fadein 0.2
 	fadeout 0.2
 	fps 2
 }
 
-$collisionmodel "p0fw_right_minr2048_+0768x00000_+1536x+0192_dv_physics.smd"
+$collisionmodel "p0fw_right_minr2048_+1536x00000_+1536x+0192_dv_physics.smd"
 {
 	$mass 50000
 	$inertia 1
