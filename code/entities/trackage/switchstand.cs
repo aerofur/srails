@@ -11,6 +11,7 @@ using System.Text.Json.Serialization;
 public partial class tp3_switch_lever_anim : AnimEntity, IUse
 {
 	private TimeSince timeSinceThrow;
+	//private tp3_switch SwitchEntity;
 
 	/// <summary>
 	/// The default sequence to use when the switch is locked in its Main/Normal position.
@@ -74,7 +75,8 @@ public partial class tp3_switch_lever_anim : AnimEntity, IUse
 	
 	public async void Throw()
 	{
-		tp3_switch SwitchEntity = (tp3_switch)Entity.FindByName(targetswitch);
+		tp3_switch SwitchEntity = (tp3_switch) Entity.FindByName(targetswitch);
+		AnimateSwitch(SwitchEntity);
 
 		if(CurrentSequence.Name == seq_idle_close)
 		{
@@ -91,6 +93,26 @@ public partial class tp3_switch_lever_anim : AnimEntity, IUse
 			CurrentSequence.Name = seq_idle_close;
 		}		
 	}
+
+	public async void AnimateSwitch(tp3_switch SwitchEntity)
+	{
+		float[,] plots = new float[,] {
+			{0,0.0f},
+			{15,0.0f},
+			{50,0.55f},
+			{65,0.6f},
+			{73,0.95f},
+			{90,0.95f},
+			{95,1.0f},
+			{100,1.0f}
+		};
+
+		for (int i = 0; i < plots.GetLength(0); i++)
+		{
+			SwitchEntity.SwitchSetCycle((15*plots[i,1])/-(i > 0 ? plots[i-1,0]-plots[i,0] : plots[i,0]));
+			await Task.DelaySeconds(-(i > 0 ? plots[i-1,0]-plots[i,0] : plots[i,0])/30);
+		}
+	}	
 
 	public bool IsUsable(Entity user)
 	{

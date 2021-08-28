@@ -22,6 +22,18 @@ public partial class tp3_switch : AnimEntity
 	[Property("seq_throw", Title = "Throw Seq")]
 	public string seq_throw {get; set;} = "throw";
 
+	public enum InitalPosition
+	{
+		Main,
+		Diverging
+	}
+
+	/// <summary>
+	/// The lever will throw itself to this position immediately when the map starts.
+	/// </summary>
+	[Property("targetstate", Title = "Initial Position")]
+	public InitalPosition targetstate {get; set;} = InitalPosition.Main;
+
 	/// <summary>
 	/// The model to use when the switch is in Main/Normal position.
 	/// </summary>
@@ -37,6 +49,7 @@ public partial class tp3_switch : AnimEntity
 	public override void Spawn()
 	{
 		base.Spawn();
+		SetModel(targetstate == InitalPosition.Main ? track_mn : track_dv);
 		SetupPhysicsFromModel(PhysicsMotionType.Dynamic,false);
         CurrentSequence.Name = seq_idle;
 	}
@@ -45,17 +58,29 @@ public partial class tp3_switch : AnimEntity
     {
         if(Diverging)
         {
+			//await Task.DelaySeconds(1);
             CurrentSequence.Name = seq_throw;
-            await Task.DelaySeconds(CurrentSequence.Duration);
+            await Task.DelaySeconds(CurrentSequence.Duration/this.PlaybackRate);
             SetModel(track_dv);
             CurrentSequence.Name = seq_idle;
         }
         else
         {
+			//await Task.DelaySeconds(1);
             CurrentSequence.Name = seq_throw;
-            await Task.DelaySeconds(CurrentSequence.Duration);
+            await Task.DelaySeconds(CurrentSequence.Duration/this.PlaybackRate);
             SetModel(track_mn);
             CurrentSequence.Name = seq_idle;
         }
     }
+
+	public void SwitchSetCycle(float cycle)
+	{
+		this.PlaybackRate = cycle;
+	}
+
+	public void SwitchSetTarget(bool Diverging){
+		//SetModel(Diverging == true ? track_dv : track_mn);
+		Log.Trace("yrp i ran cool baby YESSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS");
+	}
 }
