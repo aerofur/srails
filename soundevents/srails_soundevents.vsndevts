@@ -13,7 +13,7 @@
 	"trakpak3.switchstand.latch_lift" = 
 	{
 		type = "src1_3d"
-		volume = 1.0
+		volume = 0.2
         pitch = 1.0
         delay = 0.0
         use_hrtf = 0.0
@@ -23,7 +23,7 @@
 	"trakpak3.switchstand.latch_drop" = 
 	{
 		type = "src1_3d"
-		volume = 1.0
+		volume = 0.2
         pitch = 1.0
         delay = 0.0
         use_hrtf = 0.0
@@ -33,7 +33,7 @@
 	"trakpak3.switchstand.latch_contact" = 
 	{
 		type = "src1_3d"
-		volume = 1.0
+		volume = 0.2
         pitch = 1.0
         delay = 0.0
         use_hrtf = 0.0
@@ -43,7 +43,7 @@
 	"trakpak3.switchstand.latch_close" = 
 	{
 		type = "src1_3d"
-		volume = 1.0
+		volume = 0.2
         pitch = 1.0
         delay = 0.0
         use_hrtf = 0.0
