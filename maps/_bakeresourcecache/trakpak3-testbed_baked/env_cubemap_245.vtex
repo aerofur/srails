@@ -6,7 +6,7 @@
 		"CDmeInputTexture"
 		{
 			"m_name" "string" "inputTexture0"
-			"m_fileName" "string" "maps/_bakeresourcecache/trakpak3-testbed_baked/env_cubemap_29.exr"
+			"m_fileName" "string" "maps/_bakeresourcecache/trakpak3-testbed_baked/env_cubemap_245.exr"
 			"m_colorSpace" "string" "linear"
 			"m_fileExt" "string" ""
 			"m_nMinBitsPerChannel" "int" "-1"
