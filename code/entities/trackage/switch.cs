@@ -58,7 +58,7 @@ public partial class tp3_switch : AnimEntity
     {
         if(Diverging)
         {
-			//await Task.DelaySeconds(1);
+			await Task.DelaySeconds(1); //I have no idea why this is here but it doesnt work without it
             CurrentSequence.Name = seq_throw;
             await Task.DelaySeconds(CurrentSequence.Duration/this.PlaybackRate);
             SetModel(track_dv);
@@ -66,7 +66,7 @@ public partial class tp3_switch : AnimEntity
         }
         else
         {
-			//await Task.DelaySeconds(1);
+			await Task.DelaySeconds(1);
             CurrentSequence.Name = seq_throw;
             await Task.DelaySeconds(CurrentSequence.Duration/this.PlaybackRate);
             SetModel(track_mn);
@@ -77,10 +77,5 @@ public partial class tp3_switch : AnimEntity
 	public void SwitchSetCycle(float cycle)
 	{
 		this.PlaybackRate = cycle;
-	}
-
-	public void SwitchSetTarget(bool Diverging){
-		//SetModel(Diverging == true ? track_dv : track_mn);
-		Log.Trace("yrp i ran cool baby YESSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS");
 	}
 }

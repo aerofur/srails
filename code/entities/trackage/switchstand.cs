@@ -11,7 +11,6 @@ using System.Text.Json.Serialization;
 public partial class tp3_switch_lever_anim : AnimEntity, IUse
 {
 	private TimeSince timeSinceThrow;
-	//private tp3_switch SwitchEntity;
 
 	/// <summary>
 	/// The default sequence to use when the switch is locked in its Main/Normal position.
@@ -54,6 +53,13 @@ public partial class tp3_switch_lever_anim : AnimEntity, IUse
 	/// </summary>
 	[Property("targetswitch", Title = "Target Switch", FGDType = "target_destination")]
 	public string targetswitch {get; set;}
+
+	/// <summary>
+	/// Interconnected Switches, all switchstands with the same Switchgroup Identifier will all switch in unison.
+	/// This can be used for linking two switchstands to one switch, or other crazy ideas.
+	/// </summary>
+	[Property("switchgroup", Title = "Switch Group")]
+	public string tp3group {get; set;} = "";
 
 	public override void Spawn()
 	{
@@ -112,7 +118,7 @@ public partial class tp3_switch_lever_anim : AnimEntity, IUse
 			SwitchEntity.SwitchSetCycle((15*plots[i,1])/-(i > 0 ? plots[i-1,0]-plots[i,0] : plots[i,0]));
 			await Task.DelaySeconds(-(i > 0 ? plots[i-1,0]-plots[i,0] : plots[i,0])/30);
 		}
-	}	
+	}
 
 	public bool IsUsable(Entity user)
 	{

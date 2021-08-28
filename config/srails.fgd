@@ -188,6 +188,7 @@
 		1 : "Diverging"
 	]
 	targetswitch(target_destination) : "Target Switch" :  : "The switch you are wanting to change/target (switch requires a name)."
+	switchgroup(string) : "Switch Group" : "" : "Interconnected Switches, all switchstands with the same Switchgroup Identifier will all switch in unison. This can be used for linking two switchstands to one switch, or other crazy ideas."
 	enable_shadows(boolean) [ group="Render Properties" ] : "Shadow Casting" : 1 : "Whether this entity should cast shadows or not"
 
 	input SetColor(string) : "Sets the color of this entity. Format is '255 255 255 255'."
