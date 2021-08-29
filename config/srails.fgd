@@ -35,7 +35,7 @@
 ]
 
 // 
-// BogieEntity : Sandbox.Prop 
+// srails.BogieEntity : Sandbox.Prop 
 // 
 @PointClass model() = ent_bogie : ""
 [
@@ -62,7 +62,7 @@
 ]
 
 // 
-// LocomotiveEntity : Sandbox.Prop 
+// srails.LocomotiveEntity : Sandbox.Prop 
 // 
 @PointClass model() = ent_locomotive : ""
 [
@@ -89,7 +89,7 @@
 ]
 
 // 
-// LocomotiveSeatEntity : Sandbox.Prop 
+// srails.LocomotiveSeatEntity : Sandbox.Prop 
 // 
 @PointClass model() = ent_locomotive_seat : ""
 [
@@ -116,7 +116,7 @@
 ]
 
 // 
-// TestcubeEntity : Sandbox.Prop 
+// srails.TestcubeEntity : Sandbox.Prop 
 // 
 @PointClass model() = ent_testcube : ""
 [
@@ -143,7 +143,7 @@
 ]
 
 // 
-// tp3_switch : Sandbox.AnimEntity 
+// srails.tp3_switch : Sandbox.AnimEntity 
 // 
 @PointClass model() = tp3_switch : "Trakpak3 Switch Entity"
 [
@@ -168,7 +168,7 @@
 ]
 
 // 
-// tp3_switch_lever_anim : Sandbox.AnimEntity 
+// srails.tp3_switch_lever_anim : Sandbox.AnimEntity 
 // 
 @PointClass model() = tp3_switch_lever_anim : "Trakpak3 Switchstand Entity"
 [
@@ -195,7 +195,7 @@
 ]
 
 // 
-// LocomotiveControlstand : Sandbox.Prop 
+// srails.LocomotiveControlstand : Sandbox.Prop 
 // 
 @PointClass model() = ent_locomotive_controlstand : ""
 [
@@ -222,7 +222,7 @@
 ]
 
 // 
-// LocomotiveGauge : Sandbox.Prop 
+// srails.LocomotiveGauge : Sandbox.Prop 
 // 
 @PointClass model() = ent_locomotive_gauge : ""
 [
