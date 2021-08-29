@@ -10,19 +10,19 @@ namespace srails
 	[Library("tp3_switch")]
 	[Hammer.Model]
 	[Hammer.RenderFields]
-	public partial class tp3_switch : AnimEntity
+	public partial class Tp3_switch : AnimEntity
 	{
 		/// <summary>
 		/// The sequence to use when the switch is in its normal position (idle).
 		/// </summary>
 		[Property("seq_idle", Title = "Idle Seq")]
-		public string seq_idle {get; set;} = "idle";
+		public string Seq_idle {get; set;} = "idle";
 
 		/// <summary>
 		/// The sequence to use when the switch is being thrown Diverging/Reverse.
 		/// </summary>
 		[Property("seq_throw", Title = "Throw Seq")]
-		public string seq_throw {get; set;} = "throw";
+		public string Seq_throw {get; set;} = "throw";
 
 		public enum InitalPosition
 		{
@@ -34,26 +34,26 @@ namespace srails
 		/// The lever will throw itself to this position immediately when the map starts.
 		/// </summary>
 		[Property("targetstate", Title = "Initial Position")]
-		public InitalPosition targetstate {get; set;} = InitalPosition.Main;
+		public InitalPosition Targetstate {get; set;} = InitalPosition.Main;
 
 		/// <summary>
 		/// The model to use when the switch is in Main/Normal position.
 		/// </summary>
 		[Property("track_mn", Title = "Model MN", FGDType = "studio")]
-		public string track_mn {get; set;} = "";
+		public string Track_mn {get; set;} = "";
 
 		/// <summary>
 		/// The model to use when the switch is in Diverging/Reverse position.
 		/// </summary>
 		[Property("track_dv", Title = "Model DV", FGDType = "studio")]
-		public string track_dv {get; set;} = "";
+		public string Track_dv {get; set;} = "";
 
 		public override void Spawn()
 		{
 			base.Spawn();
-			SetModel(targetstate == InitalPosition.Main ? track_mn : track_dv);
+			SetModel(Targetstate == InitalPosition.Main ? Track_mn : Track_dv);
 			SetupPhysicsFromModel(PhysicsMotionType.Dynamic,false);
-			CurrentSequence.Name = seq_idle;
+			CurrentSequence.Name = Seq_idle;
 		}
 
 		public async void SwitchThrow(bool Diverging)
@@ -61,18 +61,18 @@ namespace srails
 			if(Diverging)
 			{
 				await Task.DelaySeconds(1); //I have no idea why this is here but it doesnt work without it
-				CurrentSequence.Name = seq_throw;
+				CurrentSequence.Name = Seq_throw;
 				await Task.DelaySeconds(CurrentSequence.Duration/this.PlaybackRate);
-				SetModel(track_dv);
-				CurrentSequence.Name = seq_idle;
+				SetModel(Track_dv);
+				CurrentSequence.Name = Seq_idle;
 			}
 			else
 			{
 				await Task.DelaySeconds(1);
-				CurrentSequence.Name = seq_throw;
+				CurrentSequence.Name = Seq_throw;
 				await Task.DelaySeconds(CurrentSequence.Duration/this.PlaybackRate);
-				SetModel(track_mn);
-				CurrentSequence.Name = seq_idle;
+				SetModel(Track_mn);
+				CurrentSequence.Name = Seq_idle;
 			}
 		}
 

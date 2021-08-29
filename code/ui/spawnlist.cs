@@ -5,7 +5,7 @@ using Sandbox.UI.Tests;
 [Library]
 public partial class SpawnList : Panel
 {
-	VirtualScrollPanel Canvas;
+	readonly VirtualScrollPanel Canvas;
 
 	public SpawnList()
 	{

@@ -3,17 +3,14 @@ namespace Sandbox
 	public class PlayerCameraThirdperson : Camera
 	{
 		[ConVar.Replicated]
-		public static bool thirdperson_collision {get; set;} = true;
+		public static bool Thirdperson_collision {get; set;} = true;
 		private float cameraDistance = 130;
-        private float cameraDistanceMax = 500;
-        private float cameraDistanceMin = 50;
+        private readonly float cameraDistanceMax = 500;
+        private readonly float cameraDistanceMin = 50;
 
 		public override void Update()
 		{
-			var pawn = Local.Pawn as AnimEntity;
-			var client = Local.Client;
-
-			if(pawn == null) return;
+			if(Local.Pawn is not AnimEntity pawn) return;
 
 			Pos = pawn.Position;
 			Vector3 targetPos;
@@ -27,7 +24,7 @@ namespace Sandbox
             targetPos = Pos + Input.Rotation.Right * ((pawn.CollisionBounds.Maxs.x + 10) * pawn.Scale);
             targetPos += Input.Rotation.Forward * -distance;
 
-			if(thirdperson_collision)
+			if(Thirdperson_collision)
 			{
 				var tr = Trace.Ray(Pos,targetPos)
 					.Ignore(pawn)
@@ -53,14 +50,14 @@ namespace Sandbox
                 {
                     if(cameraDistance > cameraDistanceMin)
                     {
-                        cameraDistance = cameraDistance + (10*-input.MouseWheel);
+                        cameraDistance += 10*-input.MouseWheel;
                     }
                 }
                 else
                 {
                     if(cameraDistance < cameraDistanceMax)
                     {
-                        cameraDistance = cameraDistance + (10*-input.MouseWheel);
+                        cameraDistance += 10*-input.MouseWheel;
                     }
                 }
             }

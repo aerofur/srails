@@ -6,7 +6,7 @@ namespace srails
 	[Library("ent_locomotive", Title = "GE B40-8", Spawnable = true)]
 	public partial class LocomotiveEntity : Prop, IUse
 	{
-		[Net] public Player driver {get; private set;}
+		[Net] public Player Driver {get; private set;}
 		private TimeSince timeSinceDriverLeft;
 		private LocomotiveSeatEntity driverseat;
 		private LocomotiveControlstand controlstand;
@@ -108,7 +108,7 @@ namespace srails
 		{
 			base.OnDestroy();
 
-			if(driver is LocalPlayer player)
+			if(Driver is LocalPlayer player)
 			{
 				RemoveDriver(player);
 			}
@@ -131,7 +131,7 @@ namespace srails
 					Log.Trace("Player pressed Use Key!");
 				}
 				
-				if(Input.Down(InputButton.Forward) && driver is not null)
+				if(Input.Down(InputButton.Forward) && Driver is not null)
 				{
 					var force = 200.0f;
 					this.PhysicsBody.ApplyForceAt(this.PhysicsBody.MassCenter, (this.PhysicsBody.SelfOrParent.Mass * force));
@@ -144,7 +144,7 @@ namespace srails
 
 		private void RemoveDriver(LocalPlayer player)
 		{
-			driver = null;
+			Driver = null;
 			timeSinceDriverLeft = 0;
 
 			if(!player.IsValid()){
@@ -179,7 +179,7 @@ namespace srails
 				//player.Rotation = Rotation.From(new Angles(0,this.Rotation.Yaw(),0));
 				player.PhysicsBody.Enabled = false;
 
-				driver = player;
+				Driver = player;
 				Log.Trace("Player entered ent_locomotive");
 			}
 			return true;
@@ -187,7 +187,7 @@ namespace srails
 
 		public bool IsUsable(Entity user)
 		{
-			return driver == null;
+			return Driver == null;
 		}
 	}
 }

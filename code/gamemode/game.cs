@@ -12,14 +12,14 @@ namespace srails
 		{
 			if(IsServer)
 			{
-				Log.Info("My Gamemode Has Created Serverside!");
-				new GamemodeHud();
+				//new GamemodeHud(); //disabled temp
 			}
 
+			/*
 			if(IsClient)
 			{
-				Log.Info("My Gamemode Has Created Clientside!");
 			}
+			*/
 		}
 
 		public override void ClientJoined(Client client)
@@ -50,9 +50,11 @@ namespace srails
 			if(!tr.Hit) return;
 			if(!tr.Entity.IsValid()) return;
 
-			var ent = new Prop();
-			ent.Position = tr.EndPos;
-			ent.Rotation = Rotation.From(new Angles(0,owner.EyeRot.Angles().yaw,0)) * Rotation.FromAxis(Vector3.Up,180);
+			var ent = new Prop
+			{
+				Position = tr.EndPos,
+				Rotation = Rotation.From( new Angles( 0, owner.EyeRot.Angles().yaw, 0 ) ) * Rotation.FromAxis( Vector3.Up, 180 )
+			};
 			ent.SetModel(modelname);
 			ent.Position = tr.EndPos - Vector3.Up * ent.CollisionBounds.Mins.z;
 
@@ -143,7 +145,7 @@ namespace srails
 			if(!tr.Hit) return;
 			if(!tr.Entity.IsValid()) return;
 
-			var ent = new TestcubeEntity
+			new TestcubeEntity
 			{
 				Position = tr.EndPos + tr.Normal * 10 + new Vector3(0,0,50),
 				Rotation = Rotation.From(new Angles(0,owner.EyeRot.Angles().yaw,90)),
