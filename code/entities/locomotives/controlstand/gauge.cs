@@ -1,21 +1,24 @@
 using Sandbox;
 using Sandbox.Joints;
 
-[Library("ent_locomotive_gauge")]
-public partial class LocomotiveGauge : Prop
+namespace srails
 {
-	public override void Spawn()
+	[Library("ent_locomotive_gauge")]
+	public partial class LocomotiveGauge : Prop
 	{
-		var owner = ConsoleSystem.Caller.Pawn;
-
-		if(owner == null)
+		public override void Spawn()
 		{
-			return;
+			var owner = ConsoleSystem.Caller.Pawn;
+
+			if(owner == null)
+			{
+				return;
+			}
+			
+			base.Spawn();
+			
+			SetupPhysicsFromModel(PhysicsMotionType.Dynamic, false);
+			this.EnableAllCollisions = false;
 		}
-		
-		base.Spawn();
-        
-		SetupPhysicsFromModel(PhysicsMotionType.Dynamic, false);
-		this.EnableAllCollisions = false;
-	}
+}
 }

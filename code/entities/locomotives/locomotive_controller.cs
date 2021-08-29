@@ -1,36 +1,39 @@
 using Sandbox;
 
-[Library]
-public class LocomotiveController : PawnController
+namespace srails
 {
-	public override void FrameSimulate()
+	[Library]
+	public class LocomotiveController : PawnController
 	{
-		base.FrameSimulate();
-		Simulate();
-	}
-
-	public override void Simulate()
-	{
-		var player = Pawn as LocalPlayer;
-		if(!player.IsValid()) return;
-
-		var car = player.Vehicle as LocomotiveEntity;
-		if (!car.IsValid()) return;
-
-		car.Simulate(Client);
-
-		if(player.Vehicle == null)
+		public override void FrameSimulate()
 		{
-			Position = car.Position + car.Rotation.Up * (100 * car.Scale);
-			Velocity += car.Rotation.Right * (200 * car.Scale);
-			return;
+			base.FrameSimulate();
+			Simulate();
 		}
 
-		EyeRot = Input.Rotation;
-		EyePosLocal = Vector3.Up * (64 - 10) * car.Scale;
-		Velocity = car.Velocity;
+		public override void Simulate()
+		{
+			var player = Pawn as LocalPlayer;
+			if(!player.IsValid()) return;
 
-		SetTag("noclip");
-		SetTag("sitting");
+			var car = player.Vehicle as LocomotiveEntity;
+			if (!car.IsValid()) return;
+
+			car.Simulate(Client);
+
+			if(player.Vehicle == null)
+			{
+				Position = car.Position + car.Rotation.Up * (100 * car.Scale);
+				Velocity += car.Rotation.Right * (200 * car.Scale);
+				return;
+			}
+
+			EyeRot = Input.Rotation;
+			EyePosLocal = Vector3.Up * (64 - 10) * car.Scale;
+			Velocity = car.Velocity;
+
+			SetTag("noclip");
+			SetTag("sitting");
+		}
 	}
 }

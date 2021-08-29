@@ -7,9 +7,10 @@ using System.Threading.Tasks;
 
 namespace Sandbox
 {
-    public class LocomotiveCamera : Camera
-    {
-        Vector3 lastPos;
+	public class LocomotiveCamera : Camera
+	{
+		Vector3 lastPos;
+		
 		public override void Activated()
 		{
 			var pawn = Local.Pawn;
@@ -44,5 +45,5 @@ namespace Sandbox
 			Viewer = pawn;
 			lastPos = Pos;
 		}
-    }
+	}
 }

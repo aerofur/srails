@@ -1,27 +1,30 @@
 using Sandbox;
 using Sandbox.Joints;
 
-[Library("ent_bogie")]
-public partial class BogieEntity : Prop
+namespace srails
 {
-    public RevoluteJoint Joint;
-    //public SpringJoint Joint;
-    //public GenericJoint Joint;
-
-	public override void Spawn()
+	[Library("ent_bogie")]
+	public partial class BogieEntity : Prop
 	{
-		var owner = ConsoleSystem.Caller.Pawn;
+		public RevoluteJoint Joint;
+		//public SpringJoint Joint;
+		//public GenericJoint Joint;
 
-		if(owner == null)
+		public override void Spawn()
 		{
-			return;
+			var owner = ConsoleSystem.Caller.Pawn;
+
+			if(owner == null)
+			{
+				return;
+			}
+			
+			base.Spawn();
+			
+			SetupPhysicsFromModel(PhysicsMotionType.Dynamic,false);
+			this.EnableAllCollisions = true;
+			//this.CollisionGroup = CollisionGroup.Trigger;
+			//this.SetInteractsWith(CollisionLayer.WORLD_GEOMETRY | CollisionLayer.Player);
 		}
-		
-		base.Spawn();
-        
-		SetupPhysicsFromModel(PhysicsMotionType.Dynamic,false);
-		this.EnableAllCollisions = true;
-		//this.CollisionGroup = CollisionGroup.Trigger;
-		//this.SetInteractsWith(CollisionLayer.WORLD_GEOMETRY | CollisionLayer.Player);
 	}
 }
