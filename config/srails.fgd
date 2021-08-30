@@ -156,7 +156,7 @@
 	parentname(target_destination) [ group="Hierarchy" ] : "Parent" : : "The name of this entity's parent in the movement hierarchy. Entities with parents move with their parent."
 	seq_idle(string) : "Idle Seq" : "idle" : "The sequence to use when the switch is in its normal position (idle)."
 	seq_throw(string) : "Throw Seq" : "throw" : "The sequence to use when the switch is being thrown Diverging/Reverse."
-	targetstate(choices) : "Initial Position" : 0 : "The lever will throw itself to this position immediately when the map starts." = [
+	targetstate(choices) : "Initial Position" : 0 : "The switch will throw itself to this position immediately when the map starts, this should match the switchstand." = [
 		0 : "Main"
 		1 : "Diverging"
 	]
@@ -188,7 +188,6 @@
 		1 : "Diverging"
 	]
 	targetswitch(target_destination) : "Target Switch" :  : "The switch you are wanting to change/target (switch requires a name)."
-	switchgroup(string) : "Switch Group" : "" : "Interconnected Switches, all switchstands with the same Switchgroup Identifier will all switch in unison. This can be used for linking two switchstands to one switch, or other crazy ideas."
 	enable_shadows(boolean) [ group="Render Properties" ] : "Shadow Casting" : 1 : "Whether this entity should cast shadows or not"
 
 	input SetColor(string) : "Sets the color of this entity. Format is '255 255 255 255'."

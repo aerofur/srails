@@ -56,18 +56,25 @@ namespace srails
 		[Property("targetswitch", Title = "Target Switch", FGDType = "target_destination")]
 		public string Targetswitch {get; set;}
 
-		/// <summary>
-		/// Interconnected Switches, all switchstands with the same Switchgroup Identifier will all switch in unison.
-		/// This can be used for linking two switchstands to one switch, or other crazy ideas.
-		/// </summary>
-		[Property("switchgroup", Title = "Switch Group")]
-		public string Tp3group {get; set;} = "";
+		private Tp3_switch SwitchEntity;
 
 		public override void Spawn()
 		{
 			base.Spawn();
 			SetupPhysicsFromModel(PhysicsMotionType.Dynamic,false);
 			CurrentSequence.Name = Targetstate == InitalPosition.Main ? Seq_idle_close : Seq_idle_open;
+		}
+
+		[Event.Tick.Server]
+		protected void Tick()
+		{
+			if(SwitchEntity.IsValid() == false){ //will only run till it finds the switch
+				SwitchEntity = (Tp3_switch) Entity.FindByName(Targetswitch);
+			}
+
+			if(SwitchEntity.Switching && SwitchEntity.IsValid()){
+				ThrowLinked();
+			}
 		}
 
 		public bool OnUse(Entity user)
@@ -83,20 +90,37 @@ namespace srails
 		
 		public async void Throw()
 		{
-			Tp3_switch SwitchEntity = (Tp3_switch) Entity.FindByName(Targetswitch);
 			AnimateSwitch(SwitchEntity);
 
 			if(CurrentSequence.Name == Seq_idle_close)
 			{
 				CurrentSequence.Name = Seq_throw_open;
+				SwitchEntity.SwitchAnimate();
+				await Task.DelaySeconds(CurrentSequence.Duration);
+				CurrentSequence.Name = Seq_idle_open;
 				SwitchEntity.SwitchThrow(true);
+			}
+			else if(CurrentSequence.Name == Seq_idle_open)
+			{
+				CurrentSequence.Name = Seq_throw_close;
+				SwitchEntity.SwitchAnimate();
+				await Task.DelaySeconds(CurrentSequence.Duration);
+				CurrentSequence.Name = Seq_idle_close;
+				SwitchEntity.SwitchThrow(false);
+			}		
+		}
+
+		public async void ThrowLinked()
+		{
+			if(CurrentSequence.Name == Seq_idle_close)
+			{
+				CurrentSequence.Name = Seq_throw_open;
 				await Task.DelaySeconds(CurrentSequence.Duration);
 				CurrentSequence.Name = Seq_idle_open;
 			}
 			else if(CurrentSequence.Name == Seq_idle_open)
 			{
 				CurrentSequence.Name = Seq_throw_close;
-				SwitchEntity.SwitchThrow(false);
 				await Task.DelaySeconds(CurrentSequence.Duration);
 				CurrentSequence.Name = Seq_idle_close;
 			}		
@@ -107,17 +131,16 @@ namespace srails
 			float[,] plots = new float[,] {
 				{0,0.0f},
 				{15,0.0f},
-				{50,0.55f},
-				{65,0.6f},
-				{73,0.95f},
-				{90,0.95f},
-				{95,1.0f},
+				{50,0.6f},
+				{65,0.0f},
+				{73,0.2f},
+				{90,0.0f},
 				{100,1.0f}
 			};
 
 			for (int i = 0; i < plots.GetLength(0); i++)
 			{
-				SwitchEntity.SwitchSetCycle((15*plots[i,1])/-(i > 0 ? plots[i-1,0]-plots[i,0] : plots[i,0]));
+				SwitchEntity.SwitchSetCycle(15*plots[i,1]/-(i > 0 ? plots[i-1,0]-plots[i,0] : plots[i,0]));
 				await Task.DelaySeconds(-(i > 0 ? plots[i-1,0]-plots[i,0] : plots[i,0])/30);
 			}
 		}

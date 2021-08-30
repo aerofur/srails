@@ -31,7 +31,7 @@ namespace srails
 		}
 
 		/// <summary>
-		/// The lever will throw itself to this position immediately when the map starts.
+		/// The switch will throw itself to this position immediately when the map starts, this should match the switchstand.
 		/// </summary>
 		[Property("targetstate", Title = "Initial Position")]
 		public InitalPosition Targetstate {get; set;} = InitalPosition.Main;
@@ -48,37 +48,45 @@ namespace srails
 		[Property("track_dv", Title = "Model DV", FGDType = "studio")]
 		public string Track_dv {get; set;} = "";
 
+		public bool Switched = false;
+		public bool Switching = false;
+
 		public override void Spawn()
 		{
 			base.Spawn();
 			SetModel(Targetstate == InitalPosition.Main ? Track_mn : Track_dv);
 			SetupPhysicsFromModel(PhysicsMotionType.Dynamic,false);
 			CurrentSequence.Name = Seq_idle;
+			Switched = Targetstate != InitalPosition.Main;
 		}
 
-		public async void SwitchThrow(bool Diverging)
+		public void SwitchAnimate()
 		{
-			if(Diverging)
-			{
-				await Task.DelaySeconds(1); //I have no idea why this is here but it doesnt work without it
-				CurrentSequence.Name = Seq_throw;
-				await Task.DelaySeconds(CurrentSequence.Duration/this.PlaybackRate);
-				SetModel(Track_dv);
-				CurrentSequence.Name = Seq_idle;
-			}
-			else
-			{
-				await Task.DelaySeconds(1);
-				CurrentSequence.Name = Seq_throw;
-				await Task.DelaySeconds(CurrentSequence.Duration/this.PlaybackRate);
-				SetModel(Track_mn);
-				CurrentSequence.Name = Seq_idle;
-			}
+			CurrentSequence.Name = Seq_throw;
+			Switching = true;
 		}
 
 		public void SwitchSetCycle(float cycle)
 		{
 			this.PlaybackRate = cycle;
+		}
+
+		public void SwitchThrow(bool Diverging)
+		{
+			if(Diverging)
+			{
+				SetModel(Track_dv);
+				CurrentSequence.Name = Seq_idle;
+				Switched = true;
+				Switching = false;
+			}
+			else
+			{
+				SetModel(Track_mn);
+				CurrentSequence.Name = Seq_idle;
+				Switched = false;
+				Switching = false;
+			}			
 		}
 	}
 }
