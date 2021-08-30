@@ -3,7 +3,7 @@
 	"trakpak3.derail.clang" = 
 	{
 		type = "src1_3d"
-		volume = 1.0
+		volume = 0.2
         pitch = 1.0
         delay = 0.0
         use_hrtf = 0.0
@@ -53,7 +53,7 @@
 	"trakpak3.switchstand.lever_hittop" = 
 	{
 		type = "src1_3d"
-		volume = 1.0
+		volume = 0.35
         pitch = 1.0
         delay = 0.0
         use_hrtf = 0.0
@@ -63,7 +63,7 @@
 	"trakpak3.switchstand.lever_hitbottom" = 
 	{
 		type = "src1_3d"
-		volume = 1.0
+		volume = 0.2
         pitch = 1.0
         delay = 0.0
         use_hrtf = 0.0
@@ -73,7 +73,7 @@
 	"trakpak3.switchstand.blades_close_a" = 
 	{
 		type = "src1_3d"
-		volume = 1.0
+		volume = 0.5
         pitch = 1.0
         delay = 0.0
         use_hrtf = 0.0
@@ -93,7 +93,7 @@
 	"trakpak3.switchstand.blades_close_b" = 
 	{
 		type = "src1_3d"
-		volume = 1.0
+		volume = 0.5
         pitch = 1.0
         delay = 0.0
         use_hrtf = 0.0
@@ -128,6 +128,7 @@
         use_hrtf = 0.0
 		vsnd_files = "sounds/trakpak3/switchstands/switchmachine/throw_hv.vsnd"
 	}
+	
 	hlvr.global_stack = 
 	{
 		type = "hlvr_global_stack"
