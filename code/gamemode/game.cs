@@ -12,7 +12,7 @@ namespace srails
 		{
 			if(IsServer)
 			{
-				//new GamemodeHud(); //disabled temp
+				new GamemodeHud();
 			}
 
 			/*
