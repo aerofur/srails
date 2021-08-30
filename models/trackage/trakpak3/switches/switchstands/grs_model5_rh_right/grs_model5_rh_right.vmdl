@@ -718,7 +718,7 @@
 								event_frame = 0
 								event_keys = 
 								{
-									name = "trakpak3.switchstand.machine_hv"
+									name = "trakpak3.switchstand.machine_lv"
 									stop_on_seq_change = false
 									use_layer_sequence = false
 									tags = ""
@@ -812,7 +812,7 @@
 								event_frame = 0
 								event_keys = 
 								{
-									name = "trakpak3.switchstand.machine_hv"
+									name = "trakpak3.switchstand.machine_lv"
 									stop_on_seq_change = false
 									use_layer_sequence = false
 									tags = ""
