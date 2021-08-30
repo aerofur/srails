@@ -73,7 +73,7 @@
 	"trakpak3.switchstand.blades_close_a" = 
 	{
 		type = "src1_3d"
-		volume = 0.5
+		volume = 0.3
         pitch = 1.0
         delay = 0.0
         use_hrtf = 0.0
@@ -93,7 +93,7 @@
 	"trakpak3.switchstand.blades_close_b" = 
 	{
 		type = "src1_3d"
-		volume = 0.5
+		volume = 0.3
         pitch = 1.0
         delay = 0.0
         use_hrtf = 0.0
