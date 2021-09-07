@@ -11,6 +11,14 @@ namespace srails
 		private LocomotiveSeatEntity driverseat;
 		private LocomotiveControlstand controlstand;
 
+		public const float CollisionHeight = 99f;
+		public const float CollisionRadius = 12f;
+
+		private const float ImmobilitySpeedPercentThreshold = 0.01f;
+		private const float ImmobilityTolerance = 1.0f;
+
+		public float Immobility {get; set;}
+
 		public override void Spawn()
 		{
 			var owner = ConsoleSystem.Caller.Pawn;
@@ -189,5 +197,71 @@ namespace srails
 		{
 			return Driver == null;
 		}
+
+		/*
+		protected override void OnPhysicsCollision(CollisionEventData eventData)
+		{
+			var dt = Time.Delta;
+			var oldPos = Position;
+			bool shouldMove = false;
+			var move = new MoveHelper(oldPos,Velocity);
+			move.MaxStandableAngle = 50f;
+			move.Trace = move.Trace
+				.HitLayer(CollisionLayer.PhysicsProp, false)
+				.HitLayer(CollisionLayer.Player, false)
+				.HitLayer(CollisionLayer.Debris, false)
+				.HitLayer(CollisionLayer.NPC)
+				//.Size(new Vector3(-CollisionRadius, -CollisionRadius, 0), new Vector3(CollisionRadius, CollisionRadius, CollisionHeight))
+				.Ignore(this);
+
+			if(!Velocity.IsNearlyZero())
+			{
+				shouldMove = true;
+				move.TryUnstuck();
+				move.TryMoveWithStep(dt,25);
+				//Log.Info("I am stuck!");
+			}
+
+			var traceDown = move.TraceDirection(Vector3.Down * 2);
+
+			if (move.IsFloor(traceDown))
+			{
+				GroundEntity = traceDown.Entity;
+				move.ApplyFriction(traceDown.Surface.Friction * 4.0f, dt);
+			}
+			else
+			{
+				GroundEntity = null;
+				move.Velocity += Vector3.Down * 900f * dt;
+			}
+
+			var posDelta = move.Position - oldPos;
+
+			if(shouldMove)
+			{
+				if((posDelta.Length / dt) / eventData.Speed < ImmobilitySpeedPercentThreshold)
+				{
+					Immobility += dt;
+				}
+				else
+				{
+					Immobility = Math.Max(0f, Immobility - dt);
+				}
+			}
+			else
+			{
+				Immobility = 0f;
+			}
+
+			Position = move.Position;
+			Velocity = move.Velocity;
+			/*
+			if (!posDelta.IsNearlyZero())
+			{
+				Rotation = Rotation.Slerp(Rotation, Rotation.FromYaw(Velocity.WithZ(0).EulerAngles.yaw), 4f * dt);
+			}
+			
+		}
+		*/
 	}
 }
