@@ -1,0 +1,517 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:modeldoc29:version{3cec427c-1b0e-4d48-a90a-0436f33a6041} -->
+{
+	rootNode = 
+	{
+		_class = "RootNode"
+		children = 
+		[
+			{
+				_class = "ModelDataList"
+				children = 
+				[
+					{
+						_class = "Bounds Hull"
+						mins = [ -6.125, -9.25, -18.25 ]
+						maxs = [ 6.625, 15.0, 3.0 ]
+					},
+				]
+			},
+			{
+				_class = "MaterialGroupList"
+				children = 
+				[
+					{
+						_class = "DefaultMaterialGroup"
+						remaps = 
+						[
+							{
+								from = "metal_black.vmat"
+								to = "materials/trakpak3_common/metal/metal_black.vmat"
+							},
+							{
+								from = "red_on.vmat"
+								to = "materials/trakpak3_common/signals/generic/red_on.vmat"
+							},
+							{
+								from = "red_off.vmat"
+								to = "materials/trakpak3_common/signals/generic/red_off.vmat"
+							},
+							{
+								from = "red_fl_c.vmat"
+								to = "materials/trakpak3_common/signals/generic/red_fl_c.vmat"
+							},
+							{
+								from = "wht_fl_c.vmat"
+								to = "materials/trakpak3_common/signals/generic/wht_fl_c.vmat"
+							},
+							{
+								from = "wht_on.vmat"
+								to = "materials/trakpak3_common/signals/generic/wht_on.vmat"
+							},
+							{
+								from = "semaphore_blades.vmat"
+								to = "materials/trakpak3_us/semaphore/semaphore_blades.vmat"
+							},
+							{
+								from = "lun_off.vmat"
+								to = "materials/trakpak3_common/signals/generic/lun_off.vmat"
+							},
+							{
+								from = "lun_on.vmat"
+								to = "materials/trakpak3_common/signals/generic/lun_on.vmat"
+							},
+							{
+								from = "grn_on.vmat"
+								to = "materials/trakpak3_common/signals/generic/grn_on.vmat"
+							},
+							{
+								from = "grn_off.vmat"
+								to = "materials/trakpak3_common/signals/generic/grn_off.vmat"
+							},
+							{
+								from = "grn_fl_c.vmat"
+								to = "materials/trakpak3_common/signals/generic/grn_fl_c.vmat"
+							},
+							{
+								from = "wht_off.vmat"
+								to = "materials/trakpak3_common/signals/generic/wht_off.vmat"
+							},
+						]
+						use_global_default = false
+						global_default_material = ""
+					},
+					{
+						_class = "MaterialGroup"
+						name = "skin1"
+						remaps = 
+						[
+							{
+								from = "materials/trakpak3_us/semaphore/semaphore_blades.vmat"
+								to = "materials/trakpak3_us/semaphore/semaphore_blades_alt.vmat"
+							},
+						]
+					},
+				]
+			},
+			{
+				_class = "PhysicsShapeList"
+				children = 
+				[
+					{
+						_class = "PhysicsMeshFile"
+						parent_bone = "static_prop"
+						surface_prop = "metal"
+						collision_prop = "default"
+						recenter_on_parent_bone = false
+						offset_origin = [ 0.0, -4.0, 0.0 ]
+						offset_angles = [ 0.0, 0.0, 180.0 ]
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						filename = "models/trakpak3/trakpak3_us/signals/semaphore_uq/rlg_dwarf/rlg_dwarf_physics.smd"
+						import_scale = 1.0
+						maxMeshVertices = 0
+						qemError = 0.0
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+				]
+			},
+			{
+				_class = "RenderMeshList"
+				children = 
+				[
+					{
+						_class = "RenderMeshFile"
+						name = "base_mechanical"
+						filename = "models/trakpak3/trakpak3_us/signals/semaphore_uq/rlg_dwarf/base_mechanical.smd"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "none"
+						filename = "models/trakpak3/trakpak3_us/signals/semaphore_uq/rlg_dwarf/none.smd"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "board_absolute"
+						filename = "models/trakpak3/trakpak3_us/signals/semaphore_uq/rlg_dwarf/board_absolute.smd"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "board_permissive"
+						filename = "models/trakpak3/trakpak3_us/signals/semaphore_uq/rlg_dwarf/board_permissive.smd"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "board_distant"
+						filename = "models/trakpak3/trakpak3_us/signals/semaphore_uq/rlg_dwarf/board_distant.smd"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "board_special"
+						filename = "models/trakpak3/trakpak3_us/signals/semaphore_uq/rlg_dwarf/board_special.smd"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "rlg_dead"
+						filename = "models/trakpak3/trakpak3_us/signals/semaphore_uq/rlg_dwarf/rlg_dead.smd"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "rlg_red"
+						filename = "models/trakpak3/trakpak3_us/signals/semaphore_uq/rlg_dwarf/rlg_red.smd"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "rlg_red_fl"
+						filename = "models/trakpak3/trakpak3_us/signals/semaphore_uq/rlg_dwarf/rlg_red_fl.smd"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "rlg_lun"
+						filename = "models/trakpak3/trakpak3_us/signals/semaphore_uq/rlg_dwarf/rlg_lun.smd"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "rlg_dead_2"
+						filename = "models/trakpak3/trakpak3_us/signals/semaphore_uq/rlg_dwarf/rlg_dead_2.smd"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "rlg_dead_3"
+						filename = "models/trakpak3/trakpak3_us/signals/semaphore_uq/rlg_dwarf/rlg_dead_3.smd"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "rlg_grn"
+						filename = "models/trakpak3/trakpak3_us/signals/semaphore_uq/rlg_dwarf/rlg_grn.smd"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "rlg_grn_fl"
+						filename = "models/trakpak3/trakpak3_us/signals/semaphore_uq/rlg_dwarf/rlg_grn_fl.smd"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+				]
+			},
+			{
+				_class = "BodyGroupList"
+				children = 
+				[
+					{
+						_class = "BodyGroup"
+						name = "Color"
+						children = 
+						[
+							{
+								_class = "BodyGroupChoice"
+								name = "rlg_dead"
+								meshes = 
+								[
+									"rlg_dead",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								name = "rlg_red"
+								meshes = 
+								[
+									"rlg_red",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								name = "rlg_red_fl"
+								meshes = 
+								[
+									"rlg_red_fl",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								name = "rlg_lun"
+								meshes = 
+								[
+									"rlg_lun",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								name = "rlg_dead_2"
+								meshes = 
+								[
+									"rlg_dead_2",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								name = "rlg_dead_3"
+								meshes = 
+								[
+									"rlg_dead_3",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								name = "rlg_grn"
+								meshes = 
+								[
+									"rlg_grn",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								name = "rlg_grn_fl"
+								meshes = 
+								[
+									"rlg_grn_fl",
+								]
+							},
+						]
+						hidden_in_tools = false
+					},
+					{
+						_class = "BodyGroup"
+						name = "Blade"
+						children = 
+						[
+							{
+								_class = "BodyGroupChoice"
+								name = "board_absolute"
+								meshes = 
+								[
+									"board_absolute",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								name = "board_permissive"
+								meshes = 
+								[
+									"board_permissive",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								name = "board_distant"
+								meshes = 
+								[
+									"board_distant",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								name = "board_special"
+								meshes = 
+								[
+									"board_special",
+								]
+							},
+						]
+						hidden_in_tools = false
+					},
+				]
+			},
+			{
+				_class = "AnimationList"
+				children = 
+				[
+					{
+						_class = "AnimFile"
+						name = "range"
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/trakpak3/trakpak3_us/signals/semaphore_uq/rlg_dwarf/rlg_dwarf_anims/range.smd"
+						start_frame = -1
+						end_frame = -1
+						framerate = -1.0
+						reverse = false
+					},
+				]
+				default_root_bone_name = ""
+			},
+		]
+		model_archetype = "animated_model"
+		primary_associated_entity = "prop_dynamic"
+		anim_graph_name = ""
+	}
+}

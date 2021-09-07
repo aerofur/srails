@@ -1,0 +1,446 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:modeldoc29:version{3cec427c-1b0e-4d48-a90a-0436f33a6041} -->
+{
+	rootNode = 
+	{
+		_class = "RootNode"
+		children = 
+		[
+			{
+				_class = "ModelDataList"
+				children = 
+				[
+					{
+						_class = "Bounds Hull"
+						mins = [ -6.5, -20.25, -20.25 ]
+						maxs = [ 13.5, 20.25, 20.25 ]
+					},
+				]
+			},
+			{
+				_class = "MaterialGroupList"
+				children = 
+				[
+					{
+						_class = "DefaultMaterialGroup"
+						remaps = 
+						[
+							{
+								from = "metal_black.vmat"
+								to = "materials/trakpak3_common/metal/metal_black.vmat"
+							},
+							{
+								from = "wht_off.vmat"
+								to = "materials/trakpak3_common/signals/generic/wht_off.vmat"
+							},
+							{
+								from = "red_on.vmat"
+								to = "materials/trakpak3_common/signals/generic/red_on.vmat"
+							},
+							{
+								from = "red_fl_b.vmat"
+								to = "materials/trakpak3_common/signals/generic/red_fl_b.vmat"
+							},
+							{
+								from = "lun_on.vmat"
+								to = "materials/trakpak3_common/signals/generic/lun_on.vmat"
+							},
+							{
+								from = "grn_on.vmat"
+								to = "materials/trakpak3_common/signals/generic/grn_on.vmat"
+							},
+							{
+								from = "grn_fl_b.vmat"
+								to = "materials/trakpak3_common/signals/generic/grn_fl_b.vmat"
+							},
+						]
+						use_global_default = false
+						global_default_material = ""
+					},
+				]
+			},
+			{
+				_class = "PhysicsShapeList"
+				children = 
+				[
+					{
+						_class = "PhysicsMeshFile"
+						parent_bone = "static_prop"
+						surface_prop = "metal"
+						collision_prop = "default"
+						recenter_on_parent_bone = false
+						offset_origin = [ 0.0, 0.0, 0.0 ]
+						offset_angles = [ 0.0, 0.0, 0.0 ]
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						filename = "models/trakpak3/trakpak3_us/signals/tri_light/target_physics.smd"
+						import_scale = 1.0
+						maxMeshVertices = 0
+						qemError = 0.0
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+				]
+			},
+			{
+				_class = "RenderMeshList"
+				children = 
+				[
+					{
+						_class = "RenderMeshFile"
+						name = "none"
+						filename = "models/trakpak3/trakpak3_us/signals/tri_light/none.smd"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "target"
+						filename = "models/trakpak3/trakpak3_us/signals/tri_light/target.smd"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "trilight_common"
+						filename = "models/trakpak3/trakpak3_us/signals/tri_light/trilight_common.smd"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "trilight_uss_early"
+						filename = "models/trakpak3/trakpak3_us/signals/tri_light/trilight_uss_early.smd"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "ryg"
+						filename = "models/trakpak3/trakpak3_us/signals/tri_light/ryg.smd"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "rlg_dead"
+						filename = "models/trakpak3/trakpak3_us/signals/tri_light/rlg_dead.smd"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "rlg_red"
+						filename = "models/trakpak3/trakpak3_us/signals/tri_light/rlg_red.smd"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "rlg_red_fl"
+						filename = "models/trakpak3/trakpak3_us/signals/tri_light/rlg_red_fl.smd"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "rlg_lun"
+						filename = "models/trakpak3/trakpak3_us/signals/tri_light/rlg_lun.smd"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "rlg_dead_2"
+						filename = "models/trakpak3/trakpak3_us/signals/tri_light/rlg_dead_2.smd"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "rlg_dead_3"
+						filename = "models/trakpak3/trakpak3_us/signals/tri_light/rlg_dead_3.smd"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "rlg_grn"
+						filename = "models/trakpak3/trakpak3_us/signals/tri_light/rlg_grn.smd"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "rlg_grn_fl"
+						filename = "models/trakpak3/trakpak3_us/signals/tri_light/rlg_grn_fl.smd"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+				]
+			},
+			{
+				_class = "BodyGroupList"
+				children = 
+				[
+					{
+						_class = "BodyGroup"
+						name = "Aspect"
+						children = 
+						[
+							{
+								_class = "BodyGroupChoice"
+								name = "rlg_dead"
+								meshes = 
+								[
+									"rlg_dead",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								name = "rlg_red"
+								meshes = 
+								[
+									"rlg_red",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								name = "rlg_red_fl"
+								meshes = 
+								[
+									"rlg_red_fl",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								name = "rlg_lun"
+								meshes = 
+								[
+									"rlg_lun",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								name = "rlg_dead_2"
+								meshes = 
+								[
+									"rlg_dead_2",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								name = "rlg_dead_3"
+								meshes = 
+								[
+									"rlg_dead_3",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								name = "rlg_grn"
+								meshes = 
+								[
+									"rlg_grn",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								name = "rlg_grn_fl"
+								meshes = 
+								[
+									"rlg_grn_fl",
+								]
+							},
+						]
+						hidden_in_tools = false
+					},
+					{
+						_class = "BodyGroup"
+						name = "Disable_Target"
+						children = 
+						[
+							{
+								_class = "BodyGroupChoice"
+								name = "target"
+								meshes = 
+								[
+									"target",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								name = "none"
+								meshes = 
+								[
+									"none",
+								]
+							},
+						]
+						hidden_in_tools = false
+					},
+					{
+						_class = "BodyGroup"
+						name = "Backing_Selector"
+						children = 
+						[
+							{
+								_class = "BodyGroupChoice"
+								name = "trilight_common"
+								meshes = 
+								[
+									"trilight_common",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								name = "trilight_uss_early"
+								meshes = 
+								[
+									"trilight_uss_early",
+								]
+							},
+						]
+						hidden_in_tools = false
+					},
+				]
+			},
+		]
+		model_archetype = "default"
+		primary_associated_entity = ""
+		anim_graph_name = ""
+	}
+}

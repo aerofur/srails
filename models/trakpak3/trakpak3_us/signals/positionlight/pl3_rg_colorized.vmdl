@@ -1,0 +1,272 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:modeldoc29:version{3cec427c-1b0e-4d48-a90a-0436f33a6041} -->
+{
+	rootNode = 
+	{
+		_class = "RootNode"
+		children = 
+		[
+			{
+				_class = "ModelDataList"
+				children = 
+				[
+					{
+						_class = "Bounds Hull"
+						mins = [ -6.25, -28.25, -28.25 ]
+						maxs = [ 14.5, 28.25, 28.25 ]
+					},
+				]
+			},
+			{
+				_class = "MaterialGroupList"
+				children = 
+				[
+					{
+						_class = "DefaultMaterialGroup"
+						remaps = 
+						[
+							{
+								from = "metal_black.vmat"
+								to = "materials/trakpak3_common/metal/metal_black.vmat"
+							},
+							{
+								from = "red_on.vmat"
+								to = "materials/trakpak3_common/signals/generic/red_on.vmat"
+							},
+							{
+								from = "red_off.vmat"
+								to = "materials/trakpak3_common/signals/generic/red_off.vmat"
+							},
+							{
+								from = "grn_on.vmat"
+								to = "materials/trakpak3_common/signals/generic/grn_on.vmat"
+							},
+							{
+								from = "grn_off.vmat"
+								to = "materials/trakpak3_common/signals/generic/grn_off.vmat"
+							},
+						]
+						use_global_default = false
+						global_default_material = ""
+					},
+				]
+			},
+			{
+				_class = "PhysicsShapeList"
+				children = 
+				[
+					{
+						_class = "PhysicsMeshFile"
+						parent_bone = "static_prop"
+						surface_prop = "metal"
+						collision_prop = "default"
+						recenter_on_parent_bone = false
+						offset_origin = [ 0.0, 0.0, 0.0 ]
+						offset_angles = [ 0.0, 0.0, 0.0 ]
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						filename = "models/trakpak3/trakpak3_us/signals/positionlight/pl3_lower_physics.smd"
+						import_scale = 1.0
+						maxMeshVertices = 0
+						qemError = 0.0
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+				]
+			},
+			{
+				_class = "RenderMeshList"
+				children = 
+				[
+					{
+						_class = "RenderMeshFile"
+						name = "pl3_rg_colorized_ref"
+						filename = "models/trakpak3/trakpak3_us/signals/positionlight/pl3_rg_colorized_ref.smd"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "pl3_rg_colorized_off"
+						filename = "models/trakpak3/trakpak3_us/signals/positionlight/pl3_rg_colorized_off.smd"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "pl3_rg_colorized_red"
+						filename = "models/trakpak3/trakpak3_us/signals/positionlight/pl3_rg_colorized_red.smd"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "pl3_rg_colorized_off_2"
+						filename = "models/trakpak3/trakpak3_us/signals/positionlight/pl3_rg_colorized_off_2.smd"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "pl3_rg_colorized_off_3"
+						filename = "models/trakpak3/trakpak3_us/signals/positionlight/pl3_rg_colorized_off_3.smd"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "pl3_rg_colorized_off_4"
+						filename = "models/trakpak3/trakpak3_us/signals/positionlight/pl3_rg_colorized_off_4.smd"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "pl3_rg_colorized_grn"
+						filename = "models/trakpak3/trakpak3_us/signals/positionlight/pl3_rg_colorized_grn.smd"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+				]
+			},
+			{
+				_class = "BodyGroupList"
+				children = 
+				[
+					{
+						_class = "BodyGroup"
+						name = "Color"
+						children = 
+						[
+							{
+								_class = "BodyGroupChoice"
+								name = "pl3_rg_colorized_off"
+								meshes = 
+								[
+									"pl3_rg_colorized_off",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								name = "pl3_rg_colorized_red"
+								meshes = 
+								[
+									"pl3_rg_colorized_red",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								name = "pl3_rg_colorized_off_2"
+								meshes = 
+								[
+									"pl3_rg_colorized_off_2",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								name = "pl3_rg_colorized_off_3"
+								meshes = 
+								[
+									"pl3_rg_colorized_off_3",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								name = "pl3_rg_colorized_off_4"
+								meshes = 
+								[
+									"pl3_rg_colorized_off_4",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								name = "pl3_rg_colorized_grn"
+								meshes = 
+								[
+									"pl3_rg_colorized_grn",
+								]
+							},
+						]
+						hidden_in_tools = false
+					},
+				]
+			},
+		]
+		model_archetype = "default"
+		primary_associated_entity = ""
+		anim_graph_name = ""
+	}
+}

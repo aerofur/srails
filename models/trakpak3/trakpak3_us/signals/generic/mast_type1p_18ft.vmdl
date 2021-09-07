@@ -1,0 +1,106 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:modeldoc29:version{3cec427c-1b0e-4d48-a90a-0436f33a6041} -->
+{
+	rootNode = 
+	{
+		_class = "RootNode"
+		children = 
+		[
+			{
+				_class = "ModelDataList"
+				children = 
+				[
+					{
+						_class = "Bounds Hull"
+						mins = [ -9.0, -9.0, -16.25 ]
+						maxs = [ 9.0, 9.0, 248.0 ]
+					},
+				]
+			},
+			{
+				_class = "MaterialGroupList"
+				children = 
+				[
+					{
+						_class = "DefaultMaterialGroup"
+						remaps = 
+						[
+							{
+								from = "flatmetal_silver.vmat"
+								to = "materials/trakpak3_common/metal/flatmetal_silver.vmat"
+							},
+							{
+								from = "concretefloor011a.vmat"
+								to = "materials/trakpak3_common/concrete/concretefloor011a.vmat"
+							},
+						]
+						use_global_default = false
+						global_default_material = ""
+					},
+					{
+						_class = "MaterialGroup"
+						name = "skin1"
+						remaps = 
+						[
+							{
+								from = "materials/trakpak3_common/metal/flatmetal_silver.vmat"
+								to = "materials/trakpak3_common/metal/metal_black.vmat"
+							},
+						]
+					},
+				]
+			},
+			{
+				_class = "PhysicsShapeList"
+				children = 
+				[
+					{
+						_class = "PhysicsMeshFile"
+						parent_bone = ""
+						surface_prop = "metal"
+						collision_prop = "default"
+						recenter_on_parent_bone = false
+						offset_origin = [ 0.0, 0.0, 0.0 ]
+						offset_angles = [ 0.0, 0.0, 0.0 ]
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						filename = "models/trakpak3/trakpak3_us/signals/generic/mast_type1p_18ft_physics.smd"
+						import_scale = 1.0
+						maxMeshVertices = 0
+						qemError = 0.0
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+				]
+			},
+			{
+				_class = "RenderMeshList"
+				children = 
+				[
+					{
+						_class = "RenderMeshFile"
+						filename = "models/trakpak3/trakpak3_us/signals/generic/mast_type1p_18ft_ref.smd"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+				]
+			},
+		]
+		model_archetype = "default"
+		primary_associated_entity = ""
+		anim_graph_name = ""
+	}
+}

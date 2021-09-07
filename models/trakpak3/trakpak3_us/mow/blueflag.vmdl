@@ -1,0 +1,325 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:modeldoc29:version{3cec427c-1b0e-4d48-a90a-0436f33a6041} -->
+{
+	rootNode = 
+	{
+		_class = "RootNode"
+		children = 
+		[
+			{
+				_class = "ModelDataList"
+				children = 
+				[
+					{
+						_class = "Bounds Hull"
+						mins = [ -4.25, -29.125, -13.25 ]
+						maxs = [ 4.25, 4.25, 48.25 ]
+					},
+				]
+			},
+			{
+				_class = "BodyGroupList"
+				children = 
+				[
+					{
+						_class = "BodyGroup"
+						name = "Flag_Type"
+						children = 
+						[
+							{
+								_class = "BodyGroupChoice"
+								name = "blueflag_basic"
+								meshes = 
+								[
+									"blueflag_basic",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								name = "blueflag_maw"
+								meshes = 
+								[
+									"blueflag_maw",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								name = "blueflag_cc"
+								meshes = 
+								[
+									"blueflag_cc",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								name = "blueflag_dne"
+								meshes = 
+								[
+									"blueflag_dne",
+								]
+							},
+						]
+						hidden_in_tools = false
+					},
+					{
+						_class = "BodyGroup"
+						name = "Light"
+						children = 
+						[
+							{
+								_class = "BodyGroupChoice"
+								name = "none"
+								meshes = 
+								[
+									"none",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								name = "blueflag_light_off"
+								meshes = 
+								[
+									"blueflag_light_off",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								name = "blueflag_light_on"
+								meshes = 
+								[
+									"blueflag_light_on",
+								]
+							},
+						]
+						hidden_in_tools = false
+					},
+				]
+			},
+			{
+				_class = "MaterialGroupList"
+				children = 
+				[
+					{
+						_class = "DefaultMaterialGroup"
+						remaps = 
+						[
+							{
+								from = "target_yellow.vmat"
+								to = "materials/trakpak3_common/switchstands/target_yellow.vmat"
+							},
+							{
+								from = "blueflag_clean.vmat"
+								to = "materials/trakpak3_us/signage/blueflag_clean.vmat"
+							},
+							{
+								from = "bluelight_circle_on.vmat"
+								to = "materials/trakpak3_us/signals/bluelight/bluelight_circle_on.vmat"
+							},
+							{
+								from = "bluelight_solid_off.vmat"
+								to = "materials/trakpak3_us/signals/bluelight/bluelight_solid_off.vmat"
+							},
+							{
+								from = "bluelight_solid_on.vmat"
+								to = "materials/trakpak3_us/signals/bluelight/bluelight_solid_on.vmat"
+							},
+							{
+								from = "flatmetal_silver.vmat"
+								to = "materials/trakpak3_common/metal/flatmetal_silver.vmat"
+							},
+							{
+								from = "bluelight_circle_off.vmat"
+								to = "materials/trakpak3_us/signals/bluelight/bluelight_circle_off.vmat"
+							},
+						]
+						use_global_default = false
+						global_default_material = ""
+					},
+					{
+						_class = "MaterialGroup"
+						name = "skin1"
+						remaps = 
+						[
+							{
+								from = "materials/trakpak3_us/signage/blueflag_clean.vmat"
+								to = "materials/trakpak3_us/signage/blueflag_dirty.vmat"
+							},
+						]
+					},
+				]
+			},
+			{
+				_class = "PhysicsShapeList"
+				children = 
+				[
+					{
+						_class = "PhysicsMeshFile"
+						name = "blueflag_physics"
+						parent_bone = "static_prop"
+						surface_prop = "metal"
+						collision_prop = "default"
+						recenter_on_parent_bone = false
+						offset_origin = [ 0.0, 0.0, 0.0 ]
+						offset_angles = [ 0.0, 0.0, 0.0 ]
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						filename = "models/trakpak3/trakpak3_us/mow/blueflag_physics.smd"
+						import_scale = 1.0
+						maxMeshVertices = 0
+						qemError = 0.0
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+				]
+			},
+			{
+				_class = "RenderMeshList"
+				children = 
+				[
+					{
+						_class = "RenderMeshFile"
+						name = "blueflag_basic"
+						filename = "models/trakpak3/trakpak3_us/mow/blueflag_basic.smd"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "blueflag_cc"
+						filename = "models/trakpak3/trakpak3_us/mow/blueflag_cc.smd"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "blueflag_dne"
+						filename = "models/trakpak3/trakpak3_us/mow/blueflag_dne.smd"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "blueflag_light_off"
+						filename = "models/trakpak3/trakpak3_us/mow/blueflag_light_off.smd"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "blueflag_light_on"
+						filename = "models/trakpak3/trakpak3_us/mow/blueflag_light_on.smd"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "blueflag_maw"
+						filename = "models/trakpak3/trakpak3_us/mow/blueflag_maw.smd"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "blueflag_ref"
+						filename = "models/trakpak3/trakpak3_us/mow/blueflag_ref.smd"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "none"
+						filename = "models/trakpak3/trakpak3_us/mow/none.smd"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+				]
+			},
+		]
+		model_archetype = "default"
+		primary_associated_entity = ""
+		anim_graph_name = ""
+	}
+}

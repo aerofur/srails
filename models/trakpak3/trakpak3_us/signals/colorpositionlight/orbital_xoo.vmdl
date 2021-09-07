@@ -1,0 +1,342 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:modeldoc29:version{3cec427c-1b0e-4d48-a90a-0436f33a6041} -->
+{
+	rootNode = 
+	{
+		_class = "RootNode"
+		children = 
+		[
+			{
+				_class = "ModelDataList"
+				children = 
+				[
+					{
+						_class = "Bounds Hull"
+						mins = [ -23.761999, -9.5, -9.5 ]
+						maxs = [ 9.625, 49.5, 9.5 ]
+					},
+				]
+			},
+			{
+				_class = "MaterialGroupList"
+				children = 
+				[
+					{
+						_class = "DefaultMaterialGroup"
+						remaps = 
+						[
+							{
+								from = "metal_black.vmat"
+								to = "materials/trakpak3_common/metal/metal_black.vmat"
+							},
+							{
+								from = "wht_off.vmat"
+								to = "materials/trakpak3_common/signals/generic/wht_off.vmat"
+							},
+							{
+								from = "wht_fl_c.vmat"
+								to = "materials/trakpak3_common/signals/generic/wht_fl_c.vmat"
+							},
+							{
+								from = "wht_on.vmat"
+								to = "materials/trakpak3_common/signals/generic/wht_on.vmat"
+							},
+							{
+								from = "yel_fl_b.vmat"
+								to = "materials/trakpak3_common/signals/generic/yel_fl_b.vmat"
+							},
+							{
+								from = "yel_on.vmat"
+								to = "materials/trakpak3_common/signals/generic/yel_on.vmat"
+							},
+						]
+						use_global_default = false
+						global_default_material = ""
+					},
+				]
+			},
+			{
+				_class = "PhysicsShapeList"
+				children = 
+				[
+					{
+						_class = "PhysicsMeshFile"
+						parent_bone = "static_prop"
+						surface_prop = "metal"
+						collision_prop = "default"
+						recenter_on_parent_bone = false
+						offset_origin = [ 0.0, 0.0, 0.0 ]
+						offset_angles = [ 0.0, 0.0, 0.0 ]
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						filename = "models/trakpak3/trakpak3_us/signals/colorpositionlight/orbital_xoo_physics.smd"
+						import_scale = 1.0
+						maxMeshVertices = 0
+						qemError = 0.0
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+				]
+			},
+			{
+				_class = "RenderMeshList"
+				children = 
+				[
+					{
+						_class = "RenderMeshFile"
+						name = "none"
+						filename = "models/trakpak3/trakpak3_us/signals/colorpositionlight/none.smd"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "xoo_dead"
+						filename = "models/trakpak3/trakpak3_us/signals/colorpositionlight/xoo_dead.smd"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "xoo_dead_2"
+						filename = "models/trakpak3/trakpak3_us/signals/colorpositionlight/xoo_dead_2.smd"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "xoo_dead_3"
+						filename = "models/trakpak3/trakpak3_us/signals/colorpositionlight/xoo_dead_3.smd"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "xoo_mountingbracket"
+						filename = "models/trakpak3/trakpak3_us/signals/colorpositionlight/xoo_mountingbracket.smd"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "xoo_xfx"
+						filename = "models/trakpak3/trakpak3_us/signals/colorpositionlight/xoo_xfx.smd"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "xoo_xox"
+						filename = "models/trakpak3/trakpak3_us/signals/colorpositionlight/xoo_xox.smd"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "xoo_xxf"
+						filename = "models/trakpak3/trakpak3_us/signals/colorpositionlight/xoo_xxf.smd"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "xoo_xxo"
+						filename = "models/trakpak3/trakpak3_us/signals/colorpositionlight/xoo_xxo.smd"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+				]
+			},
+			{
+				_class = "BodyGroupList"
+				children = 
+				[
+					{
+						_class = "BodyGroup"
+						name = "Aspect"
+						children = 
+						[
+							{
+								_class = "BodyGroupChoice"
+								name = "xoo_dead"
+								meshes = 
+								[
+									"xoo_dead",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								name = "xoo_xxo"
+								meshes = 
+								[
+									"xoo_xxo",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								name = "xoo_xxf"
+								meshes = 
+								[
+									"xoo_xxf",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								name = "xoo_dead_2"
+								meshes = 
+								[
+									"xoo_dead_2",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								name = "xoo_dead_3"
+								meshes = 
+								[
+									"xoo_dead_3",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								name = "xoo_xox"
+								meshes = 
+								[
+									"xoo_xox",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								name = "xoo_xfx"
+								meshes = 
+								[
+									"xoo_xfx",
+								]
+							},
+						]
+						hidden_in_tools = false
+					},
+					{
+						_class = "BodyGroup"
+						name = "Disable_Bracket"
+						children = 
+						[
+							{
+								_class = "BodyGroupChoice"
+								name = "xoo_mountingbracket"
+								meshes = 
+								[
+									"xoo_mountingbracket",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								name = "none"
+								meshes = 
+								[
+									"none",
+								]
+							},
+						]
+						hidden_in_tools = false
+					},
+				]
+			},
+		]
+		model_archetype = "animated_model"
+		primary_associated_entity = "prop_dynamic"
+		anim_graph_name = ""
+	}
+}

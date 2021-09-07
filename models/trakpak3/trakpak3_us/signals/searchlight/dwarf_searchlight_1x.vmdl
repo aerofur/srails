@@ -1,0 +1,353 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:modeldoc29:version{3cec427c-1b0e-4d48-a90a-0436f33a6041} -->
+{
+	rootNode = 
+	{
+		_class = "RootNode"
+		children = 
+		[
+			{
+				_class = "ModelDataList"
+				children = 
+				[
+					{
+						_class = "Bounds Hull"
+						mins = [ -4.25, -5.25, -8.25 ]
+						maxs = [ 18.25, 5.25, 8.25 ]
+					},
+				]
+			},
+			{
+				_class = "MaterialGroupList"
+				children = 
+				[
+					{
+						_class = "DefaultMaterialGroup"
+						remaps = 
+						[
+							{
+								from = "metal_black.vmat"
+								to = "materials/trakpak3_common/metal/metal_black.vmat"
+							},
+							{
+								from = "grn_on.vmat"
+								to = "materials/trakpak3_common/signals/generic/grn_on.vmat"
+							},
+							{
+								from = "wht_off.vmat"
+								to = "materials/trakpak3_common/signals/generic/wht_off.vmat"
+							},
+							{
+								from = "yel_on.vmat"
+								to = "materials/trakpak3_common/signals/generic/yel_on.vmat"
+							},
+							{
+								from = "grn_fl_b.vmat"
+								to = "materials/trakpak3_common/signals/generic/grn_fl_b.vmat"
+							},
+							{
+								from = "lun_on.vmat"
+								to = "materials/trakpak3_common/signals/generic/lun_on.vmat"
+							},
+							{
+								from = "red_fl_b.vmat"
+								to = "materials/trakpak3_common/signals/generic/red_fl_b.vmat"
+							},
+							{
+								from = "red_on.vmat"
+								to = "materials/trakpak3_common/signals/generic/red_on.vmat"
+							},
+							{
+								from = "yel_fl_b.vmat"
+								to = "materials/trakpak3_common/signals/generic/yel_fl_b.vmat"
+							},
+						]
+						use_global_default = false
+						global_default_material = ""
+					},
+					{
+						_class = "MaterialGroup"
+						name = "skin1"
+						remaps = 
+						[
+							{
+								from = "materials/trakpak3_common/signals/generic/red_on.vmat"
+								to = "materials/trakpak3_common/signals/generic/pur_on.vmat"
+							},
+							{
+								from = "materials/trakpak3_common/signals/generic/red_fl_b.vmat"
+								to = "materials/trakpak3_common/signals/generic/pur_fl_b.vmat"
+							},
+						]
+					},
+				]
+			},
+			{
+				_class = "PhysicsShapeList"
+				children = 
+				[
+					{
+						_class = "PhysicsMeshFile"
+						parent_bone = "static_prop"
+						surface_prop = "metal"
+						collision_prop = "default"
+						recenter_on_parent_bone = false
+						offset_origin = [ 0.0, 0.0, 0.0 ]
+						offset_angles = [ 0.0, 0.0, 0.0 ]
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						filename = "models/trakpak3/trakpak3_us/signals/searchlight/dwarf_searchlight_1x_physics.smd"
+						import_scale = 1.0
+						maxMeshVertices = 0
+						qemError = 0.0
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+				]
+			},
+			{
+				_class = "RenderMeshList"
+				children = 
+				[
+					{
+						_class = "RenderMeshFile"
+						name = "dwarf_searchlight_1x"
+						filename = "models/trakpak3/trakpak3_us/signals/searchlight/dwarf_searchlight_1x.smd"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "sl_d1_grn"
+						filename = "models/trakpak3/trakpak3_us/signals/searchlight/sl_d1_grn.smd"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "sl_d1_grn_fl"
+						filename = "models/trakpak3/trakpak3_us/signals/searchlight/sl_d1_grn_fl.smd"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "sl_d1_lun"
+						filename = "models/trakpak3/trakpak3_us/signals/searchlight/sl_d1_lun.smd"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "sl_d1_off"
+						filename = "models/trakpak3/trakpak3_us/signals/searchlight/sl_d1_off.smd"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "sl_d1_red"
+						filename = "models/trakpak3/trakpak3_us/signals/searchlight/sl_d1_red.smd"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "sl_d1_red_fl"
+						filename = "models/trakpak3/trakpak3_us/signals/searchlight/sl_d1_red_fl.smd"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "sl_d1_yel"
+						filename = "models/trakpak3/trakpak3_us/signals/searchlight/sl_d1_yel.smd"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "sl_d1_yel_fl"
+						filename = "models/trakpak3/trakpak3_us/signals/searchlight/sl_d1_yel_fl.smd"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+				]
+			},
+			{
+				_class = "BodyGroupList"
+				children = 
+				[
+					{
+						_class = "BodyGroup"
+						name = "Color"
+						children = 
+						[
+							{
+								_class = "BodyGroupChoice"
+								name = "sl_d1_off"
+								meshes = 
+								[
+									"sl_d1_off",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								name = "sl_d1_red"
+								meshes = 
+								[
+									"sl_d1_red",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								name = "sl_d1_red_fl"
+								meshes = 
+								[
+									"sl_d1_red_fl",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								name = "sl_d1_lun"
+								meshes = 
+								[
+									"sl_d1_lun",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								name = "sl_d1_yel"
+								meshes = 
+								[
+									"sl_d1_yel",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								name = "sl_d1_yel_fl"
+								meshes = 
+								[
+									"sl_d1_yel_fl",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								name = "sl_d1_grn"
+								meshes = 
+								[
+									"sl_d1_grn",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								name = "sl_d1_grn_fl"
+								meshes = 
+								[
+									"sl_d1_grn_fl",
+								]
+							},
+						]
+						hidden_in_tools = false
+					},
+				]
+			},
+		]
+		model_archetype = "default"
+		primary_associated_entity = ""
+		anim_graph_name = ""
+	}
+}

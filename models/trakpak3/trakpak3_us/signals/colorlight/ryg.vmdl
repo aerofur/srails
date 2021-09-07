@@ -1,0 +1,442 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:modeldoc29:version{3cec427c-1b0e-4d48-a90a-0436f33a6041} -->
+{
+	rootNode = 
+	{
+		_class = "RootNode"
+		children = 
+		[
+			{
+				_class = "ModelDataList"
+				children = 
+				[
+					{
+						_class = "Bounds Hull"
+						mins = [ -3.25, -10.25, -20.25 ]
+						maxs = [ 20.0, 10.25, 20.25 ]
+					},
+				]
+			},
+			{
+				_class = "MaterialGroupList"
+				children = 
+				[
+					{
+						_class = "DefaultMaterialGroup"
+						remaps = 
+						[
+							{
+								from = "metal_black.vmat"
+								to = "materials/trakpak3_common/metal/metal_black.vmat"
+							},
+							{
+								from = "grn_on.vmat"
+								to = "materials/trakpak3_common/signals/generic/grn_on.vmat"
+							},
+							{
+								from = "red_fl_b.vmat"
+								to = "materials/trakpak3_common/signals/generic/red_fl_b.vmat"
+							},
+							{
+								from = "red_on.vmat"
+								to = "materials/trakpak3_common/signals/generic/red_on.vmat"
+							},
+							{
+								from = "wht_off.vmat"
+								to = "materials/trakpak3_common/signals/generic/wht_off.vmat"
+							},
+							{
+								from = "yel_fl_b.vmat"
+								to = "materials/trakpak3_common/signals/generic/yel_fl_b.vmat"
+							},
+							{
+								from = "yel_on.vmat"
+								to = "materials/trakpak3_common/signals/generic/yel_on.vmat"
+							},
+							{
+								from = "grn_fl_b.vmat"
+								to = "materials/trakpak3_common/signals/generic/grn_fl_b.vmat"
+							},
+						]
+						use_global_default = false
+						global_default_material = ""
+					},
+				]
+			},
+			{
+				_class = "PhysicsShapeList"
+				children = 
+				[
+					{
+						_class = "PhysicsMeshFile"
+						parent_bone = ""
+						surface_prop = "metal"
+						collision_prop = "default"
+						recenter_on_parent_bone = false
+						offset_origin = [ 0.0, 0.0, 0.0 ]
+						offset_angles = [ 0.0, 0.0, 0.0 ]
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						filename = "models/trakpak3/trakpak3_us/signals/colorlight/ryg_physics.smd"
+						import_scale = 1.0
+						maxMeshVertices = 0
+						qemError = 0.0
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+				]
+			},
+			{
+				_class = "RenderMeshList"
+				children = 
+				[
+					{
+						_class = "RenderMeshFile"
+						name = "none"
+						filename = "models/trakpak3/trakpak3_us/signals/colorlight/none.smd"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "ryg_body_standard"
+						filename = "models/trakpak3/trakpak3_us/signals/colorlight/ryg_body_standard.smd"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "ryg_body_tunnel"
+						filename = "models/trakpak3/trakpak3_us/signals/colorlight/ryg_body_tunnel.smd"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "ryg_body_vader"
+						filename = "models/trakpak3/trakpak3_us/signals/colorlight/ryg_body_vader.smd"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "ryg_grn"
+						filename = "models/trakpak3/trakpak3_us/signals/colorlight/ryg_grn.smd"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "ryg_grn_fl"
+						filename = "models/trakpak3/trakpak3_us/signals/colorlight/ryg_grn_fl.smd"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "ryg_off"
+						filename = "models/trakpak3/trakpak3_us/signals/colorlight/ryg_off.smd"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "ryg_off_2"
+						filename = "models/trakpak3/trakpak3_us/signals/colorlight/ryg_off_2.smd"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "ryg_red"
+						filename = "models/trakpak3/trakpak3_us/signals/colorlight/ryg_red.smd"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "ryg_red_fl"
+						filename = "models/trakpak3/trakpak3_us/signals/colorlight/ryg_red_fl.smd"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "ryg_ref"
+						filename = "models/trakpak3/trakpak3_us/signals/colorlight/ryg_ref.smd"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "ryg_yel"
+						filename = "models/trakpak3/trakpak3_us/signals/colorlight/ryg_yel.smd"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "ryg_yel_fl"
+						filename = "models/trakpak3/trakpak3_us/signals/colorlight/ryg_yel_fl.smd"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+				]
+			},
+			{
+				_class = "BodyGroupList"
+				children = 
+				[
+					{
+						_class = "BodyGroup"
+						name = "Color"
+						children = 
+						[
+							{
+								_class = "BodyGroupChoice"
+								name = "ryg_off"
+								meshes = 
+								[
+									"ryg_off",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								name = "ryg_red"
+								meshes = 
+								[
+									"ryg_red",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								name = "ryg_red_fl"
+								meshes = 
+								[
+									"ryg_red_fl",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								name = "ryg_off_2"
+								meshes = 
+								[
+									"ryg_off_2",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								name = "ryg_yel"
+								meshes = 
+								[
+									"ryg_yel",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								name = "ryg_yel_fl"
+								meshes = 
+								[
+									"ryg_yel_fl",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								name = "ryg_grn"
+								meshes = 
+								[
+									"ryg_grn",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								name = "ryg_grn_fl"
+								meshes = 
+								[
+									"ryg_grn_fl",
+								]
+							},
+						]
+						hidden_in_tools = false
+					},
+					{
+						_class = "BodyGroup"
+						name = "Target_Baffles"
+						children = 
+						[
+							{
+								_class = "BodyGroupChoice"
+								name = "ryg_body_standard"
+								meshes = 
+								[
+									"ryg_body_standard",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								name = "ryg_body_vader"
+								meshes = 
+								[
+									"ryg_body_vader",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								name = "ryg_body_tunnel"
+								meshes = 
+								[
+									"ryg_body_tunnel",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								name = "none"
+								meshes = 
+								[
+									"none",
+								]
+							},
+						]
+						hidden_in_tools = false
+					},
+				]
+			},
+		]
+		model_archetype = "default"
+		primary_associated_entity = ""
+		anim_graph_name = ""
+	}
+}
