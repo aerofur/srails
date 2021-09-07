@@ -130,8 +130,8 @@ namespace srails
 		{
 			return Model switch
 			{
-				"models/trackage/trakpak3/switches/switchstands/racor_112e_right/racor_112e_right.vmdl" or
-				"models/trackage/trakpak3/switches/switchstands/racor_112e_left/racor_112e_left.vmdl" => new float[,] {
+				"models/trakpak3/trakpak3_us/switchstands/racor_112e_right/racor_112e_right.vmdl" or
+				"models/trakpak3/trakpak3_us/switchstands/racor_112e_left/racor_112e_left.vmdl" => new float[,] {
 						{0,0.0f},
 						{25,0.0f},
 						{30,0.1f},
@@ -139,8 +139,8 @@ namespace srails
 						{40,1.0f},
 						{60,1.0f}
 					},
-				"models/trackage/trakpak3/switches/switchstands/bethlehem_51a_right/bethlehem_51a_right.vmdl" or
-				"models/trackage/trakpak3/switches/switchstands/bethlehem_51a_left/bethlehem_51a_left.vmdl" => new float[,] {
+				"models/trakpak3/trakpak3_us/switchstands/bethlehem_51a_right/bethlehem_51a_right.vmdl" or
+				"models/trakpak3/trakpak3_us/switchstands/bethlehem_51a_left/bethlehem_51a_left.vmdl" => new float[,] {
 						{0,0.0f},
 						{15,0.0f},
 						{50,0.6f},
@@ -149,8 +149,8 @@ namespace srails
 						{90,0.0f},
 						{100,1.0f}
 					},
-				"models/trackage/trakpak3/switches/switchstands/racor_22_right/racor_22_right.vmdl" or
-				"models/trackage/trakpak3/switches/switchstands/racor_22_left/racor_22_left.vmdl" => new float[,] {
+				"models/trakpak3/trakpak3_us/switchstands/racor_22_right/racor_22_right.vmdl" or
+				"models/trakpak3/trakpak3_us/switchstands/racor_22_left/racor_22_left.vmdl" => new float[,] {
 						{0,0.0f},
 						{15,0.0f},
 						{50,0.5f},
@@ -160,8 +160,8 @@ namespace srails
 						{83,1.0f},
 						{90,1.0f}
 					},
-				"models/trackage/trakpak3/switches/switchstands/racor_22e_right/racor_22e_right.vmdl" or
-				"models/trackage/trakpak3/switches/switchstands/racor_22e_left/racor_22e_left.vmdl" => new float[,] {
+				"models/trakpak3/trakpak3_us/switchstands/racor_22e_right/racor_22e_right.vmdl" or
+				"models/trakpak3/trakpak3_us/switchstands/racor_22e_left/racor_22e_left.vmdl" => new float[,] {
 						{0,0.0f},
 						{15,0.0f},
 						{60,0.6f},
@@ -171,16 +171,16 @@ namespace srails
 						{95,1.0f},
 						{120,1.0f}
 					},
-				"models/trackage/trakpak3/switches/switchstands/grs_model5_lh_left/grs_model5_lh_left.vmdl" or //to do: add fast switch (is it even needed?)
-				"models/trackage/trakpak3/switches/switchstands/grs_model5_lh_right/grs_model5_lh_right.vmdl" or
-				"models/trackage/trakpak3/switches/switchstands/grs_model5_rh_left/grs_model5_rh_left.vmdl" or
-				"models/trackage/trakpak3/switches/switchstands/grs_model5_rh_right/grs_model5_rh_right.vmdl" => new float[,] {
+				"models/trakpak3/trakpak3_us/switchstands/grs_model5_lh_left/grs_model5_lh_left.vmdl" or //to do: add fast switch (is it even needed?)
+				"models/trakpak3/trakpak3_us/switchstands/grs_model5_lh_right/grs_model5_lh_right.vmdl" or
+				"models/trakpak3/trakpak3_us/switchstands/grs_model5_rh_left/grs_model5_rh_left.vmdl" or
+				"models/trakpak3/trakpak3_us/switchstands/grs_model5_rh_right/grs_model5_rh_right.vmdl" => new float[,] {
 						{0,0.0f},
 						{90,0.0f},
 						{180,1.0f},
 						{270,1.0f}
 					},
-				"models/trackage/trakpak3/switches/switchstands/armstrong/armstrong.vmdl" => new float[,] {
+				"models/trakpak3/trakpak3_us/switchstands/armstrong/armstrong.vmdl" => new float[,] {
 						{0,0.0f},
 						{10,0.0f},
 						{30,1.0f},
