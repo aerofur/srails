@@ -1,0 +1,79 @@
+// Created by Crowbar 0.68
+
+$modelname "trakpak3_rsg/switches/turnouts/r8384/t4rt_0fw_left_+1536x+1536_+6048x+2464_dv.mdl"
+
+$bodygroup "Body"
+{
+	studio "t4rt_0fw_left_+1536x+1536_+6048x+2464_dv_ref.smd"
+}
+
+
+$surfaceprop "metal"
+
+$contents "solid"
+
+$illumposition 1251 2983 -20
+
+$cdmaterials "models\trakpak3_common\tracks\rails\"
+$cdmaterials "models\trakpak3_common\tracks\ballast\"
+$cdmaterials "models\trakpak3_common\tracks\ties\"
+$cdmaterials "models\trakpak3_common\tracks\composite\"
+$cdmaterials "models\trakpak3_common\misc\"
+
+$texturegroup "skinfamilies"
+{
+	{ "singletie_wood_dirty_plates" "singletie_wood_dirty_noplates" "ballast_brown_dirty"     "ballast_brown"     }
+	{ "singletie_wood_clean_plates" "singletie_wood_clean_noplates" "ballast_brown"           "ballast_brown"     }
+	{ "singletie_conc_dirty_plates" "singletie_conc_dirty_noplates" "ballast_brown_dirty"     "ballast_brown"     }
+	{ "singletie_conc_clean_plates" "singletie_conc_clean_noplates" "ballast_brown"           "ballast_brown"     }
+	{ "singletie_wood_dirty_plates" "singletie_wood_dirty_noplates" "ballast_gray_dirty"      "ballast_gray"      }
+	{ "singletie_wood_clean_plates" "singletie_wood_clean_noplates" "ballast_gray"            "ballast_gray"      }
+	{ "singletie_conc_dirty_plates" "singletie_conc_dirty_noplates" "ballast_gray_dirty"      "ballast_gray"      }
+	{ "singletie_conc_clean_plates" "singletie_conc_clean_noplates" "ballast_gray"            "ballast_gray"      }
+	{ "singletie_wood_dirty_plates" "singletie_wood_dirty_noplates" "ballast_tan_dirty"       "ballast_tan"       }
+	{ "singletie_wood_clean_plates" "singletie_wood_clean_noplates" "ballast_tan"             "ballast_tan"       }
+	{ "singletie_conc_dirty_plates" "singletie_conc_dirty_noplates" "ballast_tan_dirty"       "ballast_tan"       }
+	{ "singletie_conc_clean_plates" "singletie_conc_clean_noplates" "ballast_tan"             "ballast_tan"       }
+	{ "singletie_wood_dirty_plates" "singletie_wood_dirty_noplates" "ballast_limestone_dirty" "ballast_limestone" }
+	{ "singletie_wood_clean_plates" "singletie_wood_clean_noplates" "ballast_limestone"       "ballast_limestone" }
+	{ "singletie_conc_dirty_plates" "singletie_conc_dirty_noplates" "ballast_limestone_dirty" "ballast_limestone" }
+	{ "singletie_conc_clean_plates" "singletie_conc_clean_noplates" "ballast_limestone"       "ballast_limestone" }
+}
+
+$attachment "autopoint1" "static_prop" 1581 1581 0 rotate 0 0 0
+$attachment "frog1" "static_prop" 684 724 -7 rotate 0 0 0
+$attachment "bladecenter1" "static_prop" 8 8 -7 rotate 0 0 0
+
+$cbox 0 0 0 0 0 0
+
+$bbox -6056 -90 -40.25 90 2592 0
+
+$definebone "static_prop" "" 0 0 0 0 0 0 0 0 0 0 0 0
+$definebone "blades" "" 0 0 0 0 0 0 0 0 0 0 0 0
+
+
+$sequence "idle" {
+	"t4rt_0fw_left_+1536x+1536_+6048x+2464_dv_anims\idle.smd"
+	fadein 0.2
+	fadeout 0.2
+	fps 30
+}
+
+$sequence "throw" {
+	"t4rt_0fw_left_+1536x+1536_+6048x+2464_dv_anims\throw.smd"
+	fadein 0.2
+	fadeout 0.2
+	fps 2
+}
+
+$collisionmodel "t4rt_0fw_left_+1536x+1536_+6048x+2464_dv_physics.smd"
+{
+	$mass 50000
+	$inertia 1
+	$damping 0
+	$rotdamping 0
+	$rootbone " "
+	$concave
+	$maxconvexpieces 105
+
+}

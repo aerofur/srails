@@ -1,0 +1,497 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:modeldoc29:version{3cec427c-1b0e-4d48-a90a-0436f33a6041} -->
+                        {
+                            rootNode = 
+                            {
+                                _class = "RootNode"
+                                children = 
+                                [
+                                    {
+                                        _class = "ModelDataList"
+                                        children = 
+                                        [
+                                            {
+                                                _class = "Bounds Hull"
+                                                mins = [ -1561.0, -466.0, -40.25 ]
+                                                maxs = [ 8.0, 466.0, 0.0 ]
+                                            },
+                                        ]
+                                    },
+                                    {
+                                        _class = "MaterialGroupList"
+                                        children = 
+                                        [
+                                            {
+                                                _class = "DefaultMaterialGroup"
+                                                remaps = 
+                                                [
+                                                    {
+                                                        from = "ballast_brown.vmat"
+                                                        to = "materials/trakpak3_common/tracks/ballast/ballast_brown.vmat"
+                                                    },
+                                                    {
+                                                        from = "ballast_brown_dirty.vmat"
+                                                        to = "materials/trakpak3_common/tracks/ballast/ballast_brown_dirty.vmat"
+                                                    },
+                                                    {
+                                                        from = "invisible.vmat"
+                                                        to = "materials/proppertextures/invisible.vmat"
+                                                    },
+                                                    {
+                                                        from = "rail_side.vmat"
+                                                        to = "materials/trakpak3_common/tracks/rails/rail_side.vmat"
+                                                    },
+                                                    {
+                                                        from = "rail_top_rusty.vmat"
+                                                        to = "materials/trakpak3_common/tracks/rails/rail_top_rusty.vmat"
+                                                    },
+                                                    {
+                                                        from = "rail_top_shiny.vmat"
+                                                        to = "materials/trakpak3_common/tracks/rails/rail_top_shiny.vmat"
+                                                    },
+                                                    {
+                                                        from = "singletie_wood_dirty_noplates.vmat"
+                                                        to = "materials/trakpak3_common/tracks/ties/singletie_wood_dirty_noplates.vmat"
+                                                    },
+                                                    {
+                                                        from = "singletie_wood_dirty_plates.vmat"
+                                                        to = "materials/trakpak3_common/tracks/ties/singletie_wood_dirty_plates.vmat"
+                                                    },
+                                                ]
+                                                use_global_default = false
+                                                global_default_material = ""
+                                            },
+                                            {
+                                                _class = "MaterialGroup"
+                                                name = "skin1"
+                                                remaps = 
+                                                [
+                                                    {
+                                                        from = "materials/trakpak3_common/tracks/ties/singletie_wood_dirty_plates.vmat"
+                                                        to = "materials/trakpak3_common/tracks/ties/singletie_wood_clean_plates.vmat"
+                                                    },
+                                                    {
+                                                        from = "materials/trakpak3_common/tracks/ties/singletie_wood_dirty_noplates.vmat"
+                                                        to = "materials/trakpak3_common/tracks/ties/singletie_wood_clean_noplates.vmat"
+                                                    },
+                                                ]
+                                            },
+                                            {
+                                                _class = "MaterialGroup"
+                                                name = "skin2"
+                                                remaps = 
+                                                [
+                                                    {
+                                                        from = "materials/trakpak3_common/tracks/ties/singletie_wood_dirty_plates.vmat"
+                                                        to = "materials/trakpak3_common/tracks/ties/singletie_conc_dirty_plates.vmat"
+                                                    },
+                                                    {
+                                                        from = "materials/trakpak3_common/tracks/ties/singletie_wood_dirty_noplates.vmat"
+                                                        to = "materials/trakpak3_common/tracks/ties/singletie_conc_dirty_noplates.vmat"
+                                                    },
+                                                ]
+                                            },
+                                            {
+                                                _class = "MaterialGroup"
+                                                name = "skin3"
+                                                remaps = 
+                                                [
+                                                    {
+                                                        from = "materials/trakpak3_common/tracks/ties/singletie_wood_dirty_plates.vmat"
+                                                        to = "materials/trakpak3_common/tracks/ties/singletie_conc_clean_plates.vmat"
+                                                    },
+                                                    {
+                                                        from = "materials/trakpak3_common/tracks/ties/singletie_wood_dirty_noplates.vmat"
+                                                        to = "materials/trakpak3_common/tracks/ties/singletie_conc_clean_noplates.vmat"
+                                                    },
+                                                ]
+                                            },
+                                            {
+                                                _class = "MaterialGroup"
+                                                name = "skin4"
+                                                remaps = 
+                                                [
+                                                    {
+                                                        from = "materials/trakpak3_common/tracks/ballast/ballast_brown.vmat"
+                                                        to = "materials/trakpak3_common/tracks/ballast/ballast_gray.vmat"
+                                                    },
+                                                    {
+                                                        from = "materials/trakpak3_common/tracks/ballast/ballast_brown_dirty.vmat"
+                                                        to = "materials/trakpak3_common/tracks/ballast/ballast_gray_dirty.vmat"
+                                                    },
+                                                    {
+                                                        from = "materials/trakpak3_common/tracks/ties/singletie_wood_dirty_plates.vmat"
+                                                        to = "materials/trakpak3_common/tracks/ties/singletie_wood_dirty_plates.vmat"
+                                                    },
+                                                    {
+                                                        from = "materials/trakpak3_common/tracks/ties/singletie_wood_dirty_noplates.vmat"
+                                                        to = "materials/trakpak3_common/tracks/ties/singletie_wood_dirty_noplates.vmat"
+                                                    },
+                                                ]
+                                            },
+                                            {
+                                                _class = "MaterialGroup"
+                                                name = "skin5"
+                                                remaps = 
+                                                [
+                                                    {
+                                                        from = "materials/trakpak3_common/tracks/ballast/ballast_brown.vmat"
+                                                        to = "materials/trakpak3_common/tracks/ballast/ballast_gray.vmat"
+                                                    },
+                                                    {
+                                                        from = "materials/trakpak3_common/tracks/ballast/ballast_brown_dirty.vmat"
+                                                        to = "materials/trakpak3_common/tracks/ballast/ballast_gray.vmat"
+                                                    },
+                                                    {
+                                                        from = "materials/trakpak3_common/tracks/ties/singletie_wood_dirty_plates.vmat"
+                                                        to = "materials/trakpak3_common/tracks/ties/singletie_wood_clean_plates.vmat"
+                                                    },
+                                                    {
+                                                        from = "materials/trakpak3_common/tracks/ties/singletie_wood_dirty_noplates.vmat"
+                                                        to = "materials/trakpak3_common/tracks/ties/singletie_wood_clean_noplates.vmat"
+                                                    },
+                                                ]
+                                            },
+                                            {
+                                                _class = "MaterialGroup"
+                                                name = "skin6"
+                                                remaps = 
+                                                [
+                                                    {
+                                                        from = "materials/trakpak3_common/tracks/ballast/ballast_brown.vmat"
+                                                        to = "materials/trakpak3_common/tracks/ballast/ballast_gray.vmat"
+                                                    },
+                                                    {
+                                                        from = "materials/trakpak3_common/tracks/ballast/ballast_brown_dirty.vmat"
+                                                        to = "materials/trakpak3_common/tracks/ballast/ballast_gray_dirty.vmat"
+                                                    },
+                                                    {
+                                                        from = "materials/trakpak3_common/tracks/ties/singletie_wood_dirty_plates.vmat"
+                                                        to = "materials/trakpak3_common/tracks/ties/singletie_conc_dirty_plates.vmat"
+                                                    },
+                                                    {
+                                                        from = "materials/trakpak3_common/tracks/ties/singletie_wood_dirty_noplates.vmat"
+                                                        to = "materials/trakpak3_common/tracks/ties/singletie_conc_dirty_noplates.vmat"
+                                                    },
+                                                ]
+                                            },
+                                            {
+                                                _class = "MaterialGroup"
+                                                name = "skin7"
+                                                remaps = 
+                                                [
+                                                    {
+                                                        from = "materials/trakpak3_common/tracks/ballast/ballast_brown.vmat"
+                                                        to = "materials/trakpak3_common/tracks/ballast/ballast_gray.vmat"
+                                                    },
+                                                    {
+                                                        from = "materials/trakpak3_common/tracks/ballast/ballast_brown_dirty.vmat"
+                                                        to = "materials/trakpak3_common/tracks/ballast/ballast_gray.vmat"
+                                                    },
+                                                    {
+                                                        from = "materials/trakpak3_common/tracks/ties/singletie_wood_dirty_plates.vmat"
+                                                        to = "materials/trakpak3_common/tracks/ties/singletie_conc_clean_plates.vmat"
+                                                    },
+                                                    {
+                                                        from = "materials/trakpak3_common/tracks/ties/singletie_wood_dirty_noplates.vmat"
+                                                        to = "materials/trakpak3_common/tracks/ties/singletie_conc_clean_noplates.vmat"
+                                                    },
+                                                ]
+                                            },
+                                            {
+                                                _class = "MaterialGroup"
+                                                name = "skin8"
+                                                remaps = 
+                                                [
+                                                    {
+                                                        from = "materials/trakpak3_common/tracks/ballast/ballast_brown.vmat"
+                                                        to = "materials/trakpak3_common/tracks/ballast/ballast_tan.vmat"
+                                                    },
+                                                    {
+                                                        from = "materials/trakpak3_common/tracks/ballast/ballast_brown_dirty.vmat"
+                                                        to = "materials/trakpak3_common/tracks/ballast/ballast_tan_dirty.vmat"
+                                                    },
+                                                ]
+                                            },
+                                            {
+                                                _class = "MaterialGroup"
+                                                name = "skin9"
+                                                remaps = 
+                                                [
+                                                    {
+                                                        from = "materials/trakpak3_common/tracks/ballast/ballast_brown.vmat"
+                                                        to = "materials/trakpak3_common/tracks/ballast/ballast_tan.vmat"
+                                                    },
+                                                    {
+                                                        from = "materials/trakpak3_common/tracks/ballast/ballast_brown_dirty.vmat"
+                                                        to = "materials/trakpak3_common/tracks/ballast/ballast_tan.vmat"
+                                                    },
+                                                    {
+                                                        from = "materials/trakpak3_common/tracks/ties/singletie_wood_dirty_plates.vmat"
+                                                        to = "materials/trakpak3_common/tracks/ties/singletie_wood_clean_plates.vmat"
+                                                    },
+                                                    {
+                                                        from = "materials/trakpak3_common/tracks/ties/singletie_wood_dirty_noplates.vmat"
+                                                        to = "materials/trakpak3_common/tracks/ties/singletie_wood_clean_noplates.vmat"
+                                                    },
+                                                ]
+                                            },
+                                            {
+                                                _class = "MaterialGroup"
+                                                name = "skin10"
+                                                remaps = 
+                                                [
+                                                    {
+                                                        from = "materials/trakpak3_common/tracks/ballast/ballast_brown.vmat"
+                                                        to = "materials/trakpak3_common/tracks/ballast/ballast_tan.vmat"
+                                                    },
+                                                    {
+                                                        from = "materials/trakpak3_common/tracks/ballast/ballast_brown_dirty.vmat"
+                                                        to = "materials/trakpak3_common/tracks/ballast/ballast_tan_dirty.vmat"
+                                                    },
+                                                    {
+                                                        from = "materials/trakpak3_common/tracks/ties/singletie_wood_dirty_plates.vmat"
+                                                        to = "materials/trakpak3_common/tracks/ties/singletie_conc_dirty_plates.vmat"
+                                                    },
+                                                    {
+                                                        from = "materials/trakpak3_common/tracks/ties/singletie_wood_dirty_noplates.vmat"
+                                                        to = "materials/trakpak3_common/tracks/ties/singletie_conc_dirty_noplates.vmat"
+                                                    },
+                                                ]
+                                            },
+                                            {
+                                                _class = "MaterialGroup"
+                                                name = "skin11"
+                                                remaps = 
+                                                [
+                                                    {
+                                                        from = "materials/trakpak3_common/tracks/ballast/ballast_brown.vmat"
+                                                        to = "materials/trakpak3_common/tracks/ballast/ballast_tan.vmat"
+                                                    },
+                                                    {
+                                                        from = "materials/trakpak3_common/tracks/ballast/ballast_brown_dirty.vmat"
+                                                        to = "materials/trakpak3_common/tracks/ballast/ballast_tan.vmat"
+                                                    },
+                                                    {
+                                                        from = "materials/trakpak3_common/tracks/ties/singletie_wood_dirty_plates.vmat"
+                                                        to = "materials/trakpak3_common/tracks/ties/singletie_conc_clean_plates.vmat"
+                                                    },
+                                                    {
+                                                        from = "materials/trakpak3_common/tracks/ties/singletie_wood_dirty_noplates.vmat"
+                                                        to = "materials/trakpak3_common/tracks/ties/singletie_conc_clean_noplates.vmat"
+                                                    },
+                                                ]
+                                            },
+                                            {
+                                                _class = "MaterialGroup"
+                                                name = "skin12"
+                                                remaps = 
+                                                [
+                                                    {
+                                                        from = "materials/trakpak3_common/tracks/ballast/ballast_brown_dirty.vmat"
+                                                        to = "materials/trakpak3_common/tracks/ballast/ballast_limestone_dirty.vmat"
+                                                    },
+                                                    {
+                                                        from = "materials/trakpak3_common/tracks/ballast/ballast_brown.vmat"
+                                                        to = "materials/trakpak3_common/tracks/ballast/ballast_limestone.vmat"
+                                                    },
+                                                ]
+                                            },
+                                            {
+                                                _class = "MaterialGroup"
+                                                name = "skin13"
+                                                remaps = 
+                                                [
+                                                    {
+                                                        from = "materials/trakpak3_common/tracks/ballast/ballast_brown.vmat"
+                                                        to = "materials/trakpak3_common/tracks/ballast/ballast_limestone.vmat"
+                                                    },
+                                                    {
+                                                        from = "materials/trakpak3_common/tracks/ballast/ballast_brown_dirty.vmat"
+                                                        to = "materials/trakpak3_common/tracks/ballast/ballast_limestone.vmat"
+                                                    },
+                                                    {
+                                                        from = "materials/trakpak3_common/tracks/ties/singletie_wood_dirty_plates.vmat"
+                                                        to = "materials/trakpak3_common/tracks/ties/singletie_wood_clean_plates.vmat"
+                                                    },
+                                                    {
+                                                        from = "materials/trakpak3_common/tracks/ties/singletie_wood_dirty_noplates.vmat"
+                                                        to = "materials/trakpak3_common/tracks/ties/singletie_wood_clean_noplates.vmat"
+                                                    },
+                                                ]
+                                            },
+                                            {
+                                                _class = "MaterialGroup"
+                                                name = "skin14"
+                                                remaps = 
+                                                [
+                                                    {
+                                                        from = "materials/trakpak3_common/tracks/ballast/ballast_brown.vmat"
+                                                        to = "materials/trakpak3_common/tracks/ballast/ballast_limestone.vmat"
+                                                    },
+                                                    {
+                                                        from = "materials/trakpak3_common/tracks/ballast/ballast_brown_dirty.vmat"
+                                                        to = "materials/trakpak3_common/tracks/ballast/ballast_limestone_dirty.vmat"
+                                                    },
+                                                    {
+                                                        from = "materials/trakpak3_common/tracks/ties/singletie_wood_dirty_plates.vmat"
+                                                        to = "materials/trakpak3_common/tracks/ties/singletie_conc_dirty_plates.vmat"
+                                                    },
+                                                    {
+                                                        from = "materials/trakpak3_common/tracks/ties/singletie_wood_dirty_noplates.vmat"
+                                                        to = "materials/trakpak3_common/tracks/ties/singletie_conc_dirty_noplates.vmat"
+                                                    },
+                                                ]
+                                            },
+                                            {
+                                                _class = "MaterialGroup"
+                                                name = "skin15"
+                                                remaps = 
+                                                [
+                                                    {
+                                                        from = "materials/trakpak3_common/tracks/ballast/ballast_brown.vmat"
+                                                        to = "materials/trakpak3_common/tracks/ballast/ballast_limestone.vmat"
+                                                    },
+                                                    {
+                                                        from = "materials/trakpak3_common/tracks/ballast/ballast_brown_dirty.vmat"
+                                                        to = "materials/trakpak3_common/tracks/ballast/ballast_limestone.vmat"
+                                                    },
+                                                    {
+                                                        from = "materials/trakpak3_common/tracks/ties/singletie_wood_dirty_plates.vmat"
+                                                        to = "materials/trakpak3_common/tracks/ties/singletie_conc_clean_plates.vmat"
+                                                    },
+                                                    {
+                                                        from = "materials/trakpak3_common/tracks/ties/singletie_wood_dirty_noplates.vmat"
+                                                        to = "materials/trakpak3_common/tracks/ties/singletie_conc_clean_noplates.vmat"
+                                                    },
+                                                ]
+                                            },
+                                        ]
+                                    },
+                                    {
+                                        _class = "PhysicsShapeList"
+                                        children = 
+                                        [
+                                            {
+                                                _class = "PhysicsMeshFile"
+                                                name = "w0fw_2lt_2rt_r3072_plus1504xminus0352_plus1504xplus0352_dv_physics"
+                                                parent_bone = "static_prop"
+                                                surface_prop = "ballast"
+                                                collision_prop = "default"
+                                                recenter_on_parent_bone = false
+                                                offset_origin = [ 0.0, 0.0, 0.0 ]
+                                                offset_angles = [ 0.0, -90.0, 90.0 ]
+                                                align_origin_x_type = "None"
+                                                align_origin_y_type = "None"
+                                                align_origin_z_type = "None"
+                                                filename = "models/trakpak3/trakpak3_rsg/switches/wyes/w0fw_2lt_2rt_r3072_plus1504xminus0352_plus1504xplus0352_dv/w0fw_2lt_2rt_r3072_plus1504xminus0352_plus1504xplus0352_dv_physics.smd"
+                                                import_scale = 1.0
+                                                maxMeshVertices = 0
+                                                qemError = 0.0
+                                                import_filter = 
+                                                {
+                                                    exclude_by_default = false
+                                                    exception_list = [  ]
+                                                }
+                                            },
+                                        ]
+                                    },
+                        
+                                {
+                                    _class = "AttachmentList"
+                                    children = 
+                                    [
+                                        
+        {
+            _class = "Attachment"
+            name = "autopoint1"
+            parent_bone = "static_prop"
+            relative_origin = [ -96.0, 843.0, 0.0 ]
+            relative_angles = [ 0.0, 0.0, 0.0 ]
+            weight = 1.0
+            ignore_rotation = false
+        },
+    
+        {
+            _class = "Attachment"
+            name = "frog1"
+            parent_bone = "static_prop"
+            relative_origin = [ 0.0, 489.0, -7.0 ]
+            relative_angles = [ 0.0, 0.0, 0.0 ]
+            weight = 1.0
+            ignore_rotation = false
+        },
+    
+        {
+            _class = "Attachment"
+            name = "bladecenter1"
+            parent_bone = "static_prop"
+            relative_origin = [ 0.0, 75.0, -7.0 ]
+            relative_angles = [ 0.0, 0.0, 0.0 ]
+            weight = 1.0
+            ignore_rotation = false
+        },
+    
+                                    ]
+                                },
+                                {
+                                    _class = "RenderMeshList"
+                                    children = 
+                                    [
+                                        
+        {
+            _class = "RenderMeshFile"
+            name = "w0fw_2lt_2rt_r3072_plus1504xminus0352_plus1504xplus0352_dv_ref"
+            filename = "models/trakpak3/trakpak3_rsg/switches/wyes/w0fw_2lt_2rt_r3072_plus1504xminus0352_plus1504xplus0352_dv/w0fw_2lt_2rt_r3072_plus1504xminus0352_plus1504xplus0352_dv_ref.smd"
+            import_translation = [ 0.0, 0.0, 0.0 ]
+            import_rotation = [ 0.0, 0.0, 0.0 ]
+            import_scale = 1.0
+            align_origin_x_type = "None"
+            align_origin_y_type = "None"
+            align_origin_z_type = "None"
+            parent_bone = ""
+            import_filter = 
+            {
+                exclude_by_default = false
+                exception_list = [  ]
+            }
+        },
+    
+                                    ]
+                                },
+                            
+                                        {
+                                            _class = "AnimationList"
+                                            children = 
+                                            [
+                                                
+        {
+            _class = "AnimFile"
+            name = "throw"
+            activity_name = ""
+            activity_weight = 1
+            weight_list_name = ""
+            fade_in_time = 0.2
+            fade_out_time = 0.2
+            looping = false
+            delta = false
+            worldSpace = false
+            hidden = false
+            anim_markup_ordered = false
+            disable_compression = false
+            source_filename = "models/trakpak3/trakpak3_rsg/switches/wyes/w0fw_2lt_2rt_r3072_plus1504xminus0352_plus1504xplus0352_dv/w0fw_2lt_2rt_r3072_plus1504xminus0352_plus1504xplus0352_dv_anims/throw.smd"
+            start_frame = -1
+            end_frame = -1
+            framerate = 2
+            reverse = false
+        },
+    
+                                            ]
+                                            default_root_bone_name = ""
+                                        },
+                                    ]
+                                    model_archetype = "animated_model"
+                                    primary_associated_entity = "prop_dynamic"
+                                    anim_graph_name = ""
+                                }
+                            }
+                            
