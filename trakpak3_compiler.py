@@ -12,11 +12,14 @@ programstart = time.time()
 completed = 0
 failed = 0
 
+# Welcome to my really meh model compiler for S&Box. It's just converting source 1 model files to source 2 models.
+# It isnt pretty, it doesnt need to be, it just needs to work reliably (im converting like 600 models in one instance).
+
 print("-----------------------------------------------------------------")
 print("\033[0;30;47m  Welcome to the Trakpak3 Compiler! v1.0  ")
 print("\033[0;37;40m-----------------------------------------------------------------")
 print("Place this script in the destination folder for your models.")
-print("Models must follow this format: [modelname].qc, [modelname]_ref.smd, [modelname]_physics.smd, [modelname]_anims/[sequence].smd")
+print("Models must follow this format: [modelname].qc, [modelname]_physics.smd, [modelname]_anims/[sequence].smd")
 
 inputdir = input("\nInput model path, or press enter to use script location: ")
 if inputdir != "":
@@ -55,6 +58,40 @@ def block_animation(anim_name,anim_path,fadein,fadeout,framerate):
         },
     """%(anim_name,fadein,fadeout,anim_path,framerate)
 
+def block_rendermesh(meshname,meshpath):
+    return """
+        {
+            _class = "RenderMeshFile"
+            name = "%s"
+            filename = "%s"
+            import_translation = [ 0.0, 0.0, 0.0 ]
+            import_rotation = [ 0.0, 0.0, 0.0 ]
+            import_scale = 1.0
+            align_origin_x_type = "None"
+            align_origin_y_type = "None"
+            align_origin_z_type = "None"
+            parent_bone = ""
+            import_filter = 
+            {
+                exclude_by_default = false
+                exception_list = [  ]
+            }
+        },
+    """%(meshname,meshpath)
+
+def block_attachment(attachmentname,attachmentbone,attachmentorigin,attachmentrotation):
+    return """
+        {
+            _class = "Attachment"
+            name = "%s"
+            parent_bone = "%s"
+            relative_origin = [ %s, %s, %s ]
+            relative_angles = [ %s, %s, %s ]
+            weight = 1.0
+            ignore_rotation = false
+        },
+    """%(attachmentname,attachmentbone,str(attachmentorigin[0]),str(attachmentorigin[1]),str(attachmentorigin[2]),str(attachmentrotation[0]),str(attachmentrotation[1]),str(attachmentrotation[2]))
+
 for subdir,dirs,files in os.walk(directory, topdown = False): #rename folders without + or -
     for foldername in dirs:
         subdirectoryPath = os.path.relpath(subdir,directory)
@@ -79,8 +116,13 @@ for subdir,dirs,files in os.walk(directory, topdown = False): #now we actually d
             bounding = []
             index = 0
             anim_index = 0
+            attachment_index = 0
+            mesh_index = 0
             animationlist = ""
+            attachmentlist = ""
+            meshlist = ""
             hasAnimation = False
+            hasAttachment = False
             subdirectoryPath = os.path.relpath(subdir,directory)
             filePath = os.path.join(directory,subdirectoryPath,filename)
             vmdlName = filename.replace("+","plus").replace("-","minus").replace(".qc","")
@@ -88,9 +130,11 @@ for subdir,dirs,files in os.walk(directory, topdown = False): #now we actually d
             vmdl = modelpath.replace("\\","/") + "/" + subdirectoryPath.replace("\\","/") + "/" + vmdlName
 
             print("Reading QC file: \"%s\""%filePath)
+
             with open(filePath,"rt") as qc:
                 for line in qc:
                     qcfile.append(line)
+
             for line in qcfile:
                 if qcfile[anim_index].find("$sequence") != -1: #check for animations
                     sequence = []
@@ -102,22 +146,37 @@ for subdir,dirs,files in os.walk(directory, topdown = False): #now we actually d
                             sequence_end = advance
                         else:
                             advance += 1
-                    
-                    if sequence_end != -1:
-                        sequence_block = qcfile[sequence_begin:sequence_end]
-                        sequence_name = sequence_block[0].split()[1].replace('"','')
-                        sequence_path = modelpath.replace("\\","/") + "/" + subdirectoryPath.replace("\\","/") + "/" + vmdlName + "_anims/" + sequence_name + ".smd"
-                        sequence_fadein = sequence_block[2].split()[1]
-                        sequence_fadeout = sequence_block[3].split()[1]
-                        sequence_framerate = sequence_block[4].split()[1]
-                        animationlist += block_animation(sequence_name,sequence_path,sequence_fadein,sequence_fadeout,sequence_framerate)
 
-                        if sequence_name != "idle":
+                    if qcfile[sequence_begin].split()[1].replace('"','') != "idle":
+                        if sequence_end != -1:
+                            sequence_block = qcfile[sequence_begin:sequence_end]
+                            sequence_name = sequence_block[0].split()[1].replace('"','').replace("+","plus").replace("-","minus")
+                            sequence_path = modelpath.replace("\\","/") + "/" + subdirectoryPath.replace("\\","/") + "/" + vmdlName + "_anims/" + sequence_name + ".smd"
+                            sequence_fadein = sequence_block[2].split()[1]
+                            sequence_fadeout = sequence_block[3].split()[1]
+                            sequence_framerate = sequence_block[4].split()[1]
+                            animationlist += block_animation(sequence_name,sequence_path,sequence_fadein,sequence_fadeout,sequence_framerate)
                             hasAnimation = True
-
-                    #$sequence
-                    #$attachment
+                            print("\033[0;34;40mGot animation file: \"%s\"\033[0;37;40m"%(sequence_name + ".smd"))
                 anim_index += 1
+
+                if qcfile[attachment_index].find("$attachment") != -1: #finding rufus >.>
+                    attachmentname = qcfile[mesh_index].split()[1].replace('"','').replace("+","plus").replace("-","minus")
+                    attachmentbone = qcfile[mesh_index].split()[2].replace('"','').replace("+","plus").replace("-","minus")
+                    attachmentorigin = [float(qcfile[mesh_index].split()[3].replace('"','')),float(qcfile[mesh_index].split()[4].replace('"','')),float(qcfile[mesh_index].split()[5].replace('"',''))]
+                    attachmentrotation = [float(qcfile[mesh_index].split()[7].replace('"','')),float(qcfile[mesh_index].split()[8].replace('"','')),float(qcfile[mesh_index].split()[9].replace('"',''))]
+                    attachmentlist += block_attachment(attachmentname,attachmentbone,attachmentorigin,attachmentrotation)
+                    hasAttachment = True
+                    print("\033[0;34;40mGot attachment: \"%s\"\033[0;37;40m"%attachmentname)
+                attachment_index += 1
+
+                if qcfile[mesh_index].find("studio") != -1: #gimme them meshes bb :flushed:
+                    meshname = qcfile[mesh_index].split()[1].replace('"','').replace(".smd","").replace("+","plus").replace("-","minus")
+                    meshpath = modelpath.replace("\\","/") + "/" + subdirectoryPath.replace("\\","/") + "/" + meshname + ".smd"
+                    meshlist += block_rendermesh(meshname,meshpath)
+                    print("\033[0;34;40mGot rendermesh file: \"%s\"\033[0;37;40m"%(meshname + ".smd"))
+                mesh_index += 1
+
             for line in qcfile:
                 if qcfile[index].find("$bbox") != -1: #check for bounding box
                     for t in qcfile[index].split():
@@ -126,6 +185,7 @@ for subdir,dirs,files in os.walk(directory, topdown = False): #now we actually d
                         except ValueError:
                             pass
 
+                    print("\033[0;34;40mGot bounding box!\033[0;37;40m")
                     print("Building VMDL from QC file...")
 
                     with open(vmdlPath,"w") as f:
@@ -170,6 +230,10 @@ for subdir,dirs,files in os.walk(directory, topdown = False): #now we actually d
                                                     {
                                                         from = "rail_side.vmat"
                                                         to = "materials/trakpak3_common/tracks/rails/rail_side.vmat"
+                                                    },
+                                                    {
+                                                        from = "rail_top_rusty.vmat"
+                                                        to = "materials/trakpak3_common/tracks/rails/rail_top_rusty.vmat"
                                                     },
                                                     {
                                                         from = "rail_top_shiny.vmat"
@@ -522,31 +586,36 @@ for subdir,dirs,files in os.walk(directory, topdown = False): #now we actually d
                                             },
                                         ]
                                     },
-                                    {
-                                        _class = "RenderMeshList"
-                                        children = 
-                                        [
-                                            {
-                                                _class = "RenderMeshFile"
-                                                name = "%s_ref"
-                                                filename = "%s_ref.smd"
-                                                import_translation = [ 0.0, 0.0, 0.0 ]
-                                                import_rotation = [ 0.0, 0.0, 0.0 ]
-                                                import_scale = 1.0
-                                                align_origin_x_type = "None"
-                                                align_origin_y_type = "None"
-                                                align_origin_z_type = "None"
-                                                parent_bone = ""
-                                                import_filter = 
-                                                {
-                                                    exclude_by_default = false
-                                                    exception_list = [  ]
-                                                }
-                                            },
-                                        ]
-                                    },
                         """
-                
+
+                        if hasAttachment:
+                            filedata += """
+                                {
+                                    _class = "AttachmentList"
+                                    children = 
+                                    [
+                                        %s
+                                    ]
+                                },
+                                {
+                                    _class = "RenderMeshList"
+                                    children = 
+                                    [
+                                        %s
+                                    ]
+                                },
+                            """%(attachmentlist,meshlist)
+                        else:
+                            filedata += """
+                                {
+                                    _class = "RenderMeshList"
+                                    children = 
+                                    [
+                                        %s
+                                    ]
+                                },
+                            """%meshlist
+
                         if hasAnimation:
                             filedata += """
                                         {
@@ -575,12 +644,12 @@ for subdir,dirs,files in os.walk(directory, topdown = False): #now we actually d
                             """
 
                         print("\033[0;32;40mBuilding complete!\033[0;37;40m Writing data to \"%s\""%vmdlPath)
-                        f.write(filedata%(vmdlName,vmdl,vmdlName,vmdl))
+                        f.write(filedata%(vmdlName,vmdl))
                 index += 1
 
 for subdir,dirs,files in os.walk(directory, topdown = False): #compile AFTER we made the vmdls
     for filename in files:
-        if filename.find(".vmdl") > 0:
+        if filename.find(".vmdl_c") == -1 and filename.find(".vmdl") > 0:
             vmdlPath = os.path.join(directory,filename)
 
             print("\033[0;36;40mCompiling using resourcecompiler...\033[0;37;40m")
