@@ -1,0 +1,287 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
+{
+	m_nCounterMin = 0
+	m_nCounterMax = 6
+	m_flSpacing = 63.0
+	m_flRadius = 850.0
+	m_flEraseAmount = 1.0
+	m_bConstantDensity = false
+	m_bOnlyHitMeshes = true
+	m_bRadialFalloff = true
+	m_elements = 
+	[
+		{
+			m_assetName = "models/rust_nature/american_beech/american_beech_a.vmdl"
+			m_vBoundsMin = [ 340282346638528859811704183484516925440.0, 340282346638528859811704183484516925440.0, 340282346638528859811704183484516925440.0 ]
+			m_vBoundsMax = [ -340282346638528859811704183484516925440.0, -340282346638528859811704183484516925440.0, -340282346638528859811704183484516925440.0 ]
+			m_settings = 
+			{
+				m_flMinDensity = 1.0
+				m_flMaxDensity = 1.0
+				m_flMinScale = 0.5
+				m_flMaxScale = 1.0
+				m_vMinAngle = [ 0.0, 0.0, 0.0 ]
+				m_vMaxAngle = [ 0.0, 360.0, 0.0 ]
+				m_vMinColor = [ 1.0, 1.0, 1.0 ]
+				m_vMaxColor = [ 1.0, 1.0, 1.0 ]
+				m_flSpacingMul = 1.0
+				m_flSlopeThreshold = 100000.0
+				m_vMasterDirection = [ 0.0, 0.0, 1.0 ]
+				m_flMasterDirectionInfluence = 0.0
+				m_bEnabled = true
+			}
+		},
+		{
+			m_assetName = "models/rust_nature/american_beech/american_beech_b.vmdl"
+			m_vBoundsMin = [ 340282346638528859811704183484516925440.0, 340282346638528859811704183484516925440.0, 340282346638528859811704183484516925440.0 ]
+			m_vBoundsMax = [ -340282346638528859811704183484516925440.0, -340282346638528859811704183484516925440.0, -340282346638528859811704183484516925440.0 ]
+			m_settings = 
+			{
+				m_flMinDensity = 1.0
+				m_flMaxDensity = 1.0
+				m_flMinScale = 0.5
+				m_flMaxScale = 1.0
+				m_vMinAngle = [ 0.0, 0.0, 0.0 ]
+				m_vMaxAngle = [ 0.0, 360.0, 0.0 ]
+				m_vMinColor = [ 1.0, 1.0, 1.0 ]
+				m_vMaxColor = [ 1.0, 1.0, 1.0 ]
+				m_flSpacingMul = 1.0
+				m_flSlopeThreshold = 100000.0
+				m_vMasterDirection = [ 0.0, 0.0, 1.0 ]
+				m_flMasterDirectionInfluence = 0.0
+				m_bEnabled = true
+			}
+		},
+		{
+			m_assetName = "models/rust_nature/american_beech/american_beech_c.vmdl"
+			m_vBoundsMin = [ 340282346638528859811704183484516925440.0, 340282346638528859811704183484516925440.0, 340282346638528859811704183484516925440.0 ]
+			m_vBoundsMax = [ -340282346638528859811704183484516925440.0, -340282346638528859811704183484516925440.0, -340282346638528859811704183484516925440.0 ]
+			m_settings = 
+			{
+				m_flMinDensity = 1.0
+				m_flMaxDensity = 1.0
+				m_flMinScale = 0.5
+				m_flMaxScale = 1.0
+				m_vMinAngle = [ 0.0, 0.0, 0.0 ]
+				m_vMaxAngle = [ 0.0, 360.0, 0.0 ]
+				m_vMinColor = [ 1.0, 1.0, 1.0 ]
+				m_vMaxColor = [ 1.0, 1.0, 1.0 ]
+				m_flSpacingMul = 1.0
+				m_flSlopeThreshold = 100000.0
+				m_vMasterDirection = [ 0.0, 0.0, 1.0 ]
+				m_flMasterDirectionInfluence = 0.0
+				m_bEnabled = true
+			}
+		},
+		{
+			m_assetName = "models/rust_nature/american_beech/american_beech_d.vmdl"
+			m_vBoundsMin = [ 340282346638528859811704183484516925440.0, 340282346638528859811704183484516925440.0, 340282346638528859811704183484516925440.0 ]
+			m_vBoundsMax = [ -340282346638528859811704183484516925440.0, -340282346638528859811704183484516925440.0, -340282346638528859811704183484516925440.0 ]
+			m_settings = 
+			{
+				m_flMinDensity = 1.0
+				m_flMaxDensity = 1.0
+				m_flMinScale = 0.5
+				m_flMaxScale = 1.0
+				m_vMinAngle = [ 0.0, 0.0, 0.0 ]
+				m_vMaxAngle = [ 0.0, 360.0, 0.0 ]
+				m_vMinColor = [ 1.0, 1.0, 1.0 ]
+				m_vMaxColor = [ 1.0, 1.0, 1.0 ]
+				m_flSpacingMul = 1.0
+				m_flSlopeThreshold = 100000.0
+				m_vMasterDirection = [ 0.0, 0.0, 1.0 ]
+				m_flMasterDirectionInfluence = 0.0
+				m_bEnabled = true
+			}
+		},
+		{
+			m_assetName = "models/rust_nature/american_beech/american_beech_e.vmdl"
+			m_vBoundsMin = [ 340282346638528859811704183484516925440.0, 340282346638528859811704183484516925440.0, 340282346638528859811704183484516925440.0 ]
+			m_vBoundsMax = [ -340282346638528859811704183484516925440.0, -340282346638528859811704183484516925440.0, -340282346638528859811704183484516925440.0 ]
+			m_settings = 
+			{
+				m_flMinDensity = 1.0
+				m_flMaxDensity = 1.0
+				m_flMinScale = 0.5
+				m_flMaxScale = 1.0
+				m_vMinAngle = [ 0.0, 0.0, 0.0 ]
+				m_vMaxAngle = [ 0.0, 360.0, 0.0 ]
+				m_vMinColor = [ 1.0, 1.0, 1.0 ]
+				m_vMaxColor = [ 1.0, 1.0, 1.0 ]
+				m_flSpacingMul = 1.0
+				m_flSlopeThreshold = 100000.0
+				m_vMasterDirection = [ 0.0, 0.0, 1.0 ]
+				m_flMasterDirectionInfluence = 0.0
+				m_bEnabled = true
+			}
+		},
+		{
+			m_assetName = "models/rust_nature/bush_spicebush/bush_spicebush_a.vmdl"
+			m_vBoundsMin = [ 340282346638528859811704183484516925440.0, 340282346638528859811704183484516925440.0, 340282346638528859811704183484516925440.0 ]
+			m_vBoundsMax = [ -340282346638528859811704183484516925440.0, -340282346638528859811704183484516925440.0, -340282346638528859811704183484516925440.0 ]
+			m_settings = 
+			{
+				m_flMinDensity = 1.0
+				m_flMaxDensity = 1.0
+				m_flMinScale = 0.5
+				m_flMaxScale = 1.0
+				m_vMinAngle = [ 0.0, 0.0, 0.0 ]
+				m_vMaxAngle = [ 0.0, 360.0, 0.0 ]
+				m_vMinColor = [ 1.0, 1.0, 1.0 ]
+				m_vMaxColor = [ 1.0, 1.0, 1.0 ]
+				m_flSpacingMul = 1.0
+				m_flSlopeThreshold = 100000.0
+				m_vMasterDirection = [ 0.0, 0.0, 1.0 ]
+				m_flMasterDirectionInfluence = 0.0
+				m_bEnabled = true
+			}
+		},
+		{
+			m_assetName = "models/rust_nature/bush_spicebush/bush_spicebush_b.vmdl"
+			m_vBoundsMin = [ 340282346638528859811704183484516925440.0, 340282346638528859811704183484516925440.0, 340282346638528859811704183484516925440.0 ]
+			m_vBoundsMax = [ -340282346638528859811704183484516925440.0, -340282346638528859811704183484516925440.0, -340282346638528859811704183484516925440.0 ]
+			m_settings = 
+			{
+				m_flMinDensity = 1.0
+				m_flMaxDensity = 1.0
+				m_flMinScale = 0.5
+				m_flMaxScale = 1.0
+				m_vMinAngle = [ 0.0, 0.0, 0.0 ]
+				m_vMaxAngle = [ 0.0, 360.0, 0.0 ]
+				m_vMinColor = [ 1.0, 1.0, 1.0 ]
+				m_vMaxColor = [ 1.0, 1.0, 1.0 ]
+				m_flSpacingMul = 1.0
+				m_flSlopeThreshold = 100000.0
+				m_vMasterDirection = [ 0.0, 0.0, 1.0 ]
+				m_flMasterDirectionInfluence = 0.0
+				m_bEnabled = true
+			}
+		},
+		{
+			m_assetName = "models/rust_nature/bush_spicebush/bush_spicebush_c.vmdl"
+			m_vBoundsMin = [ 340282346638528859811704183484516925440.0, 340282346638528859811704183484516925440.0, 340282346638528859811704183484516925440.0 ]
+			m_vBoundsMax = [ -340282346638528859811704183484516925440.0, -340282346638528859811704183484516925440.0, -340282346638528859811704183484516925440.0 ]
+			m_settings = 
+			{
+				m_flMinDensity = 1.0
+				m_flMaxDensity = 1.0
+				m_flMinScale = 0.5
+				m_flMaxScale = 1.0
+				m_vMinAngle = [ 0.0, 0.0, 0.0 ]
+				m_vMaxAngle = [ 0.0, 360.0, 0.0 ]
+				m_vMinColor = [ 1.0, 1.0, 1.0 ]
+				m_vMaxColor = [ 1.0, 1.0, 1.0 ]
+				m_flSpacingMul = 1.0
+				m_flSlopeThreshold = 100000.0
+				m_vMasterDirection = [ 0.0, 0.0, 1.0 ]
+				m_flMasterDirectionInfluence = 0.0
+				m_bEnabled = true
+			}
+		},
+		{
+			m_assetName = "models/rust_nature/bush_spicebush/bush_spicebush_d.vmdl"
+			m_vBoundsMin = [ 340282346638528859811704183484516925440.0, 340282346638528859811704183484516925440.0, 340282346638528859811704183484516925440.0 ]
+			m_vBoundsMax = [ -340282346638528859811704183484516925440.0, -340282346638528859811704183484516925440.0, -340282346638528859811704183484516925440.0 ]
+			m_settings = 
+			{
+				m_flMinDensity = 1.0
+				m_flMaxDensity = 1.0
+				m_flMinScale = 0.5
+				m_flMaxScale = 1.0
+				m_vMinAngle = [ 0.0, 0.0, 0.0 ]
+				m_vMaxAngle = [ 0.0, 360.0, 0.0 ]
+				m_vMinColor = [ 1.0, 1.0, 1.0 ]
+				m_vMaxColor = [ 1.0, 1.0, 1.0 ]
+				m_flSpacingMul = 1.0
+				m_flSlopeThreshold = 100000.0
+				m_vMasterDirection = [ 0.0, 0.0, 1.0 ]
+				m_flMasterDirectionInfluence = 0.0
+				m_bEnabled = true
+			}
+		},
+		{
+			m_assetName = "models/rust_nature/bush_willow/bush_willow_a.vmdl"
+			m_vBoundsMin = [ 340282346638528859811704183484516925440.0, 340282346638528859811704183484516925440.0, 340282346638528859811704183484516925440.0 ]
+			m_vBoundsMax = [ -340282346638528859811704183484516925440.0, -340282346638528859811704183484516925440.0, -340282346638528859811704183484516925440.0 ]
+			m_settings = 
+			{
+				m_flMinDensity = 1.0
+				m_flMaxDensity = 1.0
+				m_flMinScale = 0.5
+				m_flMaxScale = 1.0
+				m_vMinAngle = [ 0.0, 0.0, 0.0 ]
+				m_vMaxAngle = [ 0.0, 360.0, 0.0 ]
+				m_vMinColor = [ 1.0, 1.0, 1.0 ]
+				m_vMaxColor = [ 1.0, 1.0, 1.0 ]
+				m_flSpacingMul = 1.0
+				m_flSlopeThreshold = 100000.0
+				m_vMasterDirection = [ 0.0, 0.0, 1.0 ]
+				m_flMasterDirectionInfluence = 0.0
+				m_bEnabled = true
+			}
+		},
+		{
+			m_assetName = "models/rust_nature/bush_willow/bush_willow_b.vmdl"
+			m_vBoundsMin = [ 340282346638528859811704183484516925440.0, 340282346638528859811704183484516925440.0, 340282346638528859811704183484516925440.0 ]
+			m_vBoundsMax = [ -340282346638528859811704183484516925440.0, -340282346638528859811704183484516925440.0, -340282346638528859811704183484516925440.0 ]
+			m_settings = 
+			{
+				m_flMinDensity = 1.0
+				m_flMaxDensity = 1.0
+				m_flMinScale = 0.5
+				m_flMaxScale = 1.0
+				m_vMinAngle = [ 0.0, 0.0, 0.0 ]
+				m_vMaxAngle = [ 0.0, 360.0, 0.0 ]
+				m_vMinColor = [ 1.0, 1.0, 1.0 ]
+				m_vMaxColor = [ 1.0, 1.0, 1.0 ]
+				m_flSpacingMul = 1.0
+				m_flSlopeThreshold = 100000.0
+				m_vMasterDirection = [ 0.0, 0.0, 1.0 ]
+				m_flMasterDirectionInfluence = 0.0
+				m_bEnabled = true
+			}
+		},
+		{
+			m_assetName = "models/rust_nature/bush_willow/bush_willow_c.vmdl"
+			m_vBoundsMin = [ 340282346638528859811704183484516925440.0, 340282346638528859811704183484516925440.0, 340282346638528859811704183484516925440.0 ]
+			m_vBoundsMax = [ -340282346638528859811704183484516925440.0, -340282346638528859811704183484516925440.0, -340282346638528859811704183484516925440.0 ]
+			m_settings = 
+			{
+				m_flMinDensity = 1.0
+				m_flMaxDensity = 1.0
+				m_flMinScale = 0.5
+				m_flMaxScale = 1.0
+				m_vMinAngle = [ 0.0, 0.0, 0.0 ]
+				m_vMaxAngle = [ 0.0, 360.0, 0.0 ]
+				m_vMinColor = [ 1.0, 1.0, 1.0 ]
+				m_vMaxColor = [ 1.0, 1.0, 1.0 ]
+				m_flSpacingMul = 1.0
+				m_flSlopeThreshold = 100000.0
+				m_vMasterDirection = [ 0.0, 0.0, 1.0 ]
+				m_flMasterDirectionInfluence = 0.0
+				m_bEnabled = true
+			}
+		},
+		{
+			m_assetName = "models/rust_nature/bush_willow/bush_willow_d.vmdl"
+			m_vBoundsMin = [ 340282346638528859811704183484516925440.0, 340282346638528859811704183484516925440.0, 340282346638528859811704183484516925440.0 ]
+			m_vBoundsMax = [ -340282346638528859811704183484516925440.0, -340282346638528859811704183484516925440.0, -340282346638528859811704183484516925440.0 ]
+			m_settings = 
+			{
+				m_flMinDensity = 1.0
+				m_flMaxDensity = 1.0
+				m_flMinScale = 0.5
+				m_flMaxScale = 1.0
+				m_vMinAngle = [ 0.0, 0.0, 0.0 ]
+				m_vMaxAngle = [ 0.0, 360.0, 0.0 ]
+				m_vMinColor = [ 1.0, 1.0, 1.0 ]
+				m_vMaxColor = [ 1.0, 1.0, 1.0 ]
+				m_flSpacingMul = 1.0
+				m_flSlopeThreshold = 100000.0
+				m_vMasterDirection = [ 0.0, 0.0, 1.0 ]
+				m_flMasterDirectionInfluence = 0.0
+				m_bEnabled = true
+			}
+		},
+	]
+}
