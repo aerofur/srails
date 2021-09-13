@@ -28,7 +28,7 @@ partial class Tool : Carriable
 
 	private void UpdateCurrentTool( Client owner )
 	{
-		var toolName = owner.GetUserString( "tool_current", "tool_boxgun" );
+		var toolName = "fard";
 		if ( toolName == null )
 			return;
 
