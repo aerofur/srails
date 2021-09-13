@@ -1,5 +1,5 @@
 // 
-// GravGun : Carriable 
+// GravGun
 // 
 @PointClass = gravgun : ""
 [
@@ -11,7 +11,7 @@
 ]
 
 // 
-// PhysGun : Carriable 
+// PhysGun
 // 
 @PointClass = physgun : ""
 [
@@ -23,7 +23,7 @@
 ]
 
 // 
-// Tool : Carriable 
+// Tool
 // 
 @PointClass = weapon_tool : ""
 [
@@ -35,7 +35,7 @@
 ]
 
 // 
-// srails.BogieEntity : Sandbox.Prop 
+// srails.BogieEntity
 // 
 @PointClass model() = ent_bogie : ""
 [
@@ -46,7 +46,8 @@
 	renderamt(integer) [ group="Render Properties" ] : "FX Amount (0 - 255)" : 255 : "The FX amount is used by the selected Render Mode."
 	targetname(target_source) : "Name" : : "The name that other entities refer to this entity by."
 	parentname(target_destination) [ group="Hierarchy" ] : "Parent" : : "The name of this entity's parent in the movement hierarchy. Entities with parents move with their parent."
-	collisiongroupoverride(choices) : "Collision Group Override" : -1 : "" = [
+	collisiongroupoverride(choices) : "Collision Group Override" : -1 : "" =
+	[
 		-1 : "UNUSED"
 		0 : "COLLISION GROUP ALWAYS"
 		1 : "COLLISION GROUP NONPHYSICAL"
@@ -62,7 +63,7 @@
 ]
 
 // 
-// srails.LocomotiveEntity : Sandbox.Prop 
+// srails.LocomotiveEntity
 // 
 @PointClass model() = ent_locomotive : ""
 [
@@ -73,7 +74,8 @@
 	renderamt(integer) [ group="Render Properties" ] : "FX Amount (0 - 255)" : 255 : "The FX amount is used by the selected Render Mode."
 	targetname(target_source) : "Name" : : "The name that other entities refer to this entity by."
 	parentname(target_destination) [ group="Hierarchy" ] : "Parent" : : "The name of this entity's parent in the movement hierarchy. Entities with parents move with their parent."
-	collisiongroupoverride(choices) : "Collision Group Override" : -1 : "" = [
+	collisiongroupoverride(choices) : "Collision Group Override" : -1 : "" =
+	[
 		-1 : "UNUSED"
 		0 : "COLLISION GROUP ALWAYS"
 		1 : "COLLISION GROUP NONPHYSICAL"
@@ -89,7 +91,7 @@
 ]
 
 // 
-// srails.LocomotiveSeatEntity : Sandbox.Prop 
+// srails.LocomotiveSeatEntity
 // 
 @PointClass model() = ent_locomotive_seat : ""
 [
@@ -100,7 +102,8 @@
 	renderamt(integer) [ group="Render Properties" ] : "FX Amount (0 - 255)" : 255 : "The FX amount is used by the selected Render Mode."
 	targetname(target_source) : "Name" : : "The name that other entities refer to this entity by."
 	parentname(target_destination) [ group="Hierarchy" ] : "Parent" : : "The name of this entity's parent in the movement hierarchy. Entities with parents move with their parent."
-	collisiongroupoverride(choices) : "Collision Group Override" : -1 : "" = [
+	collisiongroupoverride(choices) : "Collision Group Override" : -1 : "" =
+	[
 		-1 : "UNUSED"
 		0 : "COLLISION GROUP ALWAYS"
 		1 : "COLLISION GROUP NONPHYSICAL"
@@ -116,7 +119,7 @@
 ]
 
 // 
-// srails.TestcubeEntity : Sandbox.Prop 
+// srails.TestcubeEntity
 // 
 @PointClass model() = ent_testcube : ""
 [
@@ -127,7 +130,8 @@
 	renderamt(integer) [ group="Render Properties" ] : "FX Amount (0 - 255)" : 255 : "The FX amount is used by the selected Render Mode."
 	targetname(target_source) : "Name" : : "The name that other entities refer to this entity by."
 	parentname(target_destination) [ group="Hierarchy" ] : "Parent" : : "The name of this entity's parent in the movement hierarchy. Entities with parents move with their parent."
-	collisiongroupoverride(choices) : "Collision Group Override" : -1 : "" = [
+	collisiongroupoverride(choices) : "Collision Group Override" : -1 : "" =
+	[
 		-1 : "UNUSED"
 		0 : "COLLISION GROUP ALWAYS"
 		1 : "COLLISION GROUP NONPHYSICAL"
@@ -143,7 +147,7 @@
 ]
 
 // 
-// srails.Tp3_switch : Sandbox.AnimEntity 
+// srails.Tp3_switch
 // 
 @PointClass model() = tp3_switch : "Trakpak3 Switch Entity"
 [
@@ -156,7 +160,8 @@
 	parentname(target_destination) [ group="Hierarchy" ] : "Parent" : : "The name of this entity's parent in the movement hierarchy. Entities with parents move with their parent."
 	seq_idle(string) : "Idle Seq" : "idle" : "The sequence to use when the switch is in its normal position (idle)."
 	seq_throw(string) : "Throw Seq" : "throw" : "The sequence to use when the switch is being thrown Diverging/Reverse."
-	targetstate(choices) : "Initial Position" : 0 : "The switch will throw itself to this position immediately when the map starts, this should match the switchstand." = [
+	targetstate(choices) : "Initial Position" : 0 : "The switch will throw itself to this position immediately when the map starts, this should match the switchstand." =
+	[
 		0 : "Main"
 		1 : "Diverging"
 	]
@@ -168,7 +173,7 @@
 ]
 
 // 
-// srails.Tp3_switch_lever_anim : Sandbox.AnimEntity 
+// srails.Tp3_switch_lever_anim
 // 
 @PointClass model() = tp3_switch_lever_anim : "Trakpak3 Switchstand Entity"
 [
@@ -183,7 +188,8 @@
 	seq_idle_open(string) : "Idle Diverging/Reverse Seq" : "idle_open" : "The sequence to use when the switch is locked in its Diverging/Reverse position."
 	seq_throw_open(string) : "Throw Diverging/Reverse Seq" : "throw_open" : "The sequence to use when the switch is being thrown Diverging/Reverse."
 	seq_throw_close(string) : "Throw Main/Normal Seq" : "throw_close" : "The sequence to use when the switch is being thrown Main/Normal."
-	targetstate(choices) : "Initial Position" : 0 : "The lever will throw itself to this position immediately when the map starts." = [
+	targetstate(choices) : "Initial Position" : 0 : "The lever will throw itself to this position immediately when the map starts." =
+	[
 		0 : "Main"
 		1 : "Diverging"
 	]
@@ -194,7 +200,7 @@
 ]
 
 // 
-// srails.LocomotiveControlstand : Sandbox.Prop 
+// srails.LocomotiveControlstand
 // 
 @PointClass model() = ent_locomotive_controlstand : ""
 [
@@ -205,7 +211,8 @@
 	renderamt(integer) [ group="Render Properties" ] : "FX Amount (0 - 255)" : 255 : "The FX amount is used by the selected Render Mode."
 	targetname(target_source) : "Name" : : "The name that other entities refer to this entity by."
 	parentname(target_destination) [ group="Hierarchy" ] : "Parent" : : "The name of this entity's parent in the movement hierarchy. Entities with parents move with their parent."
-	collisiongroupoverride(choices) : "Collision Group Override" : -1 : "" = [
+	collisiongroupoverride(choices) : "Collision Group Override" : -1 : "" =
+	[
 		-1 : "UNUSED"
 		0 : "COLLISION GROUP ALWAYS"
 		1 : "COLLISION GROUP NONPHYSICAL"
@@ -221,7 +228,7 @@
 ]
 
 // 
-// srails.LocomotiveGauge : Sandbox.Prop 
+// srails.LocomotiveGauge
 // 
 @PointClass model() = ent_locomotive_gauge : ""
 [
@@ -232,7 +239,8 @@
 	renderamt(integer) [ group="Render Properties" ] : "FX Amount (0 - 255)" : 255 : "The FX amount is used by the selected Render Mode."
 	targetname(target_source) : "Name" : : "The name that other entities refer to this entity by."
 	parentname(target_destination) [ group="Hierarchy" ] : "Parent" : : "The name of this entity's parent in the movement hierarchy. Entities with parents move with their parent."
-	collisiongroupoverride(choices) : "Collision Group Override" : -1 : "" = [
+	collisiongroupoverride(choices) : "Collision Group Override" : -1 : "" =
+	[
 		-1 : "UNUSED"
 		0 : "COLLISION GROUP ALWAYS"
 		1 : "COLLISION GROUP NONPHYSICAL"
