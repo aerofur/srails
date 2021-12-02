@@ -12,30 +12,30 @@ namespace Sandbox
 		{
 			if(Local.Pawn is not AnimEntity pawn) return;
 
-			Pos = pawn.Position;
+			Position = pawn.Position;
 			Vector3 targetPos;
 
 			var center = pawn.Position + Vector3.Up * 64;
 
-            Pos = center;
-            Rot = Rotation.FromAxis(Vector3.Up,4) * Input.Rotation;
+            Position = center;
+            Rotation = Rotation.FromAxis(Vector3.Up,4) * Input.Rotation;
 
             float distance = cameraDistance * pawn.Scale;
-            targetPos = Pos + Input.Rotation.Right * ((pawn.CollisionBounds.Maxs.x + 10) * pawn.Scale);
+            targetPos = Position + Input.Rotation.Right * ((pawn.CollisionBounds.Maxs.x + 10) * pawn.Scale);
             targetPos += Input.Rotation.Forward * -distance;
 
 			if(Thirdperson_collision)
 			{
-				var tr = Trace.Ray(Pos,targetPos)
+				var tr = Trace.Ray(Position,targetPos)
 					.Ignore(pawn)
 					.Radius(8)
 					.Run();
 
-				Pos = tr.EndPos;
+				Position = tr.EndPos;
 			}
 			else
 			{
-				Pos = targetPos;
+				Position = targetPos;
 			}
 
 			FieldOfView = 70;

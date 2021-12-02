@@ -15,7 +15,8 @@ public partial class EntityList : Panel
 		AddChild( out Canvas, "canvas" );
 
 		Canvas.Layout.AutoColumns = true;
-		Canvas.Layout.ItemSize = new Vector2( 100, 100 );
+		Canvas.Layout.ItemWidth = 100;
+		Canvas.Layout.ItemHeight = 100;
 		Canvas.OnCreateCell = ( cell, data ) =>
 		{
 			var entry = (LibraryAttribute)data;
@@ -35,10 +36,7 @@ public partial class EntityList : Panel
 				btn.AddEventListener( "onclick", () => ConsoleSystem.Run( "spawn_entity", entry.Name ) );
 			}
 
-			btn.Style.Background = new PanelBackground
-			{
-				Texture = Texture.Load( $"/entity/{entry.Name}.png", false )
-			};
+			btn.Style.BackgroundImage = Texture.Load( $"/entity/{entry.Name}.png", false );
 		};
 
 		//spawn_locomotive

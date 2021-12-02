@@ -39,13 +39,13 @@ namespace srails
 		/// <summary>
 		/// The model to use when the switch is in Main/Normal position.
 		/// </summary>
-		[Property("track_mn", Title = "Model MN", FGDType = "studio")]
+		[Property("track_mn", Title = "Model MN"), ResourceType("vmdl")]
 		public string Track_mn {get; set;} = "";
 
 		/// <summary>
 		/// The model to use when the switch is in Diverging/Reverse position.
 		/// </summary>
-		[Property("track_dv", Title = "Model DV", FGDType = "studio")]
+		[Property("track_dv", Title = "Model DV"), ResourceType("vmdl")]
 		public string Track_dv {get; set;} = "";
 
 		public bool Switched = false;

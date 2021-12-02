@@ -53,8 +53,10 @@ namespace srails
 		/// <summary>
 		/// The switch you are wanting to change/target (switch requires a name).
 		/// </summary>
-		[Property("targetswitch", Title = "Target Switch", FGDType = "target_destination")]
+		[Property("targetswitch", Title = "Target Switch"), FGDType("target_destination")]
 		public string Targetswitch {get; set;}
+
+		//[Property, ResourceType( "vmdl" )]
 
 		private Tp3_switch SwitchEntity;
 
@@ -85,6 +87,7 @@ namespace srails
 			}
 			
 			timeSinceThrow = 0;
+			Log.Trace(this.GetModelName());
 			return true;
 		}
 		
