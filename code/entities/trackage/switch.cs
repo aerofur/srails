@@ -69,6 +69,7 @@ namespace srails
 		public void SwitchSetCycle(float cycle)
 		{
 			this.PlaybackRate = cycle;
+			Log.Info(cycle);
 		}
 
 		public void SwitchThrow(bool Diverging)

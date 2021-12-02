@@ -1,12 +1,13 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
 	<PropertyGroup>
-		<TargetFramework>net5.0</TargetFramework>
+		<TargetFramework>net6.0</TargetFramework>
 		<GenerateDocumentationFile>true</GenerateDocumentationFile>
 		<AssemblyName>srails</AssemblyName>
 		<PackageId>srails</PackageId>
-		<LangVersion>preview</LangVersion>
+		<LangVersion>10</LangVersion>
 		<NoWarn>1701;1702;1591;</NoWarn>
+		<AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
 	</PropertyGroup>
 
 	<ItemGroup>
@@ -17,20 +18,25 @@
 		<None Update="**\*.htm" DependentUpon="%(Filename).cs" />
 	</ItemGroup>
 
+	<ItemGroup>
+		<Using Include="Sandbox.Internal.GlobalGameNamespace" Static="true" />
+	</ItemGroup>
+
   <PropertyGroup>
-	<OutputPath>../.intermediate/</OutputPath>
-	<DocumentationFile>../.intermediate/netstandard2.0/srails.xml</DocumentationFile>
+	<OutputPath>../.vs/output/</OutputPath>
+	<DocumentationFile>../.vs/output/srails.xml</DocumentationFile>
   </PropertyGroup>
 
 	<ItemGroup>
-		<Analyzer Include="C:/Program Files (x86)/Steam/steamapps/common/sbox/bin/managed/Sandbox.Generator.dll"/>
-		<Reference Include="C:/Program Files (x86)/Steam/steamapps/common/sbox/bin/managed/Sandbox.System.dll"/>
-		<Reference Include="C:/Program Files (x86)/Steam/steamapps/common/sbox/bin/managed/Sandbox.Engine.dll"/>
-		<Reference Include="C:/Program Files (x86)/Steam/steamapps/common/sbox/bin/managed/Sandbox.Game.dll"/>
+		<Analyzer Include="..\..\..\bin\managed\Sandbox.Generator.dll"/>
+		<Reference Include="..\..\..\bin\managed/Sandbox.System.dll" />
+		<Reference Include="..\..\..\bin\managed/Sandbox.Engine.dll" />
+		<Reference Include="..\..\..\bin\managed/Sandbox.Game.dll" />
+		<Reference Include="..\..\..\bin\managed/Sandbox.Event.dll" />
 	</ItemGroup>
 
   <ItemGroup>
-<ProjectReference Include="C:\Program Files (x86)\Steam\steamapps\common\sbox\Addons\base\code\base.csproj" />
+<ProjectReference Include="..\..\..\addons\base\code\base.csproj" />
   </ItemGroup>
 
 </Project>
