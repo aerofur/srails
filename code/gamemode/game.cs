@@ -170,5 +170,12 @@ namespace srails
 				}
 			}
 		}
+
+		public override void Simulate( Client cl )
+		{
+			if ( !cl.Pawn.IsValid() ) return;
+			if ( !cl.Pawn.IsAuthority ) return; 
+			cl.Pawn.Simulate( cl );
+		}
 	}
 }

@@ -41,6 +41,10 @@
                                                         to = "materials/trakpak3_common/tracks/rails/rail_side.vmat"
                                                     },
                                                     {
+                                                        from = "rail_top_rusty.vmat"
+                                                        to = "materials/trakpak3_common/tracks/rails/rail_top_rusty.vmat"
+                                                    },
+                                                    {
                                                         from = "rail_top_shiny.vmat"
                                                         to = "materials/trakpak3_common/tracks/rails/rail_top_shiny.vmat"
                                                     },
